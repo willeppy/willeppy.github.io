@@ -1,9 +1,9 @@
 # Will Epperson's Personal Website
 This is my personal & portfolio website developed with HTML5, CSS3, and JS.
 
-Check out[willepperson.com](http://www.willepperson.com)!
+Check out [willepperson.com](http://www.willepperson.com)!
 
-### Credits
+## Credits
 Template:
 * Dimension by HTML5 UP
 * html5up.net | @ajlkn
