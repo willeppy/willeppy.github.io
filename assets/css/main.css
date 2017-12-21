@@ -1599,20 +1599,13 @@
 			margin: 0 0 2rem 0;
 		}
 
-        .link-pdf {
-            display: inherit;
-        }
-
         .embed-pdf {
             display: none;
+            margin-bottom: 1rem;
         }
 
         @media screen and (min-width: 650px){
            .rwd-break { display: none; }
-
-           .link-pdf {
-               display: none !important;
-           }
 
            .embed-pdf {
                display: inherit !important;
