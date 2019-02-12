@@ -3,8 +3,8 @@ plane2: https://www.pexels.com/search/travel/
 asia1: https://www.travelex.com.au/travelex-hub
 lake1: https://pixabay.com/en/travel-lake-feet-resting-hiking-1749508/
 hotel1: https://www.huffpost.com/entry/10-of-the-most-exotic-hot_b_7283404
-hotel2: https://ourtripguide.com/destinations/top-10-coolest-hotels-in-the-world/
+hotel2: https://www.pinterest.com/pin/537406168031973276/
 hotel3: https://www.dmarge.com/2016/09/coolest-hotels-in-san-francisco.html
 hotel4: https://www.fodors.com/news/photos/the-worlds-coolest-hostels
-hotel5: https://www.realsimple.com/work-life/travel/destinations/best-airbnb-listings
-
+hotel5: https://studybreaks.com/college/5-reasons-airbnb-perfect-broke-college-student/
+hotel6: https://www.yourlittleblackbook.me/en/train-lodge-amsterdam/
