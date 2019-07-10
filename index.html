@@ -22,40 +22,6 @@
         <link rel="manifest" href="manifest.json">
         <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
         <meta name="theme-color" content="#ffffff">
-
-        <script>
-(function(apiKey){
-    (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=[];
-    v=['initialize','identify','updateOptions','pageLoad'];for(w=0,x=v.length;w<x;++w)(function(m){
-        o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
-        y=e.createElement(n);y.async=!0;y.src='https://cdn.pendo.io/agent/static/'+apiKey+'/pendo.js';
-        z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
-
-        // Call this whenever information about your visitors becomes available
-        // Please use Strings, Numbers, or Bools for value types.
-        pendo.initialize({
-            visitor: {
-                id:              'VISITOR-UNIQUE-ID'   // Required if user is logged in
-                // email:        // Optional
-                // role:         // Optional
-
-                // You can add any additional visitor level key-values here,
-                // as long as it's not one of the above reserved names.
-            },
-
-            account: {
-                id:           'ACCOUNT-UNIQUE-ID' // Highly recommended
-                // name:         // Optional
-                // planLevel:    // Optional
-                // planPrice:    // Optional
-                // creationDate: // Optional
-
-                // You can add any additional account level key-values here,
-                // as long as it's not one of the above reserved names.
-            }
-        });
-})('2cf547fc-17d5-4a41-7099-039df50e3418');
-</script>
 	</head>
 	<body>
 
@@ -90,7 +56,7 @@
                         <!-- Bio -->
 							<article id="bio">
 								<h2 class="major">Will's Bio</h2>
-								<p>Born and raised in Atlanta, I am now an undergrad student at Georgia Tech expecting to graduate in May 2020. At Tech, I am studying Computer Science with a minor in Spanish. After undergrad, I hope to pursue a master’s degree in Machine Learning. Outside of class I enjoy travelling, running and hiking, and reading anything by Malcom Gladwell that I can get my hands on.</p>
+								<p>Born and raised in Atlanta, I am now an undergrad student at Georgia Tech expecting to graduate in May 2020. At Tech, I am studying Computer Science with a minor in Spanish. After undergrad, I hope to pursue graduate school in Machine Learning. Outside of class I enjoy travelling, running and hiking, and reading (Michael Lewis and Heminway are my favs).</p>
 
         						<div class="row">
         							<span class="6u 12u$(xsmall) work-item">
@@ -141,14 +107,40 @@
 								<section class="project-section">
 
                                     <!-- Project -->
-                                    <h2>Automated Algorithm Design</h2>
-                                    <h4> January 2018 - Present </h4>
-                                        <p> Worked on sentiment analysis pipeline to analyze news articles to use as input to Genetic Algorithm platform for predicting stock movements </p>
+                                    <a href="pdfs/19_vis_fairvis.pdf" class="righticon icon fas fa-print"> 
+                                    </span class="label"> </span> </a>
+                                    <h2>FairVis</h2>
+                                    <h4> January 2019 - May 2019 </h4>
+                                        <p> Designed and developed visual analytics platform for discovering biases in Machine Learning models. Paper published as <i>FairVis: Visual Analytics for Discovering Intersectional Bias in Machine Learning</i> at IEEE VIS 2019 <a href = "https://arxiv.org/abs/1904.05419" > (arXiv:1904.05419)</a>.</p>
+
+                                        <span class="skill"> Python </span>
+                                        <span class="skill"> Javascript </span>
+                                        <span class="skill"> React </span>
+                                        <span class="skill"> Machine Learning </span>
+                                        <span class="skill"> Algorithmic Fairness </span>
+
+                                    <hr />
+                                    
+                                    <!-- Project -->
+                                    <h2>Automated Algorithm Design Research</h2>
+                                    <h4> January 2018 - May 2019 </h4>
+                                        <p> Worked on Genetic Algorithm platform for tuning and selecting machine learning models for a task. Projects included sentiment analysis pipeline to analyze news articles to use as input for predicting stock movements and design and creation of dashboard to visualize GA training process and performance.</p>
 
                                         <span class="skill"> Python </span>
                                         <span class="skill"> Scikit-Learn </span>
                                         <span class="skill"> Machine Learning </span>
                                         <span class="skill"> Natural Language Processing </span>
+
+                                    <hr />
+                                    
+                                    <!-- Project -->
+                                    <h2>Atlanta Crime Map</h2>
+                                    <h4> January 2018 - December 2018 </h4>
+                                        <p> Lead a team as part of Data Science Club at GT to create a predictive policing tool to help the campus police department in using their data to predict crime in and around campus. <p>
+
+                                        <span class="skill"> Python </span>
+                                        <span class="skill"> Machine Learning </span>
+                                        <span class="skill"> Modeling </span>
 
 									<hr />
 
@@ -227,30 +219,31 @@
 							<article id="work">
 								<h2 class="major">Relevant <br class="rwd-break"/>Coursework & Skills</h2>
                                 <section>
-                                    <h3> Coursework </h3>
-                                    <pre><code style="width:100%;">CS 1332: Data Structures and Algorithms
+                                    <h3> Select Coursework </h3>
+                                    <!-- CS 1332: Data Structures and Algorithms
 CS 2110: Computer Organization and Structures
 CS 2200: Systems and Networks
-CS 3600: Intro to Artificial Intelligence
-CS 3630: Intro To Perception & Robotics
+CS 3600: Intro to Artificial Intelligence -->
+<pre><code style="width:100%;">CS 3630: Intro To Perception & Robotics
 CS 4400: Intro to Database Systems
 CS 4460: Information Visualization
 CS 4641: Machine Learning
-CS 3510: Design & Analysis of Algorithms (in progress)
-CS 4803: Deep Learning (in progress)
+CS 3510: Design & Analysis of Algorithms
+CS 4803: Deep Learning
+CX 4230: Computer Simulation
 </code></pre>
                                     <h3> Skills </h3>
                                     <div class="skills">
                                         <p> Languages </p>
                                         <ul class="languages">
-                                            <li>Java</li>
                                             <li>Python</li>
-                                            <li>C</li>
-                                            <li>HTML</li>
-                                            <li>CSS</li>
                                             <li>JavaScript</li>
+                                            <li>SQL</li>
+                                            <li>HTML & CSS</li>
+                                            <li>Java</li>
+                                            <li>C</li>
                                         </ul>
-                                        <p> Programs & Services</p>
+                                        <!-- <p> Programs & Services</p>
                                         <ul class="programs">
                                             <li>MacOS</li>
                                             <li>Python</li>
@@ -260,15 +253,16 @@ CS 4803: Deep Learning (in progress)
                                             <li>REST Web Services</li>
                                             <li>Git</li>
                                             <li>Agile Methodology</li>
-                                        </ul>
+                                        </ul> -->
                                         <p> Libraries & Frameworks </p>
-                                        <ul class="libraries">
-                                            <li>CSS Bootstrap</li>
-                                            <li>JavaScript D3</li>
-                                            <li>JavaFX and JDBC</li>
+                                        <ul class="programs">
+                                            <li>D3</li>
+                                            <li>React</li>
+                                            <li>Pytorch</li>
+                                            <li>Pyspark</li>
                                         </ul>
                                         <p> Other</p>
-                                        <ul class="other">
+                                        <ul class="libraries">
                                             <li>Fundraising</li>
                                             <li>Team Management</li>
                                             <li>Advanced Spanish</li>
@@ -281,11 +275,42 @@ CS 4803: Deep Learning (in progress)
                                 <section>
                                     <!-- Work History -->
                                     <div class="work-row">
+                                        <span class="image logo right"> <a href="https://www.point72.com"> <img src="images/logos/P72.png" alt="" /></a></span>
+                                        <h3>Market Intelligence Data Analytics Intern</h3>
+                                        <h4 style="margin-bottom:0px;">Point72 Asset Management</h4>
+                                        <h4> June 2019 - August 2019 </h4>
+                                            <p> Worked as Data Scientist in alternative data space to clean, model, and understand large datasets. </p>
+
+                                            <span class="skill"> Modeling </span>
+                                            <span class="skill"> Big Data </span>
+                                            <span class="skill"> Data Science </span>
+                                        <hr />
+                                    </div>
+
+                                    <!-- Work History -->
+                                    <div class="work-row">
+                                        <span class="image logo right"><a href="https://ssnc.stampsfoundation.org"><img src="images/logos/ssnc.png" alt="" /></a></span>
+                                        <h3>Threads Co-chair</h3>
+                                        <h4 style="margin-bottom:0px;">Stamps Scholars National Convention</h4>
+                                        <h4> January 2018 – May 2019 </h4>
+                                            <p> Executive board member of Stamps Scholars National Convention, a 3-day conference with over 700 student attendees. Responsible for 20-person committee that planned and coordinated the different content threads of the convention. 
+                                            </p>
+                                        <hr />
+                                    </div>
+
+                                    <!-- Work History -->
+                                    <div class="work-row">
                                         <span class="image logo right"><a href="https://www.ultimatesoftware.com/"><img src="images/logos/Ultimate.jpg" alt="" /></a></span>
-                                        <h3>(Incoming) Software Engineering Intern</h3>
+                                        <h3>Software Engineering Intern</h3>
                                         <h4 style="margin-bottom:0px;">Ultimate Software</h4>
-                                        <h4> Summer 2018 </h4>
-                                            <p> I will be interning at Ultimate Software in Weston, Florida in Summer 2018 to continue to learn and develop as a software engineer.</p>
+                                        <h4> May 2018 - August 2018 </h4>
+                                            <p> I worked on the Innovation Strategies team to design and develop a Slack app for the UltiPro HR management tool that allows users to perform core functions like requesting time off and giving feedback directly from Slack. App <a href="https://slack.com/apps/AA6DRKRA6-ultipro">published to Slack app store.</a>
+
+                                            </p>
+                                            <span class="skill"> Typescript </span>
+                                            <span class="skill"> NodeJS </span>
+                                            <span class="skill"> MongoDB </span>
+                                            <span class="skill"> Testing </span>
     									<hr />
                                     </div>
 
@@ -294,8 +319,8 @@ CS 4803: Deep Learning (in progress)
                                         <span class="image logo right"><a href="https://www.cc.gatech.edu/"><img src="images/logos/GT.png" alt="" /></a></span>
                                         <h3>Undergrad Teaching Assistant</h3>
                                         <h4 style="margin-bottom:0px;">Georgia Tech College of Computing</h4>
-                                        <h4> August 2017 - Present </h4>
-                                            <p> At Georgia Tech, I am a TA for CS4400 – Intro to Database Systems, a class focusing on relational database design and SQL. As a TA, my responsibilities include office hours, grading, and project creation.</p>
+                                        <h4> August 2017 - December 2018 </h4>
+                                            <p> At Georgia Tech, I TA'd for CS4400 – Intro to Database Systems, a class focusing on relational database design and SQL. As a TA, my responsibilities included office hours, grading, and project creation.</p>
                                             <span class="skill"> SQL </span>
                                             <span class="skill"> Teaching </span>
     									<hr />
