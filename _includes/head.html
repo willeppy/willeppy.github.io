@@ -1,0 +1,47 @@
+<head>
+  <meta charset="utf-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <link href="https://fonts.googleapis.com/css?family=Gaegu:300,700" rel="stylesheet">
+
+  <!-- Enable responsiveness on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Share card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@w_epperson" />
+  <meta name="twitter:creator" content="@w_epperson" />
+  <meta property="og:url" content="https://willepperson.com/" />
+  <meta property="og:title" content="Will Epperson" />
+  <meta property="og:description" content="Will Epperson is a Ph.D. candidate in the HCII at CMU." />
+  <meta property="og:image" content="http://willepperson.com/images/share.png" />
+
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }}
+    {% else %}
+      {{ page.title }} — {{ site.title }}
+    {% endif %}
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png?v=xQdLjRyXLj">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png?v=xQdLjRyXLj">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png?v=xQdLjRyXLj">
+  <link rel="manifest" href="/icons/site.webmanifest?v=xQdLjRyXLj">
+  <link rel="mask-icon" href="/icons/safari-pinned-tab.svg?v=xQdLjRyXLj" color="#313131">
+  <link rel="shortcut icon" href="/icons/favicon.ico?v=xQdLjRyXLj">
+  <meta name="msapplication-TileColor" content="#313131">
+  <meta name="msapplication-config" content="/icons/browserconfig.xml?v=xQdLjRyXLj">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Feed -->
+  {% feed_meta %}
+
+  <!-- Google Analytics -->
+
+</head>

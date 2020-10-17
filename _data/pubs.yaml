@@ -1,0 +1,70 @@
+- id: fairvis
+  title: "FairVis: Visual Analytics for Discovering Intersectional Bias in Machine Learning"
+  authors: 
+    - Angel Cabrera
+    - Will Epperson 
+    - Fred Hohman
+    - Minsuk Kahng
+    - Jamie Morgenstern 
+    - Duen Horng (Polo) Chau
+  venue: IEEE Conference on Visual Analytics Science and Technology
+  venue-shorthand: VAST
+  location: Vancouver, Canada
+  year: 2019
+  url: /papers/fairvis
+  demo: https://poloclub.github.io/FairVis/
+  pdf: https://arxiv.org/abs/1904.05419
+  slides: /slides/19-fairvis-vast-slides.pdf
+  recording: https://vimeo.com/368702211
+  code: https://github.com/poloclub/FairVis
+  blog: https://medium.com/@cabreraalex/fairvis-discovering-bias-in-machine-learning-using-visual-analytics-acbd362a3e2f
+  selected: true
+  featured: true
+  feature-order: 1
+  feature-title: FairVis
+  feature-description: "Discovering intersectional ML Bias through interactive visualization"
+  type: conference
+  image: /images/papers/19-fairvis-vast.png
+  type: conference
+  bibtex: |-
+
+    @article{cabrera2019fairvis,
+      title={FairVis: Visual Analytics for Discovering Intersectional Bias in Machine Learning},
+      author={Cabrera, {\'A}ngel and Epperson, Will, and Hohman, Fred and Kahng, Minsuk and Morgenstern, Jamie and Chau, Duen Horng},
+      journal={IEEE Conference on Visual Analytics Science and Technology (VAST)},
+      year={2019},
+      publisher={IEEE}
+      url={https://poloclub.github.io/FairVis/}
+    }
+
+- id: recast
+  title: "RECAST: Interactive Auditing of Automatic Toxicity Detection Models"
+  authors:
+    - Austin P. Wright
+    - Omar Shaikh
+    - Haekyu Park
+    - Will Epperson
+    - Muhammed Ahmed
+    - Stephane Pinel
+    - Diyi Yang
+    - Duen Horng (Polo) Chau
+  venue: The eighth International Workshop of Chinese CHI
+  year: 2020
+  url: /papers/recast
+  pdf: https://arxiv.org/pdf/2001.01819.pdf
+  type: arxiv
+  feature-title: RECAST
+  feature-description: "Interactive Auditing of Automatic Toxicity Detection Models"
+  featured: true
+  feature-order: 2
+  selected: true
+  image: /images/papers/20-recast-chi.png
+  bibtex: |-
+    @article{wright2020recast,
+    title={RECAST: Interactive Auditing of Automatic Toxicity Detection Models},
+    author={Austin P. Wright and Omar Shaikh and Haekyu Park and Will Epperson and Muhammed Ahmed and Stephane Pinel and Diyi Yang and Duen Horng (Polo) Chau},
+    year={2020},
+    eprint={2001.01819},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+    }

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <link href="https://fonts.googleapis.com/css?family=Gaegu:300,700" rel="stylesheet">
+
+  <!-- Enable responsiveness on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Share card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@w_epperson" />
+  <meta name="twitter:creator" content="@w_epperson" />
+  <meta property="og:url" content="https://willepperson.com/" />
+  <meta property="og:title" content="Will Epperson" />
+  <meta property="og:description" content="Will Epperson is a Ph.D. candidate in the HCII at CMU." />
+  <meta property="og:image" content="http://willepperson.com/images/share.png" />
+
+  <title>
+    
+      Fairvis — Will Epperson
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/styles.css">
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png?v=xQdLjRyXLj">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png?v=xQdLjRyXLj">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png?v=xQdLjRyXLj">
+  <link rel="manifest" href="/icons/site.webmanifest?v=xQdLjRyXLj">
+  <link rel="mask-icon" href="/icons/safari-pinned-tab.svg?v=xQdLjRyXLj" color="#313131">
+  <link rel="shortcut icon" href="/icons/favicon.ico?v=xQdLjRyXLj">
+  <meta name="msapplication-TileColor" content="#313131">
+  <meta name="msapplication-config" content="/icons/browserconfig.xml?v=xQdLjRyXLj">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Feed -->
+  <link type="application/atom+xml" rel="alternate" href="http://willepperson.com/feed.xml" title="Will Epperson" />
+
+  <!-- Google Analytics -->
+
+</head>
+
+  <body>
+  
+    <header class="masthead">
+	
+	<h1 class="masthead-title">
+  		<a href="/" title="Home">Will Epperson</a>
+  		<div class="mastheadspacer"></div>
+   		<span class="masthead-slash">/</span>
+   		<small>PhD Candidate at CMU</small>
+	</h1>
+</header>
+
+    <nav>
+	<div class="nav">
+	
+	</div>
+</nav>
+
+    <div class="container content">
+
+      <main>
+        <article class="post paper">
+  
+<h1 id="fairvis-visual-analytics-for-discovering-intersectional-bias-in-machine-learning">FairVis: Visual Analytics for Discovering Intersectional Bias in Machine Learning</h1>
+<p>
+
+  
+    
+<a href="http://cabreraalex.com">Angel Cabrera</a>,
+  
+
+  
+    
+<a href="http://www.willepperson.com">Will Epperson</a>,
+  
+
+  
+    
+<a href="https://fredhohman.com">Fred Hohman</a>,
+  
+
+  
+    
+<a href="https://minsuk.com">Minsuk Kahng</a>,
+  
+
+  
+    
+<a href="http://jamiemorgenstern.com">Jamie Morgenstern</a>,
+  
+
+  
+    
+<a href="https://www.cc.gatech.edu/~dchau">Duen Horng (Polo) Chau</a>
+  
+
+</p>
+
+<figure>
+    <img class="single" src="/images/papers/19-fairvis-vast.png" />
+    <figcaption class="single">
+      FairVis integrates multiple coordinated views for discovering intersectional bias. 
+Above, our user investigates the intersectional subgroups of <i>sex</i> and <i>race</i>. 
+A. The Feature Distribution View allows users to visualize each feature's distribution and generate subgroups.
+B. The Subgroup Overview lets users select various fairness metrics to see the global average per metric and compare subgroups to one another, e.g., pinned Caucasian Males versus hovered African-American Males.
+The plots for <i>Recall</i> and <i>False Positive Rate</i> show that for African-American Males, the model has relatively high recall but also the highest false positive rate out of all subgroups of sex and race. 
+C. The Detailed Comparison View lets users compare the details of two groups and investigate their class balances.
+Since the difference in False Positive Rates between Caucasian Males and African-American Males is far larger than their difference in base rates, a user suspects this part of the model merits further inquiry. 
+D. The Suggested and Similar Subgroup View shows suggested subgroups ranked by the worst performance in a given metric. 
+
+
+    </figcaption>
+</figure>
+
+<h2 id="abstract">Abstract</h2>
+<p>The growing capability and accessibility of machine learning has led to its application to many real-world domains and data about people.
+Despite the benefits algorithmic systems may bring, models can reflect, inject, or exacerbate implicit and explicit societal biases into their outputs, disadvantaging certain demographic subgroups.
+Discovering which biases a machine learning model has introduced is a great challenge, due to the numerous definitions of fairness and the large number of potentially impacted subgroups.
+We present FairVis, a mixed-initiative visual analytics system that integrates a novel subgroup discovery technique for users to audit the fairness of machine learning models.
+Through FairVis, users can apply domain knowledge to generate and investigate known subgroups, and explore suggested and similar subgroups.
+FairVis’ coordinated views enable users to explore a high-level overview of subgroup performance and subsequently drill down into detailed investigation of specific subgroups.
+We show how FairVis helps to discover biases in two real datasets used in predicting income and recidivism.
+As a visual analytics system devoted to discovering bias in machine learning, FairVis demonstrates how interactive visualization may help data scientists and the general public understand and create more equitable algorithmic systems.</p>
+
+<h2 id="citation">Citation</h2>
+<p>
+
+	<strong>FairVis: Visual Analytics for Discovering Intersectional Bias in Machine Learning</strong>
+
+
+<br />
+
+
+	
+		
+<a href="http://cabreraalex.com">Angel Cabrera</a>,
+	
+
+	
+		
+<a href="http://www.willepperson.com">Will Epperson</a>,
+	
+
+	
+		
+<a href="https://fredhohman.com">Fred Hohman</a>,
+	
+
+	
+		
+<a href="https://minsuk.com">Minsuk Kahng</a>,
+	
+
+	
+		
+<a href="http://jamiemorgenstern.com">Jamie Morgenstern</a>,
+	
+
+	
+		
+<a href="https://www.cc.gatech.edu/~dchau">Duen Horng (Polo) Chau</a>
+	
+
+
+<br />
+
+<i>IEEE Conference on Visual Analytics Science and Technology (VAST). Vancouver, Canada, 2019.</i>
+
+<br />
+
+
+	<span class="pub-misc">
+
+	
+
+	
+	  <a href="/papers/fairvis">
+	    <i class="fas fa-link" aria-hidden="true"></i> Project
+	  </a>
+	
+
+	
+	<a href="https://poloclub.github.io/FairVis/">
+		<i class="fas fa-play" aria-hidden="true"></i> Demo
+	</a>
+	
+
+	
+	  <a href="https://arxiv.org/abs/1904.05419">
+	    <i class="far fa-file-pdf" aria-hidden="true"></i> PDF
+	  </a>
+	
+
+	
+	  <a href="https://medium.com/@cabreraalex/fairvis-discovering-bias-in-machine-learning-using-visual-analytics-acbd362a3e2f">
+	    <i class="fas fa-newspaper" aria-hidden="true"></i> Blog
+	  </a>
+	
+
+	
+
+	
+
+	
+
+	
+	<a href="https://vimeo.com/368702211">
+		<i class="fas fa-video" aria-hidden="true"></i> Recording
+	</a>
+	
+
+	
+	  <a href="/slides/19-fairvis-vast-slides.pdf">
+	    <i class="fas fa-window-maximize" aria-hidden="true"></i> Slides
+	  </a>
+	
+
+	
+
+	
+	  <a href="https://github.com/poloclub/FairVis">
+	    <i class="fas fa-code" aria-hidden="true"></i> Code
+	  </a>
+	
+
+	
+
+	
+
+	
+		
+		
+	
+
+	
+
+	
+	
+	</span>
+
+
+
+
+
+
+
+</p>
+
+<!-- ## BibTeX
+```
+
+@article{cabrera2019fairvis,
+  title={FairVis: Visual Analytics for Discovering Intersectional Bias in Machine Learning},
+  author={Cabrera, {\'A}ngel and Epperson, Will, and Hohman, Fred and Kahng, Minsuk and Morgenstern, Jamie and Chau, Duen Horng},
+  journal={IEEE Conference on Visual Analytics Science and Technology (VAST)},
+  year={2019},
+  publisher={IEEE}
+  url={https://poloclub.github.io/FairVis/}
+}
+
+``` -->
+
+</article>
+
+      </main>
+
+    </div>
+
+    <footer>
+	<div id="footer-left">
+		<a href="mailto:willepp@cmu.edu"><i class="fa-lg fa fa-envelope footer-icon" aria-hidden="true"></i></a>
+		<a href="https://twitter.com/w_epperson"><i class="fa-lg fab fa-twitter footer-icon" aria-hidden="true"></i></a>
+		<a href="https://www.linkedin.com/in/willepperson/"><i class="fa-lg fab fa-linkedin-in footer-icon" aria-hidden="true"></i></a>
+		<a href="https://github.com/willeppy"><i class="fa-lg fab fa-github footer-icon" aria-hidden="true"></i></a>
+		<a href="https://scholar.google.com/citations?user=jgBHxR4AAAAJ&hl=en"><i class="fa-lg fa fa-graduation-cap footer-icon" aria-hidden="true"></i></a>
+		<br>
+		<br>
+		&copy; <time datetime="October 17, 2020">2020</time> Will Epperson. Design inspiration from <a style="color:#e6e6e6" href="https://fredhohman.com/">fredhohman.com</a>
+	</div>
+	
+	<div id="footer-right">
+	</div>
+</footer>
+
+
+
+
+  </body>
+</html>

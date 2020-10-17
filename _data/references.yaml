@@ -1,0 +1,16 @@
+- name: Polo Chau
+  position: Associate Professor
+  group: School of Computational Science and Engineering
+  institution: Georgia Institute of Technology
+  location: Atlanta, GA, USA
+  phd: true
+  website: "cc.gatech.edu/~dchau/"
+  url: "https://cc.gatech.edu/~dchau/"
+
+- name: Trevor Rempel
+  position: Data Scientist
+  group: Market Intelligence
+  institution: Point72
+  location: New York, NY
+  relationship: "Internship supervisor"
+  url: https://www.linkedin.com/in/tjrempel/

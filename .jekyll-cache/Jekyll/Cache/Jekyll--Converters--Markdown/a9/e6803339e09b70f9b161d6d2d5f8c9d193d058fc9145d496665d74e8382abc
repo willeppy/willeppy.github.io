@@ -1,0 +1,612 @@
+I"?4<!-- <div>
+	<a href="http://willepperson.com"> <img class="title-logo" src="/images/share.png"> </a>
+</div> -->
+
+<h1><a style="color: #313131; font-weight: 500; font-size: 1.25em" href="https://www.willepperson.com">Will Epperson</a></h1>
+
+<!-- <span class="cv-subtitle">
+</span> -->
+
+<p><span class="cv-max-width">
+I’m a Ph.D. student in the HCII at CMU advised by Adam Perer and Dominik Moritz.
+</span></p>
+
+<p><span class="cv-max-width">
+My research interests lie in <b>developing ways to make complex systems easier to use and understand for non-experts</b>. Specifically, I am working to enable <em>interpretable Machine Learning</em>, often through <em>interactive visualizations</em>. I’m also interested in how machine learning can be applied to the medical domain to help both doctors and patient experiences. 
+</span></p>
+
+<div class="cv-image-links-wrapper" style="font-size: 16px; padding-bottom: 0;">
+	<div class="cv-image-links">
+		
+			
+				<div style="display: flex">
+	<div style="flex: 0 0 40px; text-align: center">
+		<a href="https://willepperson.com"><i class="fas fa-home icon" aria-hidden="true" style="color: #515151"></i></a>
+	</div>
+	<div style="flex: 1">
+		<a class="intro-image-links-color" href="https://willepperson.com">willepperson.com</a>
+	</div>
+</div>
+			
+		
+			
+				<div style="display: flex">
+	<div style="flex: 0 0 40px; text-align: center">
+		<a href="mailto:willepp@cmu.edu"><i class="fas fa-envelope icon" aria-hidden="true" style="color: #515151"></i></a>
+	</div>
+	<div style="flex: 1">
+		<a class="intro-image-links-color" href="mailto:willepp@cmu.edu">willepp@cmu.edu</a>
+	</div>
+</div>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				<div style="display: flex">
+	<div style="flex: 0 0 40px; text-align: center">
+		<a href="https://www.willepperson.com/cv.pdf"><i class="far fa-file-pdf icon" aria-hidden="true" style="color: #ba2818"></i></a>
+	</div>
+	<div style="flex: 1">
+		<a class="intro-image-links-color" href="https://www.willepperson.com/cv.pdf">CV PDF</a>
+	</div>
+</div>
+			
+		
+			
+		
+	</div>
+	<div class="cv-image-links">
+		
+			
+		
+			
+		
+			
+				<div style="display: flex">
+	<div style="flex: 0 0 40px; text-align: center">
+		<a href="https://twitter.com/w_epperson"><i class="fab fa-twitter icon" aria-hidden="true" style="color: #1da1f2"></i></a>
+	</div>
+	<div style="flex: 1">
+		<a class="intro-image-links-color" href="https://twitter.com/w_epperson">@w_epperson</a>
+	</div>
+</div>
+			
+		
+			
+				<div style="display: flex">
+	<div style="flex: 0 0 40px; text-align: center">
+		<a href="https://github.com/willeppy"><i class="fab fa-github icon" aria-hidden="true" style="color: #6e5494"></i></a>
+	</div>
+	<div style="flex: 1">
+		<a class="intro-image-links-color" href="https://github.com/willeppy">@willeppy</a>
+	</div>
+</div>
+			
+		
+			
+				<div style="display: flex">
+	<div style="flex: 0 0 40px; text-align: center">
+		<a href="https://scholar.google.com/citations?user=jgBHxR4AAAAJ&amp;hl=en"><i class="fa fa-graduation-cap icon" aria-hidden="true" style="color: #515151"></i></a>
+	</div>
+	<div style="flex: 1">
+		<a class="intro-image-links-color" href="https://scholar.google.com/citations?user=jgBHxR4AAAAJ&amp;hl=en">Google Scholar</a>
+	</div>
+</div>
+			
+		
+			
+				<div style="display: flex">
+	<div style="flex: 0 0 40px; text-align: center">
+		<a href=" https://www.linkedin.com/in/willepperson/"><i class="fa fa-graduation-cap icon" aria-hidden="true" style="color: #515151"></i></a>
+	</div>
+	<div style="flex: 1">
+		<a class="intro-image-links-color" href=" https://www.linkedin.com/in/willepperson/">LinkedIn</a>
+	</div>
+</div>
+			
+		
+			
+		
+			
+		
+	</div>
+</div>
+
+<hr />
+
+<h2 id="education">Education</h2>
+
+<p>
+  <span class="cv-left-date">August 2020 - Present</span><strong>Ph.D. in Human Computer Interaction</strong>
+  <br />
+  <span class="cv-left-date-extra"></span><a href="">Carnegie Mellon University</a>
+  <br />
+  Advisor: 
+<a href="https://www.domoritz.de/">Dominik Moritz</a>, Co-advisor: 
+Adam Perer<br />   
+</p>
+
+<p>
+  <span class="cv-left-date">August 2016 — May 2020</span><strong>B.S. in Computer Science</strong>
+  <br />
+  <span class="cv-left-date-extra"></span><a href="https://www.gatech.edu/">Georgia Institute of Technology</a>
+  <br />
+     GPA: 4.0, Summa Cum Laude, threads in Intelligence and Modeling/Simulation<br />
+</p>
+
+<h2 id="publications">Publications</h2>
+
+<p>
+
+	<strong>FairVis: Visual Analytics for Discovering Intersectional Bias in Machine Learning</strong>
+
+
+<br />
+
+
+	
+		
+<a href="http://cabreraalex.com">Angel Cabrera</a>,
+	
+
+	
+		
+<a href="http://www.willepperson.com">Will Epperson</a>,
+	
+
+	
+		
+<a href="https://fredhohman.com">Fred Hohman</a>,
+	
+
+	
+		
+<a href="https://minsuk.com">Minsuk Kahng</a>,
+	
+
+	
+		
+<a href="http://jamiemorgenstern.com">Jamie Morgenstern</a>,
+	
+
+	
+		
+<a href="https://www.cc.gatech.edu/~dchau">Duen Horng (Polo) Chau</a>
+	
+
+
+<br />
+
+<i>IEEE Conference on Visual Analytics Science and Technology (VAST). Vancouver, Canada, 2019.</i>
+
+<br />
+
+
+	<span class="pub-misc">
+
+	
+
+	
+	  <a href="/papers/fairvis">
+	    <i class="fas fa-link" aria-hidden="true"></i> Project
+	  </a>
+	
+
+	
+	<a href="https://poloclub.github.io/FairVis/">
+		<i class="fas fa-play" aria-hidden="true"></i> Demo
+	</a>
+	
+
+	
+	  <a href="https://arxiv.org/abs/1904.05419">
+	    <i class="far fa-file-pdf" aria-hidden="true"></i> PDF
+	  </a>
+	
+
+	
+	  <a href="https://medium.com/@cabreraalex/fairvis-discovering-bias-in-machine-learning-using-visual-analytics-acbd362a3e2f">
+	    <i class="fas fa-newspaper" aria-hidden="true"></i> Blog
+	  </a>
+	
+
+	
+
+	
+
+	
+
+	
+	<a href="https://vimeo.com/368702211">
+		<i class="fas fa-video" aria-hidden="true"></i> Recording
+	</a>
+	
+
+	
+	  <a href="/slides/19-fairvis-vast-slides.pdf">
+	    <i class="fas fa-window-maximize" aria-hidden="true"></i> Slides
+	  </a>
+	
+
+	
+
+	
+	  <a href="https://github.com/poloclub/FairVis">
+	    <i class="fas fa-code" aria-hidden="true"></i> Code
+	  </a>
+	
+
+	
+
+	
+
+	
+		
+			<a class="cv-bibtex-icon" style="cursor:pointer" onclick="toggleBibtex('_fairvis_selected')">
+				<i class="fas fa-book" aria-hidden="true"></i> BibTeX
+			</a>
+		
+		
+	
+
+	
+
+	
+	
+	</span>
+
+
+
+
+<div class="highlighter-rouge bibtex" style="display:none" id="_fairvis_selected">
+	<div class="highlight">
+		<pre>
+			
+@article{cabrera2019fairvis,
+  title={FairVis: Visual Analytics for Discovering Intersectional Bias in Machine Learning},
+  author={Cabrera, {\'A}ngel and Epperson, Will, and Hohman, Fred and Kahng, Minsuk and Morgenstern, Jamie and Chau, Duen Horng},
+  journal={IEEE Conference on Visual Analytics Science and Technology (VAST)},
+  year={2019},
+  publisher={IEEE}
+  url={https://poloclub.github.io/FairVis/}
+}
+		</pre>
+	</div>
+</div>
+
+
+
+
+</p>
+
+<p>
+
+	<strong>RECAST: Interactive Auditing of Automatic Toxicity Detection Models</strong>
+
+
+<br />
+
+
+	
+		
+<a href="http://austinpwright.com">Austin P. Wright</a>,
+	
+
+	
+		
+<a href="http://oshaikh.com/">Omar Shaikh</a>,
+	
+
+	
+		
+<a href="https://haekyu.com">Haekyu Park</a>,
+	
+
+	
+		
+<a href="http://www.willepperson.com">Will Epperson</a>,
+	
+
+	
+		
+Muhammed Ahmed,
+	
+
+	
+		
+Stephane Pinel,
+	
+
+	
+		
+<a href="https://www.cc.gatech.edu/~dyang888/">Diyi Yang</a>,
+	
+
+	
+		
+<a href="https://www.cc.gatech.edu/~dchau">Duen Horng (Polo) Chau</a>
+	
+
+
+<br />
+
+<i>The eighth International Workshop of Chinese CHI.  2020.</i>
+
+<br />
+
+
+	<span class="pub-misc">
+
+	
+
+	
+	  <a href="/papers/recast">
+	    <i class="fas fa-link" aria-hidden="true"></i> Project
+	  </a>
+	
+
+	
+
+	
+	  <a href="https://arxiv.org/pdf/2001.01819.pdf">
+	    <i class="far fa-file-pdf" aria-hidden="true"></i> PDF
+	  </a>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+			<a class="cv-bibtex-icon" style="cursor:pointer" onclick="toggleBibtex('_recast_selected')">
+				<i class="fas fa-book" aria-hidden="true"></i> BibTeX
+			</a>
+		
+		
+	
+
+	
+
+	
+	
+	</span>
+
+
+
+
+<div class="highlighter-rouge bibtex" style="display:none" id="_recast_selected">
+	<div class="highlight">
+		<pre>
+			@article{wright2020recast,
+title={RECAST: Interactive Auditing of Automatic Toxicity Detection Models},
+author={Austin P. Wright and Omar Shaikh and Haekyu Park and Will Epperson and Muhammed Ahmed and Stephane Pinel and Diyi Yang and Duen Horng (Polo) Chau},
+year={2020},
+eprint={2001.01819},
+archivePrefix={arXiv},
+primaryClass={cs.CL}
+}
+		</pre>
+	</div>
+</div>
+
+
+
+
+</p>
+
+<h2 id="talks">Talks</h2>
+
+<!-- <p style="margin-bottom: 1rem"> -->
+<p>
+    <strong>FairVis</strong>
+    <br />
+    
+    <span class="cv-left-date">May 2019</span>IEEE Visualization Conference
+    <br />
+    
+</p>
+
+<h2 id="honors-and-awards">Honors and Awards</h2>
+
+<p style="margin-bottom: 0.3rem">
+<span class="cv-left-date">2019</span>PURA: President's Undergraduate Research Award
+<br />
+<span class="cv-description">
+$1500 research grant to continue work on FairVis project
+</span>
+</p>
+
+<p style="margin-bottom: 0.3rem">
+<span class="cv-left-date">2016</span>Stamps President's Scholarship
+<br />
+<span class="cv-description">
+Full ride scholarship given to 40 incoming freshman at Georgia Tech
+</span>
+</p>
+
+<h2 id="research-experience">Research Experience</h2>
+
+<p>
+	<span class="cv-left-date">January 2019 - May 2020</span><a href="http://gatech.edu"><strong>Georgia Institute of Technology</strong></a>, Atlanta, GA
+	<br />
+	<i>Undergraduate Researcher, <a href="http://cse.gatech.edu">Polo Club of Data Science</a></i>
+	<br />
+	Advisor: 
+	
+	
+		
+<a href="https://www.cc.gatech.edu/~dchau">Duen Horng (Polo) Chau</a>
+	
+	
+	<br />
+	<span class="cv-description">
+	Member of the Polo Club of Data Science working on novel data visulizations to find fairness issues in Machine Learning models
+	</span>
+</p>
+
+<p>
+	<span class="cv-left-date">January 2018 - May 2019</span><a href="http://gatech.edu"><strong>Georgia Institute of Technology</strong></a>, Atlanta, GA
+	<br />
+	<i>Undergraduate Researcher, <a href="https://www.vip.gatech.edu/teams/automated-algorithm-design">Automated Algorithm Design</a></i>
+	<br />
+	Advisor: 
+	
+	
+		
+Jason Zutty,	
+	
+	
+	
+		
+Greg Rohling
+	
+	
+	<br />
+	<span class="cv-description">
+	Worked on EMADE algorithm design engine to implement sentiment analysis pipeline to analyze news articles to aid in predicting stock price movements using genetic algorithms. Led project to visualize the genetic algorithm evolution process.
+	</span>
+</p>
+
+<h2 id="industry-experience">Industry Experience</h2>
+
+<p>
+	<span class="cv-left-date">Summer 2019</span><a href="https://www.point72.com"><strong>Point72 Asset Management</strong></a>, New York, NY
+	<br />
+	<i>Data Analytics Intern, <a href="https://www.point72.com/market-intelligence/">Market Intelligence Group</a></i>
+	<br />
+	Mentor: 
+	
+	
+		
+Trevor Rempel
+	
+	
+	<br />
+	<span class="cv-description">
+	Worked as Data Scientist in alternative data space to clean, model, and understand large datasets
+	</span>
+</p>
+
+<p>
+	<span class="cv-left-date">Summer 2018</span><a href="https://www.ultimatesoftware.com"><strong>Ultimate Software</strong></a>, Weston, FL
+	<br />
+	<i>Software Development Intern, <a href="https://www.ultimatesoftware.com">Innovation Strategies Team</a></i>
+	<br />
+	Mentor: 
+	
+	
+		
+Joseph Cutrono
+	
+	
+	<br />
+	<span class="cv-description">
+	Designed and developed Slack app to integrate with the UltiPro HR management tool. App published to Slack app store.
+	</span>
+</p>
+
+<h2 id="teaching">Teaching</h2>
+
+<p>
+	<span class="cv-left-date">August 2017 - December 2018</span><strong>Undergraduate Teaching Assistant</strong>
+	<br />
+	<i><a href="http://gatech.edu">Georgia Institute of Technology</a>, Atlanta, GA</i>
+	<br />
+	
+	<a href="">Intro to Database Systems (CS 4400)</a>,
+	Instructor: 
+	
+	
+		
+Monica Sweat
+	
+	
+	<br />
+	
+	<span class="cv-description">Designed projects, held office hours and graded for relational databases class.</span>
+</p>
+
+<h2 id="leadership--activities">Leadership &amp; Activities</h2>
+
+<p>
+	<span class="cv-left-date">January 2019 - May 2020</span> <strong>Student Ambassador</strong>
+	<br />
+	<i>Georgia Institute of Technology Alumni Association</i>
+	<br />
+	<span class="cv-description">
+	Serve as official representative of the Institute at events/tours for alumni, prospective students, and special guests.
+	</span>
+</p>
+
+<p>
+	<span class="cv-left-date">January 2018 - May 2019</span> <strong>Executive Board Member -- Threads Co-chair</strong>
+	<br />
+	<i>Stamps Scholars National Convention 2019</i>
+	<br />
+	<span class="cv-description">
+	Executive board member of Stamps Scholars National Convention, a 3-day conference with over 700 student attendees. Responsible for 20-person committee that plans and coordinates the different content threads of the convention.
+	</span>
+</p>
+
+<!-- ## References
+
+
+<p>
+	<a href="https://cc.gatech.edu/~dchau/"><strong>Dr. Polo Chau</strong></a>, Associate Professor
+	<br>
+	School of Computational Science and Engineering
+	<br>
+	Georgia Institute of Technology
+	<br>
+	Atlanta, GA, USA
+	<br>
+	<span class="cv-blue-link"><a href="https://cc.gatech.edu/~dchau/">cc.gatech.edu/~dchau/</a></span>
+</p>
+
+<p>
+	<a href="https://www.linkedin.com/in/tjrempel/"><strong>Trevor Rempel</strong></a>, Data Scientist
+	<br>
+	Market Intelligence
+	<br>
+	Point72
+	<br>
+	New York, NY
+	<br>
+	<span class="cv-blue-link"><a href="https://www.linkedin.com/in/tjrempel/"></a></span>
+</p>
+ -->
+
+<!-- ## Contact
+
+Will Epperson
+`willepp@cmu.edu`
+Newell-Simon Hall 
+Carnegie Mellon University 
+5000 Forbes Ave 
+Pittsburgh, PA 15213  -->
+
+:ET

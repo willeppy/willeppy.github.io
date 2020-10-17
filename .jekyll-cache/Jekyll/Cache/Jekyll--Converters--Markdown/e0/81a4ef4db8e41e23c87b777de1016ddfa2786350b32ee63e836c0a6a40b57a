@@ -1,0 +1,200 @@
+I"
+<h1 id="fairvis-visual-analytics-for-discovering-intersectional-bias-in-machine-learning">FairVis: Visual Analytics for Discovering Intersectional Bias in Machine Learning</h1>
+<p>
+
+  
+    
+<a href="http://cabreraalex.com">Angel Cabrera</a>,
+  
+
+  
+    
+<a href="http://www.willepperson.com">Will Epperson</a>,
+  
+
+  
+    
+<a href="https://fredhohman.com">Fred Hohman</a>,
+  
+
+  
+    
+<a href="https://minsuk.com">Minsuk Kahng</a>,
+  
+
+  
+    
+<a href="http://jamiemorgenstern.com">Jamie Morgenstern</a>,
+  
+
+  
+    
+<a href="https://www.cc.gatech.edu/~dchau">Duen Horng (Polo) Chau</a>
+  
+
+</p>
+
+<figure>
+    <img class="single" src="/images/papers/19-fairvis-vast.png" />
+    <figcaption class="single">
+      FairVis integrates multiple coordinated views for discovering intersectional bias. 
+Above, our user investigates the intersectional subgroups of <i>sex</i> and <i>race</i>. 
+A. The Feature Distribution View allows users to visualize each feature's distribution and generate subgroups.
+B. The Subgroup Overview lets users select various fairness metrics to see the global average per metric and compare subgroups to one another, e.g., pinned Caucasian Males versus hovered African-American Males.
+The plots for <i>Recall</i> and <i>False Positive Rate</i> show that for African-American Males, the model has relatively high recall but also the highest false positive rate out of all subgroups of sex and race. 
+C. The Detailed Comparison View lets users compare the details of two groups and investigate their class balances.
+Since the difference in False Positive Rates between Caucasian Males and African-American Males is far larger than their difference in base rates, a user suspects this part of the model merits further inquiry. 
+D. The Suggested and Similar Subgroup View shows suggested subgroups ranked by the worst performance in a given metric. 
+
+
+    </figcaption>
+</figure>
+
+<h2 id="abstract">Abstract</h2>
+<p>The growing capability and accessibility of machine learning has led to its application to many real-world domains and data about people.
+Despite the benefits algorithmic systems may bring, models can reflect, inject, or exacerbate implicit and explicit societal biases into their outputs, disadvantaging certain demographic subgroups.
+Discovering which biases a machine learning model has introduced is a great challenge, due to the numerous definitions of fairness and the large number of potentially impacted subgroups.
+We present FairVis, a mixed-initiative visual analytics system that integrates a novel subgroup discovery technique for users to audit the fairness of machine learning models.
+Through FairVis, users can apply domain knowledge to generate and investigate known subgroups, and explore suggested and similar subgroups.
+FairVis’ coordinated views enable users to explore a high-level overview of subgroup performance and subsequently drill down into detailed investigation of specific subgroups.
+We show how FairVis helps to discover biases in two real datasets used in predicting income and recidivism.
+As a visual analytics system devoted to discovering bias in machine learning, FairVis demonstrates how interactive visualization may help data scientists and the general public understand and create more equitable algorithmic systems.</p>
+
+<h2 id="citation">Citation</h2>
+<p>
+
+	<strong>FairVis: Visual Analytics for Discovering Intersectional Bias in Machine Learning</strong>
+
+
+<br />
+
+
+	
+		
+<a href="http://cabreraalex.com">Angel Cabrera</a>,
+	
+
+	
+		
+<a href="http://www.willepperson.com">Will Epperson</a>,
+	
+
+	
+		
+<a href="https://fredhohman.com">Fred Hohman</a>,
+	
+
+	
+		
+<a href="https://minsuk.com">Minsuk Kahng</a>,
+	
+
+	
+		
+<a href="http://jamiemorgenstern.com">Jamie Morgenstern</a>,
+	
+
+	
+		
+<a href="https://www.cc.gatech.edu/~dchau">Duen Horng (Polo) Chau</a>
+	
+
+
+<br />
+
+<i>IEEE Conference on Visual Analytics Science and Technology (VAST). Vancouver, Canada, 2019.</i>
+
+<br />
+
+
+	<span class="pub-misc">
+
+	
+
+	
+	  <a href="/papers/fairvis">
+	    <i class="fas fa-link" aria-hidden="true"></i> Project
+	  </a>
+	
+
+	
+	<a href="https://poloclub.github.io/FairVis/">
+		<i class="fas fa-play" aria-hidden="true"></i> Demo
+	</a>
+	
+
+	
+	  <a href="https://arxiv.org/abs/1904.05419">
+	    <i class="far fa-file-pdf" aria-hidden="true"></i> PDF
+	  </a>
+	
+
+	
+	  <a href="https://medium.com/@cabreraalex/fairvis-discovering-bias-in-machine-learning-using-visual-analytics-acbd362a3e2f">
+	    <i class="fas fa-newspaper" aria-hidden="true"></i> Blog
+	  </a>
+	
+
+	
+
+	
+
+	
+
+	
+	<a href="https://vimeo.com/368702211">
+		<i class="fas fa-video" aria-hidden="true"></i> Recording
+	</a>
+	
+
+	
+	  <a href="/slides/19-fairvis-vast-slides.pdf">
+	    <i class="fas fa-window-maximize" aria-hidden="true"></i> Slides
+	  </a>
+	
+
+	
+
+	
+	  <a href="https://github.com/poloclub/FairVis">
+	    <i class="fas fa-code" aria-hidden="true"></i> Code
+	  </a>
+	
+
+	
+
+	
+
+	
+		
+		
+	
+
+	
+
+	
+	
+	</span>
+
+
+
+
+
+
+
+</p>
+
+<!-- ## BibTeX
+```
+
+@article{cabrera2019fairvis,
+  title={FairVis: Visual Analytics for Discovering Intersectional Bias in Machine Learning},
+  author={Cabrera, {\'A}ngel and Epperson, Will, and Hohman, Fred and Kahng, Minsuk and Morgenstern, Jamie and Chau, Duen Horng},
+  journal={IEEE Conference on Visual Analytics Science and Technology (VAST)},
+  year={2019},
+  publisher={IEEE}
+  url={https://poloclub.github.io/FairVis/}
+}
+
+``` -->
+:ET

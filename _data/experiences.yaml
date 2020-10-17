@@ -1,0 +1,48 @@
+- institution: Georgia Institute of Technology
+  location: "Atlanta, GA"
+  position: Undergraduate Researcher
+  group: Polo Club of Data Science
+  year: "January 2019 - May 2020"
+  description: "Member of the Polo Club of Data Science working on novel data visulizations to find fairness issues in Machine Learning models"
+  mentors:
+    - Duen Horng (Polo) Chau
+  institution-url: http://gatech.edu
+  group-url: http://cse.gatech.edu
+  type: academic
+
+- institution: Georgia Institute of Technology
+  location: "Atlanta, GA"
+  position: Undergraduate Researcher
+  group: Automated Algorithm Design
+  year: "January 2018 - May 2019"
+  description: "Worked on EMADE algorithm design engine to implement sentiment analysis pipeline to analyze news articles to aid in predicting stock price movements using genetic algorithms. Led project to visualize the genetic algorithm evolution process."
+  mentors:
+    - Jason Zutty
+    - Greg Rohling
+  institution-url: http://gatech.edu
+  group-url: https://www.vip.gatech.edu/teams/automated-algorithm-design
+  type: academic
+
+- institution: Point72 Asset Management
+  location: "New York, NY"
+  position: Data Analytics Intern
+  group: Market Intelligence Group
+  year: "Summer 2019"
+  description: "Worked as Data Scientist in alternative data space to clean, model, and understand large datasets"
+  mentors:
+    - Trevor Rempel
+  institution-url: https://www.point72.com
+  group-url: https://www.point72.com/market-intelligence/
+  type: industry
+
+- institution: Ultimate Software
+  location: "Weston, FL"
+  position: Software Development Intern
+  group: Innovation Strategies Team
+  year: "Summer 2018"
+  description: "Designed and developed Slack app to integrate with the UltiPro HR management tool. App published to Slack app store."
+  mentors:
+    - Joseph Cutrono
+  institution-url: https://www.ultimatesoftware.com
+  group-url: https://www.ultimatesoftware.com
+  type: industry

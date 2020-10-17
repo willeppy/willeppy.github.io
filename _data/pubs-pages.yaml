@@ -1,0 +1,34 @@
+- id: fairvis
+  figure: /images/papers/19-fairvis-vast.png
+  caption: |
+    FairVis integrates multiple coordinated views for discovering intersectional bias. 
+    Above, our user investigates the intersectional subgroups of <i>sex</i> and <i>race</i>. 
+    A. The Feature Distribution View allows users to visualize each feature's distribution and generate subgroups.
+    B. The Subgroup Overview lets users select various fairness metrics to see the global average per metric and compare subgroups to one another, e.g., pinned Caucasian Males versus hovered African-American Males.
+    The plots for <i>Recall</i> and <i>False Positive Rate</i> show that for African-American Males, the model has relatively high recall but also the highest false positive rate out of all subgroups of sex and race. 
+    C. The Detailed Comparison View lets users compare the details of two groups and investigate their class balances.
+    Since the difference in False Positive Rates between Caucasian Males and African-American Males is far larger than their difference in base rates, a user suspects this part of the model merits further inquiry. 
+    D. The Suggested and Similar Subgroup View shows suggested subgroups ranked by the worst performance in a given metric. 
+  abstract: |
+    The growing capability and accessibility of machine learning has led to its application to many real-world domains and data about people.
+    Despite the benefits algorithmic systems may bring, models can reflect, inject, or exacerbate implicit and explicit societal biases into their outputs, disadvantaging certain demographic subgroups.
+    Discovering which biases a machine learning model has introduced is a great challenge, due to the numerous definitions of fairness and the large number of potentially impacted subgroups.
+    We present FairVis, a mixed-initiative visual analytics system that integrates a novel subgroup discovery technique for users to audit the fairness of machine learning models.
+    Through FairVis, users can apply domain knowledge to generate and investigate known subgroups, and explore suggested and similar subgroups.
+    FairVis' coordinated views enable users to explore a high-level overview of subgroup performance and subsequently drill down into detailed investigation of specific subgroups.
+    We show how FairVis helps to discover biases in two real datasets used in predicting income and recidivism.
+    As a visual analytics system devoted to discovering bias in machine learning, FairVis demonstrates how interactive visualization may help data scientists and the general public understand and create more equitable algorithmic systems.
+
+- id: recast
+  figure: /images/papers/20-recast-chi.png
+  caption: |
+    A: RECAST consists of a textbox and a radial progress bar. A color change on the radial progress, along with a score, indicate the toxicity of a sentence. 
+    Toxicity ranges from white (non-toxic) to red (very toxic). Users can hover over options to preview toxicity scores for replacing the selected word in the sentence. 
+    B: upon replacing the word (in the case of this figure, replacing “idiotic” with “nonsensical”), the main radial progress bar reflects the reduced toxicity score. 
+    However the small attention on the other pejorative word "moron" compared to "video" in the alternative version shows the idiosyncrasies of the model and underlying dataset.
+  abstract: |
+    As toxic language becomes nearly pervasive online, there has been increasing interest in leveraging the advancements in natural language processing (NLP) to automatically detect and remove toxic comments. 
+    Despite fairness concerns and limited interpretability, there is currently little work for auditing these systems in particular for end users. 
+    We present our ongoing work, RECAST, an interactive tool for auditing toxicity detection models by visualizing explanations for predictions and providing alternative wordings for detected toxic speech. 
+    RECAST displays the attention of toxicity detection models on user input, and provides an intuitive system for rewording impactful language within a comment with less toxic alternative words close in embedding space. 
+    Finally we propose a larger user study  of RECAST, with promising preliminary results, to validate it's effectiveness and useability with end users.

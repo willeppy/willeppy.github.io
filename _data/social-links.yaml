@@ -1,0 +1,62 @@
+- id: home
+  description: "willepperson.com"
+  color: "#515151"
+  class: "fas fa-home icon"
+  url: "https://willepperson.com"
+  on-homepage: false
+  cv-group: 1
+
+- id: email
+  description: "willepp@cmu.edu"
+  color: "#515151"
+  class: "fas fa-envelope icon"
+  url: "mailto:willepp@cmu.edu"
+  on-homepage: true
+  cv-group: 1
+
+- id: twitter
+  description: "@w_epperson"
+  color: "#1da1f2"
+  class: "fab fa-twitter icon"
+  url: https://twitter.com/w_epperson
+  on-homepage: true
+  cv-group: 2
+
+- id: github
+  description: "@willeppy"
+  color: "#6e5494"
+  class: "fab fa-github icon"
+  url: "https://github.com/willeppy"
+  on-homepage: true
+  cv-group: 2
+
+- id: scholar
+  description: "Google Scholar"
+  color: "#515151"
+  class: "fa fa-graduation-cap icon"
+  url: "https://scholar.google.com/citations?user=jgBHxR4AAAAJ&hl=en"
+  on-homepage: true
+  cv-group: 2
+
+- id: linkedin
+  description: "LinkedIn"
+  color: "#515151"
+  class: "fa fa-graduation-cap icon"
+  url: " https://www.linkedin.com/in/willepperson/"
+  on-homepage: true
+  cv-group: 2
+
+- id: cv
+  description: CV PDF
+  color: "#ba2818"
+  class: "far fa-file-pdf icon"
+  url: "https://www.willepperson.com/cv.pdf"
+  on-homepage: false
+  cv-group: 1
+
+- id: cv-web
+  description: Here's my CV
+  color: "#515151"
+  class: "fa fa-address-card icon"
+  url: "https://www.willepperson.com/cv"
+  on-homepage: false

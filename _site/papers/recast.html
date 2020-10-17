@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <link href="https://fonts.googleapis.com/css?family=Gaegu:300,700" rel="stylesheet">
+
+  <!-- Enable responsiveness on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Share card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@w_epperson" />
+  <meta name="twitter:creator" content="@w_epperson" />
+  <meta property="og:url" content="https://willepperson.com/" />
+  <meta property="og:title" content="Will Epperson" />
+  <meta property="og:description" content="Will Epperson is a Ph.D. candidate in the HCII at CMU." />
+  <meta property="og:image" content="http://willepperson.com/images/share.png" />
+
+  <title>
+    
+      Recast — Will Epperson
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/styles.css">
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png?v=xQdLjRyXLj">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png?v=xQdLjRyXLj">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png?v=xQdLjRyXLj">
+  <link rel="manifest" href="/icons/site.webmanifest?v=xQdLjRyXLj">
+  <link rel="mask-icon" href="/icons/safari-pinned-tab.svg?v=xQdLjRyXLj" color="#313131">
+  <link rel="shortcut icon" href="/icons/favicon.ico?v=xQdLjRyXLj">
+  <meta name="msapplication-TileColor" content="#313131">
+  <meta name="msapplication-config" content="/icons/browserconfig.xml?v=xQdLjRyXLj">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Feed -->
+  <link type="application/atom+xml" rel="alternate" href="http://willepperson.com/feed.xml" title="Will Epperson" />
+
+  <!-- Google Analytics -->
+
+</head>
+
+  <body>
+  
+    <header class="masthead">
+	
+	<h1 class="masthead-title">
+  		<a href="/" title="Home">Will Epperson</a>
+  		<div class="mastheadspacer"></div>
+   		<span class="masthead-slash">/</span>
+   		<small>PhD Candidate at CMU</small>
+	</h1>
+</header>
+
+    <nav>
+	<div class="nav">
+	
+	</div>
+</nav>
+
+    <div class="container content">
+
+      <main>
+        <article class="post paper">
+  
+<h1 id="recast-interactive-auditing-of-automatic-toxicity-detection-models">RECAST: Interactive Auditing of Automatic Toxicity Detection Models</h1>
+<p>
+
+  
+    
+<a href="http://austinpwright.com">Austin P. Wright</a>,
+  
+
+  
+    
+<a href="http://oshaikh.com/">Omar Shaikh</a>,
+  
+
+  
+    
+<a href="https://haekyu.com">Haekyu Park</a>,
+  
+
+  
+    
+<a href="http://www.willepperson.com">Will Epperson</a>,
+  
+
+  
+    
+Muhammed Ahmed,
+  
+
+  
+    
+Stephane Pinel,
+  
+
+  
+    
+<a href="https://www.cc.gatech.edu/~dyang888/">Diyi Yang</a>,
+  
+
+  
+    
+<a href="https://www.cc.gatech.edu/~dchau">Duen Horng (Polo) Chau</a>
+  
+
+</p>
+
+<figure>
+    <img class="single" src="/images/papers/20-recast-chi.png" />
+    <figcaption class="single">
+      A: RECAST consists of a textbox and a radial progress bar. A color change on the radial progress, along with a score, indicate the toxicity of a sentence. 
+Toxicity ranges from white (non-toxic) to red (very toxic). Users can hover over options to preview toxicity scores for replacing the selected word in the sentence. 
+B: upon replacing the word (in the case of this figure, replacing “idiotic” with “nonsensical”), the main radial progress bar reflects the reduced toxicity score. 
+However the small attention on the other pejorative word "moron" compared to "video" in the alternative version shows the idiosyncrasies of the model and underlying dataset.
+
+
+    </figcaption>
+</figure>
+
+<h2 id="abstract">Abstract</h2>
+<p>As toxic language becomes nearly pervasive online, there has been increasing interest in leveraging the advancements in natural language processing (NLP) to automatically detect and remove toxic comments. 
+Despite fairness concerns and limited interpretability, there is currently little work for auditing these systems in particular for end users. 
+We present our ongoing work, RECAST, an interactive tool for auditing toxicity detection models by visualizing explanations for predictions and providing alternative wordings for detected toxic speech. 
+RECAST displays the attention of toxicity detection models on user input, and provides an intuitive system for rewording impactful language within a comment with less toxic alternative words close in embedding space. 
+Finally we propose a larger user study  of RECAST, with promising preliminary results, to validate it’s effectiveness and useability with end users.</p>
+
+<h2 id="citation">Citation</h2>
+<p>
+
+	<strong>RECAST: Interactive Auditing of Automatic Toxicity Detection Models</strong>
+
+
+<br />
+
+
+	
+		
+<a href="http://austinpwright.com">Austin P. Wright</a>,
+	
+
+	
+		
+<a href="http://oshaikh.com/">Omar Shaikh</a>,
+	
+
+	
+		
+<a href="https://haekyu.com">Haekyu Park</a>,
+	
+
+	
+		
+<a href="http://www.willepperson.com">Will Epperson</a>,
+	
+
+	
+		
+Muhammed Ahmed,
+	
+
+	
+		
+Stephane Pinel,
+	
+
+	
+		
+<a href="https://www.cc.gatech.edu/~dyang888/">Diyi Yang</a>,
+	
+
+	
+		
+<a href="https://www.cc.gatech.edu/~dchau">Duen Horng (Polo) Chau</a>
+	
+
+
+<br />
+
+<i>The eighth International Workshop of Chinese CHI.  2020.</i>
+
+<br />
+
+
+	<span class="pub-misc">
+
+	
+
+	
+	  <a href="/papers/recast">
+	    <i class="fas fa-link" aria-hidden="true"></i> Project
+	  </a>
+	
+
+	
+
+	
+	  <a href="https://arxiv.org/pdf/2001.01819.pdf">
+	    <i class="far fa-file-pdf" aria-hidden="true"></i> PDF
+	  </a>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+		
+	
+
+	
+
+	
+	
+	</span>
+
+
+
+
+
+
+
+</p>
+
+<!-- ## BibTeX
+```
+@article{wright2020recast,
+title={RECAST: Interactive Auditing of Automatic Toxicity Detection Models},
+author={Austin P. Wright and Omar Shaikh and Haekyu Park and Will Epperson and Muhammed Ahmed and Stephane Pinel and Diyi Yang and Duen Horng (Polo) Chau},
+year={2020},
+eprint={2001.01819},
+archivePrefix={arXiv},
+primaryClass={cs.CL}
+}
+
+``` -->
+
+</article>
+
+      </main>
+
+    </div>
+
+    <footer>
+	<div id="footer-left">
+		<a href="mailto:willepp@cmu.edu"><i class="fa-lg fa fa-envelope footer-icon" aria-hidden="true"></i></a>
+		<a href="https://twitter.com/w_epperson"><i class="fa-lg fab fa-twitter footer-icon" aria-hidden="true"></i></a>
+		<a href="https://www.linkedin.com/in/willepperson/"><i class="fa-lg fab fa-linkedin-in footer-icon" aria-hidden="true"></i></a>
+		<a href="https://github.com/willeppy"><i class="fa-lg fab fa-github footer-icon" aria-hidden="true"></i></a>
+		<a href="https://scholar.google.com/citations?user=jgBHxR4AAAAJ&hl=en"><i class="fa-lg fa fa-graduation-cap footer-icon" aria-hidden="true"></i></a>
+		<br>
+		<br>
+		&copy; <time datetime="October 17, 2020">2020</time> Will Epperson. Design inspiration from <a style="color:#e6e6e6" href="https://fredhohman.com/">fredhohman.com</a>
+	</div>
+	
+	<div id="footer-right">
+	</div>
+</footer>
+
+
+
+
+  </body>
+</html>
