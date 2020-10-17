@@ -12,10 +12,6 @@ title: Home
 			Hi and welcome! I am a PhD candidate in the Human Computer Interaction Institute at Carnegie Mellon University. I am a member of the <a href="https://dig.cmu.edu"> DIG </a> research group and am advised by <a href="https://perer.org">Adam Perer</a> and <a href="https://www.domoritz.de">Dominik Moritz</a> . 
 		</div>
 		<div style="height: 1rem"></div>
-		<div class="intro-left">
-			Hi and welcome! I am a PhD candidate in the Human Computer Interaction Institute at Carnegie Mellon University. 
-		</div>
-		<div style="height: 1rem"></div>
 		<div class="intro-left">	
 			My research interests lie in <b>developing ways to make complex systems easier to use and understand for non-experts</b>. Specifically, I am working to enable <em>interpretable Machine Learning</em>, often through <em>interactive visualizations</em>. I'm also interested in how machine learning can be applied to the medical domain to help both doctors and patient experiences. 
 		</div>
