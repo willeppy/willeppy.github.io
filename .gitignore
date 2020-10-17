@@ -18,3 +18,12 @@ build/
 .idea
 .gradle
 
+_site/*
+.sass-cache/
+.DS_Store
+_posts/.DS_Store
+images/projects/.DS_Store
+images/.DS_Store
+images/pc
+.jekyll-cache/
+_drafts/
