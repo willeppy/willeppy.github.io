@@ -16,11 +16,11 @@ jsarr:
 </span> -->
 
 <span class="cv-max-width">
-I’m a Ph.D. student in the HCII at CMU advised by Adam Perer and Dominik Moritz.
+I’m a Ph.D. student in the HCII at CMU advised by Dominik Moritz and Adam Perer.
 </span>
 
 <span class="cv-max-width">
-My research interests lie in <b>developing ways to make complex systems easier to use and understand for non-experts</b>. Specifically, I am working to enable <em>interpretable Machine Learning</em>, often through <em>interactive visualizations</em>. I'm also interested in how machine learning can be applied to the medical domain to help both doctors and patient experiences. 
+My research interests lie in <b>developing ways to make complex systems easier to use and understand for experts and non-experts</b>. I am interested in how we can build tools to help users interact with their data through understandable Machine Learning, interactive visualizations, and reccomended analysis. I'm also interested in how these techniques can be applied to the medical domain to improve both doctor and patient experiences. 
 </span>
 
 <div class="cv-image-links-wrapper" style="font-size: 16px; padding-bottom: 0;">
