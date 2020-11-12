@@ -8,6 +8,8 @@
   # description:
   committee:
   institution-url: 
+  coursework:
+    - Computational Medicine
 
 
 
@@ -18,3 +20,11 @@
   description: 
     - "GPA: 4.0, Summa Cum Laude, threads in Intelligence and Modeling/Simulation"
   institution-url: https://www.gatech.edu/
+  coursework:
+    - Machine Learning
+    - Deep Learning
+    - Computer Vision
+    - Computer Architecture
+    - Algorithms
+    - Computer Simulation
+    - Information Visualization

@@ -90,12 +90,20 @@ My research interests lie in <b>developing ways to make complex systems easier t
 {% include teaching.html teach=teach %}
 {% endfor %}
 
-
 ## Leadership & Activities
 
 {% for act in site.data.activities %}
 {% include activity.html act=act %}
 {% endfor %}
+
+## Sample Projects
+
+{% for project in site.data.projects %}
+{% include project.html project=project %}
+{% endfor %}
+
+## Skills
+{% include skill.html %}
 
 
 <!-- ## References

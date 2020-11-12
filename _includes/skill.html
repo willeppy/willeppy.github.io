@@ -1,6 +1,28 @@
 <p style="margin-bottom: 0.3rem">
-	<strong>{{ skill.name }}:</strong>
-	{% for item in skill.items %}
-	{{ item }}{% if forloop.last == false %},{% endif %}
+
+	<!-- {% if forloop.last == false %},{% endif %} -->
+
+	<strong>Programing Languages: </strong>
+	{% for item in site.data.skills %}
+		{% if item.type == "lang" %}
+			{{item.name}} 
+		{% endif %}
 	{% endfor %}
+	<br/>
+
+	<strong>Toolkits, Frameworks, Software: </strong>
+	{% for item in site.data.skills %}
+		{% if item.type == "fwork" %}
+			{{item.name}}
+		{% endif %}
+	{% endfor %}
+	<br/>
+
+	<strong>Natural Languages: </strong>
+	{% for item in site.data.skills %}
+		{% if item.type == "flang" %}
+			{{item.name}} 
+		{% endif %}
+	{% endfor %}
+	<br/>
 </p>

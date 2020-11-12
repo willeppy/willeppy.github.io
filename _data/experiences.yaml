@@ -9,6 +9,9 @@
   institution-url: http://gatech.edu
   group-url: http://cse.gatech.edu
   type: academic
+  skills:
+    - Python
+    - Javascript
 
 - institution: Georgia Institute of Technology
   location: "Atlanta, GA"
@@ -22,6 +25,9 @@
   institution-url: http://gatech.edu
   group-url: https://www.vip.gatech.edu/teams/automated-algorithm-design
   type: academic
+  skills:
+    - Python
+    - Javascript
 
 - institution: Point72 Asset Management
   location: "New York, NY"
@@ -34,6 +40,9 @@
   institution-url: https://www.point72.com
   group-url: https://www.point72.com/market-intelligence/
   type: industry
+  skills:
+    - Python
+    - Distributed Computing in Spark
 
 - institution: Ultimate Software
   location: "Weston, FL"
@@ -46,3 +55,18 @@
   institution-url: https://www.ultimatesoftware.com
   group-url: https://www.ultimatesoftware.com
   type: industry
+  skills:
+    - Typescript
+    - REST API development
+
+- institution: The Home Depot
+  location: "Atlanta, GA"
+  position: Software Development Intern
+  year: "Summer 2015"
+  description: "Developed web app for tracking candidate progress throughout hiring process for internal HR use."
+  institution-url: https://corporate.homedepot.com
+  group-url: https://corporate.homedepot.com
+  type: industry
+  skills:
+    - Java
+    - HTML/CSS/Javascript

@@ -1,0 +1,52 @@
+- name: Python (Advanced),
+  type: lang
+
+- name: Javascript/Typescript (Intermediate),
+  type: lang
+
+- name: HTML (Intermediate),
+  type: lang
+
+- name: SQL (Intermediate),
+  type: lang
+
+- name: Java (Intermediate),
+  type: lang
+
+- name: C (Basic)
+  type: lang
+
+
+- name: Pytorch,
+  type: fwork
+
+- name: Scikit-learn,
+  type: fwork
+
+- name: Git,
+  type: fwork
+
+- name: VegaLite,
+  type: fwork
+
+- name: D3,
+  type: fwork
+
+- name: Tableau,
+  type: fwork
+
+- name: MacOS,
+  type: fwork
+
+- name: Windows,
+  type: fwork
+
+- name: Linux
+  type: fwork
+
+
+- name: English (Native),
+  type: flang
+
+- name: Spanish (Advanced)
+  type: flang
