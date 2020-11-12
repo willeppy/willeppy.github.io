@@ -17,6 +17,13 @@
 
 <br>
 
+{% if pub.summary %}
+<span class="cv-description">
+	{{pub.summary}}
+</span>
+<br/>
+{% endif %}
+
 <i>{{ pub.venue }}{% if pub.venue-shorthand %} ({{ pub.venue-shorthand }}){% endif %}. {% if pub.location %}{{ pub.location }},{% endif %} {{ pub.year }}.</i>
 
 <br>

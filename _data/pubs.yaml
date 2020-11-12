@@ -23,6 +23,7 @@
   feature-order: 1
   feature-title: FairVis
   feature-description: "Discovering intersectional ML Bias through interactive visualization"
+  summary: "FairVis is a Visual Analytics system that allows users to audit their machine learning models for intersectional bias by exploring the model's performance on various user-specified and reccomended subgroups in a dataset."
   type: conference
   image: /images/papers/19-fairvis-vast.png
   type: conference
@@ -55,6 +56,7 @@
   type: arxiv
   feature-title: RECAST
   feature-description: "Interactive Auditing of Automatic Toxicity Detection Models"
+  summary: "RECAST is an interactive tool that allows users to audit toxicity detection models with their own input text and suggests alternative wordings for detected toxic speech."
   featured: true
   feature-order: 2
   selected: true
