@@ -1,3 +1,19 @@
+- institution: Carnegie Mellon University
+  location: "Pittsburgh, PA"
+  position: Graduate Researcher
+  group: Data Interaction Group (DIG)
+  year: "August 2020 - Present"
+  description: "Member of the DIG research group, working on novel data visulizations, ML interpretation techniques, and interactvie data systems."
+  mentors:
+    - Dominik Moritz
+    - Adam Perer
+  institution-url: https://www.hcii.cmu.edu
+  group-url: https://dig.cmu.edu
+  type: academic
+  skills:
+    - Python
+    - Javascript
+
 - institution: Georgia Institute of Technology
   location: "Atlanta, GA"
   position: Undergraduate Researcher
