@@ -9,7 +9,7 @@ title: Home
 	</div>
 	<div class="intro-left">
 		<div class="intro-left">
-			Hi and welcome! I am a PhD candidate in the Human Computer Interaction Institute at Carnegie Mellon University. I work in the <a href="https://dig.cmu.edu"> DIG </a> research group and am advised by <a href="https://www.domoritz.de">Dominik Moritz</a> and <a href="https://perer.org">Adam Perer</a>. 
+			Hello and welcome! I am a PhD candidate in the Human Computer Interaction Institute at Carnegie Mellon University. I work in the <a href="https://dig.cmu.edu"> DIG </a> research group and am advised by <a href="https://www.domoritz.de">Dominik Moritz</a> and <a href="https://perer.org">Adam Perer</a>. 
 		</div>
 		<div style="height: 1rem"></div>
 		<div class="intro-left">	
