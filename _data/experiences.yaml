@@ -1,9 +1,25 @@
+- institution: Microsoft Research
+  location: "Redmond, WA"
+  position: Research Intern
+  group: VIDA Group
+  year: "Summer 2021"
+  description: "Research intern working on data science tools."
+  mentors:
+    - Steve Drucker
+    - Rob DeLine
+  institution-url: https://www.microsoft.com/en-us/research/
+  group-url: https://www.microsoft.com/en-us/research/group/vida/
+  type: industry
+  skills:
+    - Python
+    - Typescript
+  
 - institution: Carnegie Mellon University
   location: "Pittsburgh, PA"
   position: Graduate Researcher
   group: Data Interaction Group (DIG)
   year: "August 2020 - Present"
-  description: "Member of the DIG research group, working on novel data visulizations, ML interpretation techniques, and interactvie data systems."
+  description: "Member of the DIG research group, working on novel data visualizations, ML interpretation techniques, and interactive data systems."
   mentors:
     - Dominik Moritz
     - Adam Perer
@@ -19,7 +35,7 @@
   position: Undergraduate Researcher
   group: Polo Club of Data Science
   year: "January 2019 - May 2020"
-  description: "Member of the Polo Club of Data Science working on novel data visulizations to find fairness issues in Machine Learning models"
+  description: "Member of the Polo Club of Data Science working on novel data visualizations to find fairness issues in Machine Learning models"
   mentors:
     - Duen Horng (Polo) Chau
   institution-url: http://gatech.edu

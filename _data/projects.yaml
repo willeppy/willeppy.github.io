@@ -1,5 +1,5 @@
 - name: ICLR’19 Reproducibility Challenge
-  desc: "Implemented the architecture and reproduced results for an ICLR'19 submission using GANs to decorrelate sensitive data, titled Generative Adversarial Models for Learning Private and Fair Representations."
+  desc: "Implemented the architecture and reproduced results for an ICLR'19 submission using GANs to de-correlate sensitive data, titled Generative Adversarial Models for Learning Private and Fair Representations."
   date: December 2018
 
 - name: Atlanta Crime Map
