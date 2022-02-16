@@ -9,11 +9,11 @@ title: Home
 	</div>
 	<div class="intro-left">
 		<div class="intro-left">
-			Hello and welcome! I am a PhD candidate in the Human Computer Interaction Institute at Carnegie Mellon University. I work in the <a href="https://dig.cmu.edu"> DIG </a> research group and am advised by <a href="https://www.domoritz.de">Dominik Moritz</a> and <a href="https://perer.org">Adam Perer</a>.
+			Hello and welcome! I am a PhD student in the Human Computer Interaction Institute at Carnegie Mellon University. I work in the <a href="https://dig.cmu.edu"> DIG </a> research group and am advised by <a href="https://www.domoritz.de">Dominik Moritz</a> and <a href="https://perer.org">Adam Perer</a>.
 		</div>
 		<div style="height: 1rem"></div>
 		<div class="intro-left">	
-			My research interests lie in <b>developing ways to make complex systems easier to use and understand for experts and non-experts</b>. I am interested in how we can build tools to help users interact with their data through understandable Machine Learning, interactive visualizations, and recommended analysis. This involves building stand-alone systems for data analysis, building extensions to existing tools like Jupyter, and running human studies experiments to evaluate these systems.  
+			My research interests lie in <b>developing interactive data science tools for both experts and non-experts</b>. I am interested in how we can help analysts understand their data through interactive visualization, recommended analysis, and models. My commonly used research methods include building stand-alone systems for data analysis, building extensions to existing tools like Jupyter, and running human studies experiments to evaluate these systems.  
 		</div>
 		<div style="height: 1rem"></div>
 		<div class="intro-left">
@@ -52,6 +52,8 @@ title: Home
 <div class="cover-wrapper l-screen">
 	{% assign sortedPublications = site.data.pubs | sort: 'feature-order' %}
 	{% for feature in sortedPublications %}
-		{% include feature.html feature=feature %}
+		{% if feature.featured%}
+			{% include feature.html feature=feature %}
+		{% endif %}
 	{% endfor %}
 </div>

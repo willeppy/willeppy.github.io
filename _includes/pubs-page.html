@@ -9,18 +9,18 @@
 {% endfor %}
 </p>
 
-{% if paperPage.figure %}
+{% if pub.image %}
 <figure>
-    <img class="single" src="{{ paperPage.figure }}">
+    <img class="single" src="{{ pub.image }}">
     <figcaption class="single">
-      {{ paperPage.caption }}
+      {{ pub.caption }}
 
     </figcaption>
 </figure>
 {% endif %}
 
 ## Abstract
-{{ paperPage.abstract }}
+{{ pub.abstract }}
 
 ## Citation
 {% include publication.html pub=pub %}
