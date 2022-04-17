@@ -1,8 +1,8 @@
 ---
 layout: paper
 categories: papers
-key: reuseshareds
-permalink: papers/reuseshareds
+key: reuse-ds
+permalink: papers/reuse-ds
 ---
 
 {% assign pub = site.data.pubs | where:"id", page.key | first %}

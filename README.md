@@ -10,5 +10,6 @@ bundle install
 
 ## Run
 ```bash
+chruby 3.1.0 # switch to user ruby
 bundle exec jekyll serve
 ```
