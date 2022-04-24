@@ -17,6 +17,10 @@
 <lastmod>2022-02-16T00:00:00-05:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/papers/solas</loc>
+<lastmod>2022-04-24T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/cv/</loc>
 </url>
 <url>
@@ -25,6 +29,10 @@
 <url>
 <loc>http://localhost:4000/cv.pdf</loc>
 <lastmod>2022-02-16T17:52:22-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/papers/Solas_EuroVis22.pdf</loc>
+<lastmod>2022-04-19T18:58:24-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/papers/ditl-chi22.pdf</loc>

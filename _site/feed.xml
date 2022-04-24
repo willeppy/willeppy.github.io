@@ -1,4 +1,192 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-17T14:52:50-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Will Epperson</title><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><entry><title type="html">Ditl</title><link href="http://localhost:4000/papers/ditl" rel="alternate" type="text/html" title="Ditl" /><published>2022-02-16T00:00:00-05:00</published><updated>2022-02-16T00:00:00-05:00</updated><id>http://localhost:4000/papers/ditl</id><content type="html" xml:base="http://localhost:4000/papers/ditl">&lt;h1 id=&quot;diff-in-the-loop-supporting-data-comparison-in-exploratory-data-analysis&quot;&gt;Diff in the Loop: Supporting Data Comparison in Exploratory Data Analysis&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-24T14:43:18-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Will Epperson</title><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><entry><title type="html">Solas</title><link href="http://localhost:4000/papers/solas" rel="alternate" type="text/html" title="Solas" /><published>2022-04-24T00:00:00-04:00</published><updated>2022-04-24T00:00:00-04:00</updated><id>http://localhost:4000/papers/solas</id><content type="html" xml:base="http://localhost:4000/papers/solas">&lt;h1 id=&quot;leveraging-analysis-history-for-improved-in-situ-visualization-recommendation&quot;&gt;Leveraging Analysis History for Improved In Situ Visualization Recommendation&lt;/h1&gt;
+&lt;p&gt;
+
+  
+    
+&lt;a href=&quot;http://www.willepperson.com&quot;&gt;Will Epperson&lt;/a&gt;,
+  
+
+  
+    
+&lt;a href=&quot;http://dorisjunglinlee.com&quot;&gt;Doris Jung-Lin Lee&lt;/a&gt;,
+  
+
+  
+    
+&lt;a href=&quot;https://leijiewang.com&quot;&gt;Leijie Wang&lt;/a&gt;,
+  
+
+  
+    
+&lt;a href=&quot;http://www.kunal-agarwal.com&quot;&gt;Kunal Agarwal&lt;/a&gt;,
+  
+
+  
+    
+&lt;a href=&quot;https://people.eecs.berkeley.edu/~adityagp/&quot;&gt;Aditya Parameswaran&lt;/a&gt;,
+  
+
+  
+    
+&lt;a href=&quot;https://www.domoritz.de/&quot;&gt;Dominik Moritz&lt;/a&gt;,
+  
+
+  
+    
+&lt;a href=&quot;https://perer.org&quot;&gt;Adam Perer&lt;/a&gt;
+  
+
+&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img class=&quot;single&quot; src=&quot;/images/papers/solas-eurovis22.png&quot; /&gt;
+    &lt;figcaption class=&quot;single&quot;&gt;
+      Solas tracks the history of a user’s analysis to provide improved in situ visualization recommendations. Above, a user has most
+recently created the Class column that is visualized on the left side of the interface. Recently executed Pandas commands interacted with
+Worldwide_Gross, Viewership, and MPAA_Rating; therefore, Class is shown relative to these columns.
+
+
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Existing visualization recommendation systems commonly rely on a single snapshot of a dataset to suggest visualizations to users. 
+However, exploratory data analysis involves a series of related interactions with a dataset over time rather than one-off analytical steps. 
+We present Solas, a tool that tracks the history of a user’s data analysis, models their interest in each column, and 
+uses this information to provide visualization recommendations, all within the user’s native analytical environment. 
+Recommending with analysis history improves visualizations in three primary ways: task-specific visualizations use the provenance of 
+data to provide sensible encodings for common analysis functions, aggregated history is used to rank visualizations by our model of a 
+user’s interest in each column, and column data types are inferred based on applied operations. We present a usage scenario and a user evaluation 
+demonstrating how leveraging analysis history improves in situ visualization recommendations on real-world analysis tasks.&lt;/p&gt;
+
+&lt;h2 id=&quot;citation&quot;&gt;Citation&lt;/h2&gt;
+&lt;p&gt;
+
+	&lt;strong&gt;Leveraging Analysis History for Improved In Situ Visualization Recommendation&lt;/strong&gt;
+
+
+&lt;br /&gt;
+
+
+	
+		
+&lt;a href=&quot;http://www.willepperson.com&quot;&gt;Will Epperson&lt;/a&gt;,
+	
+
+	
+		
+&lt;a href=&quot;http://dorisjunglinlee.com&quot;&gt;Doris Jung-Lin Lee&lt;/a&gt;,
+	
+
+	
+		
+&lt;a href=&quot;https://leijiewang.com&quot;&gt;Leijie Wang&lt;/a&gt;,
+	
+
+	
+		
+&lt;a href=&quot;http://www.kunal-agarwal.com&quot;&gt;Kunal Agarwal&lt;/a&gt;,
+	
+
+	
+		
+&lt;a href=&quot;https://people.eecs.berkeley.edu/~adityagp/&quot;&gt;Aditya Parameswaran&lt;/a&gt;,
+	
+
+	
+		
+&lt;a href=&quot;https://www.domoritz.de/&quot;&gt;Dominik Moritz&lt;/a&gt;,
+	
+
+	
+		
+&lt;a href=&quot;https://perer.org&quot;&gt;Adam Perer&lt;/a&gt;
+	
+
+
+&lt;br /&gt;
+
+
+&lt;span class=&quot;cv-description&quot;&gt;
+	Solas is a visualization recommendation tool that uses the history of analysis for in situ recommendations in Jupyter.
+&lt;/span&gt;
+&lt;br /&gt;
+
+
+&lt;i&gt;EuroVis 22: Eurographics Conference on Visualization (EuroVis). Rome, Italy, 2022.&lt;/i&gt;
+
+&lt;br /&gt;
+
+
+	&lt;span class=&quot;pub-misc&quot;&gt;
+
+	
+
+	
+	  &lt;a href=&quot;/papers/solas&quot;&gt;
+	    &lt;i class=&quot;fas fa-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Project
+	  &lt;/a&gt;
+	
+
+	
+
+	
+	  &lt;a href=&quot;/papers/Solas_EuroVis22.pdf&quot;&gt;
+	    &lt;i class=&quot;far fa-file-pdf&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; PDF
+	  &lt;/a&gt;
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+		
+	
+
+	
+
+	
+	
+	&lt;/span&gt;
+
+
+
+
+
+
+
+&lt;/p&gt;
+
+&lt;!-- ## BibTeX
+```
+@article{Epperson22Solas,
+  title={Leveraging Analysis History for Improved In Situ Visualization Recommendation},
+  author={Epperson, Will and Lee, Doris Jung-Lin and Wang, Leijie and Agarwal, Kunal and Parameswaran, Aditya and Moritz, Dominik and Perer, Adam},
+  journal={EuroVis 22: Eurographics Conference on Visualization},
+  year={2022},
+  publisher={EG}
+  url={}
+}
+
+``` --&gt;</content><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><summary type="html">Leveraging Analysis History for Improved In Situ Visualization Recommendation Will Epperson, Doris Jung-Lin Lee, Leijie Wang, Kunal Agarwal, Aditya Parameswaran, Dominik Moritz, Adam Perer Solas tracks the history of a user’s analysis to provide improved in situ visualization recommendations. Above, a user has most recently created the Class column that is visualized on the left side of the interface. Recently executed Pandas commands interacted with Worldwide_Gross, Viewership, and MPAA_Rating; therefore, Class is shown relative to these columns. Abstract Existing visualization recommendation systems commonly rely on a single snapshot of a dataset to suggest visualizations to users. However, exploratory data analysis involves a series of related interactions with a dataset over time rather than one-off analytical steps. We present Solas, a tool that tracks the history of a user’s data analysis, models their interest in each column, and uses this information to provide visualization recommendations, all within the user’s native analytical environment. Recommending with analysis history improves visualizations in three primary ways: task-specific visualizations use the provenance of data to provide sensible encodings for common analysis functions, aggregated history is used to rank visualizations by our model of a user’s interest in each column, and column data types are inferred based on applied operations. We present a usage scenario and a user evaluation demonstrating how leveraging analysis history improves in situ visualization recommendations on real-world analysis tasks. Citation Leveraging Analysis History for Improved In Situ Visualization Recommendation Will Epperson, Doris Jung-Lin Lee, Leijie Wang, Kunal Agarwal, Aditya Parameswaran, Dominik Moritz, Adam Perer Solas is a visualization recommendation tool that uses the history of analysis for in situ recommendations in Jupyter. EuroVis 22: Eurographics Conference on Visualization (EuroVis). Rome, Italy, 2022. Project PDF</summary></entry><entry><title type="html">Ditl</title><link href="http://localhost:4000/papers/ditl" rel="alternate" type="text/html" title="Ditl" /><published>2022-02-16T00:00:00-05:00</published><updated>2022-02-16T00:00:00-05:00</updated><id>http://localhost:4000/papers/ditl</id><content type="html" xml:base="http://localhost:4000/papers/ditl">&lt;h1 id=&quot;diff-in-the-loop-supporting-data-comparison-in-exploratory-data-analysis&quot;&gt;Diff in the Loop: Supporting Data Comparison in Exploratory Data Analysis&lt;/h1&gt;
 &lt;p&gt;
 
   
@@ -269,6 +457,10 @@ We discuss how future tools might help meet these needs.&lt;/p&gt;
 	
 
 	
+	&lt;a href=&quot;https://www.youtube.com/watch?v=W4XAF2vkoCQ&quot;&gt;
+		&lt;i class=&quot;fas fa-video&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Recording
+	&lt;/a&gt;
+	
 
 	
 
@@ -310,7 +502,7 @@ We discuss how future tools might help meet these needs.&lt;/p&gt;
   url={}
 }
 
-``` --&gt;</content><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><summary type="html">Strategies for Reuse and Sharing among Data Scientists in Software Teams Will Epperson, April Yi Wang, Robert DeLine, Steven M. Drucker Five unique strategies are used to reuse and share analysis code in data science. Personal reuse strategies like reusing one&apos;s own code are common, whereas using template notebooks is more rare and dependent on tool support. Abstract Effective sharing and reuse practices have long been hallmarks of proficient software engineering. Yet the exploratory nature of data science presents new challenges and opportunities to support sharing and reuse of analysis code. To better understand current practices, we conducted interviews (N=17) and a survey (N=132) with data scientists at Microsoft, and extract five commonly used strategies for sharing and reuse of past work: personal analysis reuse, personal utility libraries, team shared analysis code, team shared template notebooks, and team shared libraries. We also identify factors that encourage or discourage data scientists from sharing and reusing. Our participants described obstacles to reuse and sharing including a lack of incentives to create shared code, difficulties in making data science code modular, and a lack of tool interoperability. We discuss how future tools might help meet these needs. Citation Strategies for Reuse and Sharing among Data Scientists in Software Teams Will Epperson, April Yi Wang, Robert DeLine, Steven M. Drucker Interviews and a survey with 149 data scientists at Microsoft revealed five distinct strategies for sharing and reusing analysis code along with factors that encourage or discourage reuse. ICSE 22: ACM International Conference on Software Engineering (ICSE). Pittsburgh, PA, 2022. Project PDF</summary></entry><entry><title type="html">Recast</title><link href="http://localhost:4000/papers/recast" rel="alternate" type="text/html" title="Recast" /><published>2020-01-08T00:00:00-05:00</published><updated>2020-01-08T00:00:00-05:00</updated><id>http://localhost:4000/papers/recast</id><content type="html" xml:base="http://localhost:4000/papers/recast">&lt;h1 id=&quot;recast-interactive-auditing-of-automatic-toxicity-detection-models&quot;&gt;RECAST: Interactive Auditing of Automatic Toxicity Detection Models&lt;/h1&gt;
+``` --&gt;</content><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><summary type="html">Strategies for Reuse and Sharing among Data Scientists in Software Teams Will Epperson, April Yi Wang, Robert DeLine, Steven M. Drucker Five unique strategies are used to reuse and share analysis code in data science. Personal reuse strategies like reusing one&apos;s own code are common, whereas using template notebooks is more rare and dependent on tool support. Abstract Effective sharing and reuse practices have long been hallmarks of proficient software engineering. Yet the exploratory nature of data science presents new challenges and opportunities to support sharing and reuse of analysis code. To better understand current practices, we conducted interviews (N=17) and a survey (N=132) with data scientists at Microsoft, and extract five commonly used strategies for sharing and reuse of past work: personal analysis reuse, personal utility libraries, team shared analysis code, team shared template notebooks, and team shared libraries. We also identify factors that encourage or discourage data scientists from sharing and reusing. Our participants described obstacles to reuse and sharing including a lack of incentives to create shared code, difficulties in making data science code modular, and a lack of tool interoperability. We discuss how future tools might help meet these needs. Citation Strategies for Reuse and Sharing among Data Scientists in Software Teams Will Epperson, April Yi Wang, Robert DeLine, Steven M. Drucker Interviews and a survey with 149 data scientists at Microsoft revealed five distinct strategies for sharing and reusing analysis code along with factors that encourage or discourage reuse. ICSE 22: ACM International Conference on Software Engineering (ICSE). Pittsburgh, PA, 2022. Project PDF Recording</summary></entry><entry><title type="html">Recast</title><link href="http://localhost:4000/papers/recast" rel="alternate" type="text/html" title="Recast" /><published>2020-01-08T00:00:00-05:00</published><updated>2020-01-08T00:00:00-05:00</updated><id>http://localhost:4000/papers/recast</id><content type="html" xml:base="http://localhost:4000/papers/recast">&lt;h1 id=&quot;recast-interactive-auditing-of-automatic-toxicity-detection-models&quot;&gt;RECAST: Interactive Auditing of Automatic Toxicity Detection Models&lt;/h1&gt;
 &lt;p&gt;
 
   
