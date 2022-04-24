@@ -16,6 +16,7 @@
   url: /papers/solas
   pdf: /papers/Solas_EuroVis22.pdf
   image: /images/papers/solas-eurovis22.png
+  code: https://github.com/cmudig/solas
   featured: true
   feature-order: 1
   feature-title: "Leveraging Analysis History for Improved In Situ Visualization Recommendation"
