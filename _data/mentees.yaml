@@ -1,7 +1,11 @@
 - name: Leijie Wang
-  year: "Summer 2021+"
+  year: "Summer 2021 - Fall 2021"
   description: "Visualization recommendation for python in notebooks using history"
 
 - name: Asad Sheikh
-  year: "Fall 2021+"
+  year: "Fall 2021 - Spring 2022"
   description: "Visualization recommendation for SQL using history"
+
+- name: Vaishnavi Gorantla
+  year: "Spring 2022+"
+  description: "Fact generation from data and presentation as text"
