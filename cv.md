@@ -20,7 +20,7 @@ I’m a Ph.D. student in the HCII at CMU advised by Dominik Moritz and Adam Pere
 </span>
 
 <span class="cv-max-width">
-My research interests lie in <b>developing interactive data science tools for both experts and non-experts</b>. I am interested in how we can help analysts understand their data through interactive visualization, recommended analysis, and models. My commonly used research methods include building stand-alone systems for data analysis, building extensions to existing tools like Jupyter, and running human studies experiments to evaluate these systems.  
+My research interests lie in <b>developing interactive, intelligent, data science tools for both experts and non-experts</b>. I am interested in how we can help analysts understand their data through interactive visualization, recommended analysis, and models. My commonly used research methods include building stand-alone systems for data analysis, building extensions to existing tools like Jupyter, and running human studies experiments to evaluate these systems.  
 </span>
 
 <div class="cv-image-links-wrapper" style="font-size: 16px; padding-bottom: 0;">
