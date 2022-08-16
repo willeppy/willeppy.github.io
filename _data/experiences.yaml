@@ -2,13 +2,14 @@
   location: "San Franciso, CA"
   position: Software Engineering Contractor
   year: "Summer 2022"
-  description: "Software engineering contractor in visualization group. "
+  description: "Designed and delivered production feature for creating dashboards by specifying fields of interest in a dataset."
   mentors:
     - Kanit Wongsuphasawat
   institution-url: https://databricks.com
   type: industry
   skills:
     - Typescript
+    - Python
 
 - institution: Microsoft Research
   location: "Redmond, WA"
