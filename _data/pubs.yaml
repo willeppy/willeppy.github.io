@@ -58,6 +58,7 @@
   type: conference
   url: /papers/reuse-ds
   pdf: /papers/reuse-sharing-DS-icse22.pdf
+  slides: /slides/ICSE22_Reuse_Sharing_Slides.pdf
   image: /images/papers/reuse-share-DS-icse22.png
   recording: https://www.youtube.com/watch?v=W4XAF2vkoCQ
   featured: true
@@ -186,7 +187,6 @@
   image: /images/papers/19-fairvis-vast.png
   demo: https://poloclub.github.io/FairVis/
   pdf: https://arxiv.org/abs/1904.05419
-  slides: /slides/19-fairvis-vast-slides.pdf
   recording: https://vimeo.com/368702211
   code: https://github.com/poloclub/FairVis
   blog: https://medium.com/@cabreraalex/fairvis-discovering-bias-in-machine-learning-using-visual-analytics-acbd362a3e2f

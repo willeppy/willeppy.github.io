@@ -28,7 +28,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/cv.pdf</loc>
-<lastmod>2022-05-30T20:16:59-04:00</lastmod>
+<lastmod>2022-08-15T23:28:16-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/papers/Solas_EuroVis22.pdf</loc>
@@ -45,5 +45,9 @@
 <url>
 <loc>http://localhost:4000/papers/reuse-sharing-DS-icse22.pdf</loc>
 <lastmod>2022-02-11T00:18:26-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/slides/ICSE22_Reuse_Sharing_Slides.pdf</loc>
+<lastmod>2022-10-27T12:17:23-04:00</lastmod>
 </url>
 </urlset>
