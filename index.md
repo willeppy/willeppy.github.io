@@ -14,11 +14,11 @@ title: Home
 		</div>
 		<div style="height: 1rem"></div>
 		<div class="intro-left">	
-			My research interests lie in <b>developing interactive data science tools for both experts and non-experts</b>. I am interested in how we can help analysts understand their data through interactive visualization, recommended analysis, and models. My commonly used research methods include building stand-alone systems for data analysis, building extensions to existing tools like Jupyter, and running human studies experiments to evaluate these systems.  
+			I build interactive tools to help data scientists better understand and make decisions with their data by automating the tedious parts of analysis and letting analysts spend more time focused on data insights. Data quality issues are often “silent” – models will still train but predictions will be inaccurate or dashboards may unknowingly present inaccurate metrics, making data understanding and debugging a critical part of analysis. My research explores how to best support <b>data debugging</b> through tools that model user interest during analysis, augment their data programming environment with automatic visualization, and support reusing previous analysis workflows.  
 		</div>
 		<div style="height: 1rem"></div>
 		<div class="intro-left">
-			I've spent time at Microsoft Research and Point72 Asset Management, and will be doing software engineering at Databricks in the summer of 2022.
+			I've spent time at Databricks, Microsoft Research, and Point72 Asset Management in various roles.
 		</div>
 	</div>
 	<div class="intro-right">

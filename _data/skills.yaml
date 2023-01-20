@@ -1,10 +1,7 @@
 - name: Python (Advanced),
   type: lang
 
-- name: Javascript/Typescript (Intermediate),
-  type: lang
-
-- name: HTML (Intermediate),
+- name: Javascript/Typescript (Advanced),
   type: lang
 
 - name: SQL (Intermediate),
@@ -15,7 +12,6 @@
 
 - name: C (Basic)
   type: lang
-
 
 - name: Pytorch,
   type: fwork

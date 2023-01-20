@@ -1,3 +1,21 @@
+- institution: Carnegie Mellon University
+  position: Graduate Teaching Assistant
+  location: "Pittsburgh, PA"
+  year: "Spring 2023"
+  class: "Programmable User Interfaces"
+  instructor: Scott Hudson
+  description: "Taught recitation, designed assignments for class about UI design and intro HTML/CSS/Javascript."
+  ta: true
+
+- institution: Carnegie Mellon University
+  position: Graduate Teaching Assistant
+  location: "Pittsburgh, PA"
+  year: "Fall 2022"
+  class: "Interactive Data Science"
+  instructor: Adam Perer and John Stamper
+  description: "Graded and office hours for class about using jupyter, visualization, steamlit and related tech for data science."
+  ta: true
+
 - institution: Georgia Institute of Technology
   position: Undergraduate Teaching Assistant
   location: "Atlanta, GA"
@@ -8,4 +26,3 @@
   institution-url: http://gatech.edu
   class-url: 
   ta: true
-
