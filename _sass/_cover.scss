@@ -1,5 +1,5 @@
 $cover-size-scalar: 30;
-$cover-height: 13.5px;
+$cover-height: 15px;
 $cover-width: 8.5px;
 
 .cover-wrapper {
@@ -72,7 +72,7 @@ $cover-width: 8.5px;
   justify-content: space-between; 
 }
 
-.cover-venue, .cover-year, .cover-links {
+.cover-venue, .cover-year, .cover-links, .cover-award {
   font-size: 0.75rem;
   padding-top: 0.5rem;
 }

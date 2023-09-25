@@ -91,6 +91,9 @@ During my PhD, I have had the pleasure of mentoring the following undergraduate 
 {% include teaching.html teach=teach %}
 {% endfor %}
 
+## Service
+{% include reviewer.html %}
+
 ## Leadership & Activities
 {% for act in site.data.activities %}
 {% include activity.html act=act %}

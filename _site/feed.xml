@@ -1,4 +1,310 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-20T13:22:01-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Will Epperson</title><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><entry><title type="html">Solas</title><link href="http://localhost:4000/papers/solas" rel="alternate" type="text/html" title="Solas" /><published>2022-04-24T00:00:00-04:00</published><updated>2022-04-24T00:00:00-04:00</updated><id>http://localhost:4000/papers/solas</id><content type="html" xml:base="http://localhost:4000/papers/solas">&lt;h1 id=&quot;leveraging-analysis-history-for-improved-in-situ-visualization-recommendation&quot;&gt;Leveraging Analysis History for Improved In Situ Visualization Recommendation&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-24T23:33:16-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Will Epperson</title><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><entry><title type="html">Autoprofiler</title><link href="http://localhost:4000/papers/autoprofiler" rel="alternate" type="text/html" title="Autoprofiler" /><published>2023-09-24T00:00:00-04:00</published><updated>2023-09-24T00:00:00-04:00</updated><id>http://localhost:4000/papers/autoprofiler</id><content type="html" xml:base="http://localhost:4000/papers/autoprofiler">&lt;h1 id=&quot;dead-or-alive-continuous-data-profiling-for-interactive-data-science&quot;&gt;Dead or Alive: Continuous Data Profiling for Interactive Data Science&lt;/h1&gt;
+&lt;p&gt;
+
+  
+    
+&lt;a href=&quot;http://www.willepperson.com&quot;&gt;Will Epperson&lt;/a&gt;,
+  
+
+  
+    
+&lt;a href=&quot;https://www.linkedin.com/in/vaishnavi-gorantla/&quot;&gt;Vaishnavi Gorantla&lt;/a&gt;,
+  
+
+  
+    
+&lt;a href=&quot;https://www.domoritz.de/&quot;&gt;Dominik Moritz&lt;/a&gt;,
+  
+
+  
+    
+&lt;a href=&quot;https://perer.org&quot;&gt;Adam Perer&lt;/a&gt;
+  
+
+&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img class=&quot;single&quot; src=&quot;/images/papers/23-autoprofiler-vis.png&quot; /&gt;
+    &lt;figcaption class=&quot;single&quot;&gt;
+      AutoProfiler is a Jupyter extension that helps data scientists understand their data and find issues during analysis through continuous data profiling.
+
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Profiling data by plotting distributions and analyzing summary statistics is a critical step throughout data analysis. Currently, this process is 
+manual and tedious since analysts must write extra code to examine their data after every transformation. This inefficiency may lead to data scientists 
+profiling their data infrequently, rather than after each transformation, making it easy for them to miss important errors or insights. We propose 
+continuous data profiling as a process that allows analysts to immediately see interactive visual summaries of their data throughout their data analysis 
+to facilitate fast and thorough analysis. Our system, AutoProfiler, presents three ways to support continuous data profiling: (1) it automatically displays 
+data distributions and summary statistics to facilitate data comprehension; (2) it is live, so visualizations are always accessible and update automatically 
+as the data updates; (3) it supports follow up analysis and documentation by authoring code for the user in the notebook. In a user study with 16 participants, 
+we evaluate two versions of our system that integrate different levels of automation: both automatically show data profiles and facilitate code authoring, 
+however, one version updates reactively (“live”) and the other updates only on demand (“dead”). We find that both tools, dead or alive, facilitate insight 
+discovery with 91% of user-generated insights originating from the tools rather than manual profiling code written by users. Participants found live updates 
+intuitive and felt it helped them verify their transformations while those with on-demand profiles liked the ability to look at past visualizations. We also 
+present a longitudinal case study on how AutoProfiler helped domain scientists find serendipitous insights about their data through automatic, live data 
+profiles. Our results have implications for the design of future tools that offer automated data analysis support.&lt;/p&gt;
+
+&lt;h2 id=&quot;citation&quot;&gt;Citation&lt;/h2&gt;
+&lt;p&gt;
+
+	&lt;strong&gt;Dead or Alive: Continuous Data Profiling for Interactive Data Science&lt;/strong&gt;
+
+
+&lt;br /&gt;
+
+
+	
+		
+&lt;a href=&quot;http://www.willepperson.com&quot;&gt;Will Epperson&lt;/a&gt;,
+	
+
+	
+		
+&lt;a href=&quot;https://www.linkedin.com/in/vaishnavi-gorantla/&quot;&gt;Vaishnavi Gorantla&lt;/a&gt;,
+	
+
+	
+		
+&lt;a href=&quot;https://www.domoritz.de/&quot;&gt;Dominik Moritz&lt;/a&gt;,
+	
+
+	
+		
+&lt;a href=&quot;https://perer.org&quot;&gt;Adam Perer&lt;/a&gt;
+	
+
+
+&lt;br /&gt;
+
+
+&lt;span class=&quot;cv-description&quot;&gt;
+	AutoProfiler is a Jupyter extension that helps data scientists understand their data and find issues during analysis through continuous data profiling.
+&lt;/span&gt;
+&lt;br /&gt;
+
+
+&lt;i&gt;VIS 23: IEEE Conference on Data Visualization (VIS). Melbourne, Australia, 2023.&lt;/i&gt;
+
+&lt;br /&gt;
+
+
+	&lt;span class=&quot;pub-misc&quot;&gt;
+
+	
+
+	
+	  &lt;a href=&quot;/papers/autoprofiler&quot;&gt;
+	    &lt;i class=&quot;fas fa-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Project
+	  &lt;/a&gt;
+	
+
+	
+
+	
+	  &lt;a href=&quot;/papers/autoprofiler-vis23.pdf&quot;&gt;
+	    &lt;i class=&quot;far fa-file-pdf&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; PDF
+	  &lt;/a&gt;
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+	  &lt;a href=&quot;https://github.com/cmudig/AutoProfiler&quot;&gt;
+	    &lt;i class=&quot;fas fa-code&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Code
+	  &lt;/a&gt;
+	
+
+	
+
+	
+
+	
+
+	
+	    &lt;span class=&quot;cv-award&quot;&gt;&lt;i class=&quot;fas fa-trophy&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Best Paper Honorable Mention&lt;/span&gt;
+	
+
+	
+	
+	&lt;/span&gt;
+
+
+
+
+&lt;/p&gt;
+
+&lt;!-- ## BibTeX
+```
+
+
+``` --&gt;</content><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><summary type="html">Dead or Alive: Continuous Data Profiling for Interactive Data Science Will Epperson, Vaishnavi Gorantla, Dominik Moritz, Adam Perer AutoProfiler is a Jupyter extension that helps data scientists understand their data and find issues during analysis through continuous data profiling. Abstract Profiling data by plotting distributions and analyzing summary statistics is a critical step throughout data analysis. Currently, this process is manual and tedious since analysts must write extra code to examine their data after every transformation. This inefficiency may lead to data scientists profiling their data infrequently, rather than after each transformation, making it easy for them to miss important errors or insights. We propose continuous data profiling as a process that allows analysts to immediately see interactive visual summaries of their data throughout their data analysis to facilitate fast and thorough analysis. Our system, AutoProfiler, presents three ways to support continuous data profiling: (1) it automatically displays data distributions and summary statistics to facilitate data comprehension; (2) it is live, so visualizations are always accessible and update automatically as the data updates; (3) it supports follow up analysis and documentation by authoring code for the user in the notebook. In a user study with 16 participants, we evaluate two versions of our system that integrate different levels of automation: both automatically show data profiles and facilitate code authoring, however, one version updates reactively (“live”) and the other updates only on demand (“dead”). We find that both tools, dead or alive, facilitate insight discovery with 91% of user-generated insights originating from the tools rather than manual profiling code written by users. Participants found live updates intuitive and felt it helped them verify their transformations while those with on-demand profiles liked the ability to look at past visualizations. We also present a longitudinal case study on how AutoProfiler helped domain scientists find serendipitous insights about their data through automatic, live data profiles. Our results have implications for the design of future tools that offer automated data analysis support. Citation Dead or Alive: Continuous Data Profiling for Interactive Data Science Will Epperson, Vaishnavi Gorantla, Dominik Moritz, Adam Perer AutoProfiler is a Jupyter extension that helps data scientists understand their data and find issues during analysis through continuous data profiling. VIS 23: IEEE Conference on Data Visualization (VIS). Melbourne, Australia, 2023. Project PDF Code Best Paper Honorable Mention</summary></entry><entry><title type="html">Quickdashboard</title><link href="http://localhost:4000/papers/quickdashboard" rel="alternate" type="text/html" title="Quickdashboard" /><published>2023-09-24T00:00:00-04:00</published><updated>2023-09-24T00:00:00-04:00</updated><id>http://localhost:4000/papers/quickdashboard</id><content type="html" xml:base="http://localhost:4000/papers/quickdashboard">&lt;h1 id=&quot;a-declarative-specification-for-authoring-metrics-dashboards&quot;&gt;A Declarative Specification for Authoring Metrics Dashboards&lt;/h1&gt;
+&lt;p&gt;
+
+  
+    
+&lt;a href=&quot;http://www.willepperson.com&quot;&gt;Will Epperson&lt;/a&gt;,
+  
+
+  
+    
+&lt;a href=&quot;https://kanitw.github.io/&quot;&gt;Kanit Wongsuphasawat&lt;/a&gt;,
+  
+
+  
+    
+&lt;a href=&quot;https://www.linkedin.com/in/allisonwhilden/&quot;&gt;Allison Whilden&lt;/a&gt;,
+  
+
+  
+    
+&lt;a href=&quot;https://www.linkedin.com/in/fandu/&quot;&gt;Fan Du&lt;/a&gt;,
+  
+
+  
+    
+&lt;a href=&quot;https://www.linkedin.com/in/justinftalbot/&quot;&gt;Justin Talbot&lt;/a&gt;
+  
+
+&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img class=&quot;single&quot; src=&quot;/images/papers/23-quickdashboard-vis.png&quot; /&gt;
+    &lt;figcaption class=&quot;single&quot;&gt;
+      Quick dashboarding presents a novel specification for dashboard authoring, comprised of sections of metrics combined with dimensions.
+
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Despite their ubiquity, authoring dashboards for metrics reporting in modern data analysis tools remains a manual, time-consuming process. 
+Rather than focusing on interesting combinations of their data, users have to spend time creating each chart in a dashboard one by one. 
+This makes dashboard creation slow and tedious. We conducted a review of production metrics dashboards and found that many dashboards contain a 
+common structure: breaking down one or more metrics by different dimensions. In response, we developed a high-level specification for describing 
+dashboards as sections of metrics repeated across the same dimensions and a graphical interface, Quick Dashboard, for authoring dashboards based on 
+this specification. We present several usage examples that demonstrate the flexibility of this specification to create various kinds of dashboards 
+and support a data-first approach to dashboard authoring.&lt;/p&gt;
+
+&lt;h2 id=&quot;citation&quot;&gt;Citation&lt;/h2&gt;
+&lt;p&gt;
+
+	&lt;strong&gt;A Declarative Specification for Authoring Metrics Dashboards&lt;/strong&gt;
+
+
+&lt;br /&gt;
+
+
+	
+		
+&lt;a href=&quot;http://www.willepperson.com&quot;&gt;Will Epperson&lt;/a&gt;,
+	
+
+	
+		
+&lt;a href=&quot;https://kanitw.github.io/&quot;&gt;Kanit Wongsuphasawat&lt;/a&gt;,
+	
+
+	
+		
+&lt;a href=&quot;https://www.linkedin.com/in/allisonwhilden/&quot;&gt;Allison Whilden&lt;/a&gt;,
+	
+
+	
+		
+&lt;a href=&quot;https://www.linkedin.com/in/fandu/&quot;&gt;Fan Du&lt;/a&gt;,
+	
+
+	
+		
+&lt;a href=&quot;https://www.linkedin.com/in/justinftalbot/&quot;&gt;Justin Talbot&lt;/a&gt;
+	
+
+
+&lt;br /&gt;
+
+
+&lt;span class=&quot;cv-description&quot;&gt;
+	Quick dashboarding presents a novel specification for dashboard authoring, comprised of sections of metrics combined with dimensions.
+&lt;/span&gt;
+&lt;br /&gt;
+
+
+&lt;i&gt;VDS at VIS 23: Visual Data Science Symposium (VDS). Melbourne, Australia, 2023.&lt;/i&gt;
+
+&lt;br /&gt;
+
+
+	&lt;span class=&quot;pub-misc&quot;&gt;
+
+	
+
+	
+	  &lt;a href=&quot;/papers/quickdashboard&quot;&gt;
+	    &lt;i class=&quot;fas fa-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Project
+	  &lt;/a&gt;
+	
+
+	
+
+	
+	  &lt;a href=&quot;/papers/quickdashboard-vds23.pdf&quot;&gt;
+	    &lt;i class=&quot;far fa-file-pdf&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; PDF
+	  &lt;/a&gt;
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+	    &lt;span class=&quot;cv-award&quot;&gt;&lt;i class=&quot;fas fa-trophy&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Best Paper&lt;/span&gt;
+	
+
+	
+	
+	&lt;/span&gt;
+
+
+
+
+&lt;/p&gt;
+
+&lt;!-- ## BibTeX
+```
+
+
+``` --&gt;</content><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><summary type="html">A Declarative Specification for Authoring Metrics Dashboards Will Epperson, Kanit Wongsuphasawat, Allison Whilden, Fan Du, Justin Talbot Quick dashboarding presents a novel specification for dashboard authoring, comprised of sections of metrics combined with dimensions. Abstract Despite their ubiquity, authoring dashboards for metrics reporting in modern data analysis tools remains a manual, time-consuming process. Rather than focusing on interesting combinations of their data, users have to spend time creating each chart in a dashboard one by one. This makes dashboard creation slow and tedious. We conducted a review of production metrics dashboards and found that many dashboards contain a common structure: breaking down one or more metrics by different dimensions. In response, we developed a high-level specification for describing dashboards as sections of metrics repeated across the same dimensions and a graphical interface, Quick Dashboard, for authoring dashboards based on this specification. We present several usage examples that demonstrate the flexibility of this specification to create various kinds of dashboards and support a data-first approach to dashboard authoring. Citation A Declarative Specification for Authoring Metrics Dashboards Will Epperson, Kanit Wongsuphasawat, Allison Whilden, Fan Du, Justin Talbot Quick dashboarding presents a novel specification for dashboard authoring, comprised of sections of metrics combined with dimensions. VDS at VIS 23: Visual Data Science Symposium (VDS). Melbourne, Australia, 2023. Project PDF Best Paper</summary></entry><entry><title type="html">Solas</title><link href="http://localhost:4000/papers/solas" rel="alternate" type="text/html" title="Solas" /><published>2022-04-24T00:00:00-04:00</published><updated>2022-04-24T00:00:00-04:00</updated><id>http://localhost:4000/papers/solas</id><content type="html" xml:base="http://localhost:4000/papers/solas">&lt;h1 id=&quot;leveraging-analysis-history-for-improved-in-situ-visualization-recommendation&quot;&gt;Leveraging Analysis History for Improved In Situ Visualization Recommendation&lt;/h1&gt;
 &lt;p&gt;
 
   
@@ -751,7 +1057,7 @@ B. The Subgroup Overview lets users select various fairness metrics to see the g
 The plots for &lt;i&gt;Recall&lt;/i&gt; and &lt;i&gt;False Positive Rate&lt;/i&gt; show that for African-American Males, the model has relatively high recall but also the highest false positive rate out of all subgroups of sex and race. 
 C. The Detailed Comparison View lets users compare the details of two groups and investigate their class balances.
 Since the difference in False Positive Rates between Caucasian Males and African-American Males is far larger than their difference in base rates, a user suspects this part of the model merits further inquiry. 
-D. The Suggested and Similar Subgroup View shows suggested subgroups ranked by the worst performance in a given metric. 
+D. The Suggested and Similar Subgroup View shows suggested subgroups ranked by the worst performance in a given metric.
 
 
     &lt;/figcaption&gt;

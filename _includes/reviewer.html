@@ -1,0 +1,10 @@
+<p>
+    Reviewer for
+    {% for r in site.data.reviewer %}
+    {% if forloop.last == false %}
+    {{ r.conference}} {{r.year}},
+    {% else if forloop.last == true %}
+    {{ r.conference}} {{r.year}}.
+    {% endif %}
+    {% endfor %}
+</p>

@@ -18,7 +18,7 @@ title: Home
 		</div>
 		<div style="height: 1rem"></div>
 		<div class="intro-left">
-			I've spent time at Databricks, Microsoft Research, and Point72 Asset Management in various roles.
+			I've previously worked at Databricks, Microsoft Research, and Point72 Asset Management.
 		</div>
 	</div>
 	<div class="intro-right">
@@ -39,11 +39,10 @@ title: Home
 				{% endif %}
 			{% endfor %}
 
-		</div>
-	</div>
+    	</div>
+    </div>
+
 </div>
-
-
 
 <hr class="l-middle home-hr">
 
