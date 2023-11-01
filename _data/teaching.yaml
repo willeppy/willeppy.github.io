@@ -4,7 +4,7 @@
   year: "Spring 2023"
   class: "Programmable User Interfaces"
   instructor: Scott Hudson
-  description: "Taught recitation, designed assignments for class about UI design and intro HTML/CSS/Javascript."
+  description: "Taught recitation, designed assignments for class about UI design and intro HTML, CSS, & Javascript."
   ta: true
 
 - institution: Carnegie Mellon University
@@ -24,5 +24,5 @@
   instructor: Monica Sweat
   description: "Designed projects, held office hours and graded for relational databases class."
   institution-url: http://gatech.edu
-  class-url: 
+  class-url:
   ta: true

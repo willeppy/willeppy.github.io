@@ -1,3 +1,13 @@
+- title: "Dead or Alive: Continuous Data Profiling for Interactive Data Science"
+  location: "VIS 23: IEEE Visualization Conference"
+  month: "October"
+  year: 2023
+
+- title: "A Declarative Specification for Authoring Metrics Dashboards"
+  location: "VDS at VIS 23: Visual Data Science Symposium"
+  month: "October"
+  year: 2023
+
 - title: "Leveraging Analysis History for Improved In Situ Visualization Recommendation"
   location: "EuroVis 22: Eurographics Conference on Visualization"
   month: "June"
@@ -10,5 +20,5 @@
 
 - title: "FairVis"
   location: "VIS 19: IEEE Visualization Conference"
-  month: "May"
+  month: "October"
   year: 2019
