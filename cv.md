@@ -15,13 +15,13 @@ jsarr:
 <!-- <span class="cv-subtitle">
 </span> -->
 
-<span class="cv-max-width">
+<!-- <span class="cv-max-width">
 I’m a Ph.D. student in the HCII at CMU advised by Dominik Moritz and Adam Perer.
 </span>
 
 <span class="cv-max-width">
 I build interactive tools to help data scientists better understand and make decisions with their data by automating the tedious parts of analysis and letting analysts spend more time focused on data insights. Data quality issues are often “silent” – models will still train but predictions will be inaccurate or dashboards may unknowingly present inaccurate metrics, making data understanding and debugging a critical part of analysis. My research explores how to best support data debugging through tools that model user interest during analysis, augment their data programming environment with automatic visualization, and support reusing previous analysis workflows.
-</span>
+</span> -->
 
 <div class="cv-image-links-wrapper" style="font-size: 16px;">
 	<div class="cv-image-links">

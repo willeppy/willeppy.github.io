@@ -1,3 +1,26 @@
+- id: guidedstats
+  title: "Guided Statistical Workflows with Interactive Explanations and Assumption Checking"
+  authors:
+    - Yuqi Zhang
+    - Adam Perer
+    - Will Epperson
+  venue: "VIS 24: IEEE Conference on Data Visualization Short Papers (to appear)"
+  venue-shorthand: VIS
+  # location: Melbourne, Australia
+  year: 2023
+  type: conference
+  # url: /papers/guidedstats
+  # pdf: /papers/autoprofiler-vis23.pdf
+  # image: /images/papers/23-autoprofiler-vis.png
+  # code: https://github.com/cmudig/AutoProfiler
+  featured: false
+  feature-order: 1
+  feature-title: "GuidedStats"
+  summary: "GuidedStats is a Jupyter extension that helps data scientists perform statistical analyses with guided workflows."
+  # caption: "AutoProfiler is a Jupyter extension that helps data scientists understand their data and find issues during analysis through continuous data profiling."
+  abstract: |
+    TODO
+
 - id: autoprofiler
   title: "Dead or Alive: Continuous Data Profiling for Interactive Data Science"
   authors:
