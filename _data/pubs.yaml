@@ -10,7 +10,7 @@
   year: 2024
   type: conference
   url: /papers/guidedstats
-  pdf: /papers/guided-stats-vis24.pdf
+  pdf: /papers/guidedstats_vis24.pdf
   image: /images/papers/24-guidedstats.png
   code: https://github.com/cmudig/GuidedStats
   featured: true

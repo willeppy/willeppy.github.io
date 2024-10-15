@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-15T17:44:49-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Will Epperson</title><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><entry><title type="html">Guidedstats</title><link href="http://localhost:4000/papers/guidedstats" rel="alternate" type="text/html" title="Guidedstats" /><published>2024-10-15T00:00:00-04:00</published><updated>2024-10-15T00:00:00-04:00</updated><id>http://localhost:4000/papers/guidedstats</id><content type="html" xml:base="http://localhost:4000/papers/guidedstats">&lt;h1 id=&quot;guided-statistical-workflows-with-interactive-explanations-and-assumption-checking&quot;&gt;Guided Statistical Workflows with Interactive Explanations and Assumption Checking&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-15T17:53:05-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Will Epperson</title><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><entry><title type="html">Guidedstats</title><link href="http://localhost:4000/papers/guidedstats" rel="alternate" type="text/html" title="Guidedstats" /><published>2024-10-15T00:00:00-04:00</published><updated>2024-10-15T00:00:00-04:00</updated><id>http://localhost:4000/papers/guidedstats</id><content type="html" xml:base="http://localhost:4000/papers/guidedstats">&lt;h1 id=&quot;guided-statistical-workflows-with-interactive-explanations-and-assumption-checking&quot;&gt;Guided Statistical Workflows with Interactive Explanations and Assumption Checking&lt;/h1&gt;
 &lt;p&gt;
 
   
@@ -81,7 +81,7 @@
 	
 
 	
-	  &lt;a href=&quot;/papers/guided-stats-vis24.pdf&quot;&gt;
+	  &lt;a href=&quot;/papers/guidedstats_vis24.pdf&quot;&gt;
 	    &lt;i class=&quot;far fa-file-pdf&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; PDF
 	  &lt;/a&gt;
 	
