@@ -4,22 +4,22 @@
     - Yuqi Zhang
     - Adam Perer
     - Will Epperson
-  venue: "VIS 24: IEEE Conference on Data Visualization Short Papers (to appear)"
+  venue: "VIS 24: IEEE Conference on Data Visualization"
   venue-shorthand: VIS
-  # location: Melbourne, Australia
-  year: 2023
+  location: St Pete Beach, Florida
+  year: 2024
   type: conference
-  # url: /papers/guidedstats
-  # pdf: /papers/autoprofiler-vis23.pdf
-  # image: /images/papers/23-autoprofiler-vis.png
-  # code: https://github.com/cmudig/AutoProfiler
-  featured: false
+  url: /papers/guidedstats
+  pdf: /papers/guided-stats-vis24.pdf
+  image: /images/papers/24-guidedstats.png
+  code: https://github.com/cmudig/GuidedStats
+  featured: true
   feature-order: 1
   feature-title: "GuidedStats"
   summary: "GuidedStats is a Jupyter extension that helps data scientists perform statistical analyses with guided workflows."
-  # caption: "AutoProfiler is a Jupyter extension that helps data scientists understand their data and find issues during analysis through continuous data profiling."
+  caption: "GuidedStats is a Jupyter extension that helps data scientists perform statistical analyses with guided workflows."
   abstract: |
-    TODO
+    Statistical practices such as building regression models or running hypothesis tests rely on following rigorous procedures of steps and verifying assumptions on data to produce valid results. However, common statistical tools do not verify users' decision choices and provide low-level statistical functions without instructions on the whole analysis practice. Users can easily misuse analysis methods, potentially decreasing the validity of results. To address this problem, we introduce GuidedStats, an interactive interface within computational notebooks that encapsulates guidance, models, visualization, and exportable results into interactive workflows. It breaks down typical analysis processes, such as linear regression and two-sample T-tests, into interactive steps supplemented with automatic visualizations and explanations for step-wise evaluation. Users can iterate on input choices to refine their models, while recommended actions and exports allow the user to continue their analysis in code. Case studies show how GuidedStats offers valuable instructions for conducting fluid statistical analyses while finding possible assumption violations in the underlying data, supporting flexible and accurate statistical analyses.
 
 - id: autoprofiler
   title: "Dead or Alive: Continuous Data Profiling for Interactive Data Science"
@@ -39,7 +39,7 @@
   image: /images/papers/23-autoprofiler-vis.png
   code: https://github.com/cmudig/AutoProfiler
   featured: true
-  feature-order: 1
+  feature-order: 2
   feature-title: "AutoProfiler"
   summary: "AutoProfiler is a Jupyter extension that helps data scientists understand their data and find issues during analysis through continuous data profiling."
   caption: "AutoProfiler is a Jupyter extension that helps data scientists understand their data and find issues during analysis through continuous data profiling."
@@ -76,7 +76,7 @@
   pdf: /papers/quickdashboard-vds23.pdf
   image: /images/papers/23-quickdashboard-vis.png
   featured: true
-  feature-order: 2
+  feature-order: 3
   feature-title: "Quick Dashboard"
   summary: "Quick dashboarding presents a novel specification for dashboard authoring, comprised of sections of metrics combined with dimensions."
   caption: "Quick dashboarding presents a novel specification for dashboard authoring, comprised of sections of metrics combined with dimensions."
@@ -108,7 +108,7 @@
   pdf: /papers/Solas_EuroVis22.pdf
   image: /images/papers/solas-eurovis22.png
   code: https://github.com/cmudig/solas
-  featured: true
+  featured: false
   feature-order: 3
   feature-title: "Leveraging Analysis History for Improved In Situ Visualization Recommendation"
   summary: "Solas is a visualization recommendation tool that uses the history of analysis for in situ recommendations in Jupyter."
@@ -152,7 +152,7 @@
   slides: /slides/ICSE22_Reuse_Sharing_Slides.pdf
   image: /images/papers/reuse-share-DS-icse22.png
   recording: https://www.youtube.com/watch?v=W4XAF2vkoCQ
-  featured: true
+  featured: false
   feature-order: 4
   feature-title: Strategies for Reuse and Sharing in Data Science
   summary: "Interviews and a survey with 149 data scientists at Microsoft revealed five distinct strategies for sharing and reusing analysis code along with factors that encourage or discourage reuse."

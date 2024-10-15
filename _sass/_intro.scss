@@ -69,6 +69,16 @@ $cv-icon-aspect-ratio: 1.33;
 	font-size: 1rem !important;
 }
 
+.title-callout {
+	// background-color: $main-light-bg;
+	// border: 2px solid $moon-gray;
+	border: 2px solid $main-light-bg;
+	padding: 1rem;
+	font-size: 1rem !important;
+	// font-weight: 600;
+	border-radius: 1rem;
+}
+
 #intro-cv > a {
 	color: $text-color;
 }

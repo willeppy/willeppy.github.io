@@ -48,6 +48,22 @@ I build interactive tools to help data scientists better understand and make dec
 {% include degree.html degree=degree %}
 {% endfor %}
 
+## Research Experience
+
+{% for experience in site.data.experiences %}
+{% if experience.type == "academic"%}
+{% include experience.html experience=experience %}
+{% endif %}
+{% endfor %}
+
+## Industry Experience
+
+{% for experience in site.data.experiences %}
+{% if experience.type == "industry"%}
+{% include experience.html experience=experience %}
+{% endif %}
+{% endfor %}
+
 ## Publications
 
 {% assign selectedBoolForBibtex = true %}
@@ -66,22 +82,6 @@ I build interactive tools to help data scientists better understand and make dec
 
 {% for award in site.data.awards %}
 {% include award.html award=award %}
-{% endfor %}
-
-## Research Experience
-
-{% for experience in site.data.experiences %}
-{% if experience.type == "academic"%}
-{% include experience.html experience=experience %}
-{% endif %}
-{% endfor %}
-
-## Industry Experience
-
-{% for experience in site.data.experiences %}
-{% if experience.type == "industry"%}
-{% include experience.html experience=experience %}
-{% endif %}
 {% endfor %}
 
 ## Mentees
