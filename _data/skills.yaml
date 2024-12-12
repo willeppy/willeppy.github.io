@@ -4,14 +4,14 @@
 - name: Javascript/Typescript (Advanced),
   type: lang
 
-- name: SQL (Intermediate),
+- name: SQL (Intermediate)
   type: lang
 
-- name: Java (Intermediate),
-  type: lang
+- name: Svelte,
+  type: fwork
 
-- name: C (Basic)
-  type: lang
+- name: React,
+  type: fwork
 
 - name: Pytorch,
   type: fwork
@@ -25,21 +25,8 @@
 - name: VegaLite,
   type: fwork
 
-- name: D3,
+- name: D3
   type: fwork
-
-- name: Tableau,
-  type: fwork
-
-- name: MacOS,
-  type: fwork
-
-- name: Windows,
-  type: fwork
-
-- name: Linux
-  type: fwork
-
 
 - name: English (Native),
   type: flang

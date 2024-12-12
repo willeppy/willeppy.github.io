@@ -1,17 +1,23 @@
-- conference: VIS 
+- conference: CHI
+  year: 2025
+
+- conference: VIS
+  year: 2024
+
+- conference: VIS
   year: 2023
 
-- conference: CHI 
+- conference: CHI
   year: 2023
 
-- conference: VIS 
+- conference: VIS
   year: 2022
 
-- conference: CHI 
+- conference: CHI
   year: 2022
 
-- conference: CSCW 
+- conference: CSCW
   year: 2021
 
-- conference: VIS 
+- conference: VIS
   year: 2021

@@ -15,13 +15,9 @@ jsarr:
 <!-- <span class="cv-subtitle">
 </span> -->
 
-<!-- <span class="cv-max-width">
-I’m a Ph.D. student in the HCII at CMU advised by Dominik Moritz and Adam Perer.
-</span>
-
 <span class="cv-max-width">
-I build interactive tools to help data scientists better understand and make decisions with their data by automating the tedious parts of analysis and letting analysts spend more time focused on data insights. Data quality issues are often “silent” – models will still train but predictions will be inaccurate or dashboards may unknowingly present inaccurate metrics, making data understanding and debugging a critical part of analysis. My research explores how to best support data debugging through tools that model user interest during analysis, augment their data programming environment with automatic visualization, and support reusing previous analysis workflows.
-</span> -->
+I am a Ph.D. student in Human-Computer Interaction at Carnegie Mellon University, where I design and develop systems for Visual Data Debugging. Data is the foundation of recent AI advancements and data-driven decision-making, yet while we have powerful tools to debug code, data debugging remains underdeveloped. My research addresses this gap by creating systems that provide rapid, interactive overviews of datasets and streamline data exploration during programming. My work has been published at top-tier venues such as CHI and IEEE VIS, and my open-source tools are used by data scientists to support their workflows.
+</span>
 
 <div class="cv-image-links-wrapper" style="font-size: 16px;">
 	<div class="cv-image-links">

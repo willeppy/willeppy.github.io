@@ -1,3 +1,54 @@
+# - id: texture
+#   title: "Texture: A General Purpose Data Model and UI for Visualization and Selections over Text Corpora"
+#   authors:
+#     - Will Epperson
+#     - Dominik Moritz
+#     - Adam Perer
+#   venue: "Ongoing Project"
+#   coming-soon: true
+#   venue-shorthand:
+#   location:
+#   year: 2024
+#   type: conference
+#   url:
+#   pdf:
+#   image:
+#   code: https://github.com/cmudig/Texture
+#   featured: false
+#   feature-order: 1
+#   feature-title: "Texture"
+#   summary: "Texture is an ongoing project that provides a general purpose text visualization tool and interactions for using LLMs to derive data from text."
+#   caption: "Texture is an ongoing project that provides a general purpose text visualization tool and interactions for using LLMs to derive data from text."
+#   abstract: TODO
+
+# - id: agexplore
+#   title: "Interactive Debugging and Steering of Multi-Agent AI Systems"
+#   authors:
+#     - Will Epperson
+#     - Gagan Bansal
+#     - Victor Dibia
+#     - Adam Fourney
+#     - Jack Gerrits
+#     - Erkang Zhu
+#     - Saleema Amershi
+#   venue: CHI (Under Review)
+#   venue-shorthand:
+#   location:
+#   coming-soon: true
+#   year: 2025
+#   type: conference
+#   url:
+#   pdf:
+#   image:
+#   code:
+#   featured: false
+#   feature-order: 1
+#   feature-title: "AgExplore"
+#   summary: "Interactive debugging tool for multi-agent systems with ability to reset to earlier state and user study on how users interact with the tool."
+#   caption: "Interactive debugging tool for multi-agent systems with ability to reset to earlier state and user study on how users interact with the tool.."
+#   abstract: |
+#     TODO
+
 - id: guidedstats
   title: "Guided Statistical Workflows with Interactive Explanations and Assumption Checking"
   authors:

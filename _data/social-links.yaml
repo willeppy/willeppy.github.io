@@ -44,15 +44,15 @@
   class: "fa fa-graduation-cap icon"
   url: " https://www.linkedin.com/in/willepperson/"
   on-homepage: true
-  cv-group: 2
-
-- id: cv
-  description: CV PDF
-  color: "#ba2818"
-  class: "far fa-file-pdf icon"
-  url: "https://www.willepperson.com/cv.pdf"
-  on-homepage: false
   cv-group: 1
+
+# - id: cv
+#   description: CV PDF
+#   color: "#ba2818"
+#   class: "far fa-file-pdf icon"
+#   url: "https://www.willepperson.com/cv.pdf"
+#   on-homepage: false
+#   cv-group: 1
 
 - id: cv-web
   description: Here's my CV
