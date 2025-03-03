@@ -16,7 +16,7 @@ jsarr:
 </span> -->
 
 <span class="cv-max-width">
-I am a Ph.D. student in Human-Computer Interaction at Carnegie Mellon University, where I design and develop systems for Visual Data Debugging. Data is the foundation of recent AI advancements and data-driven decision-making, yet while we have powerful tools to debug code, data debugging remains underdeveloped. My research addresses this gap by creating systems that provide rapid, interactive overviews of datasets and streamline data exploration during programming. My work has been published at top-tier venues such as CHI and IEEE VIS, and my open-source tools are used by data scientists to support their workflows.
+I am a Ph.D. candidate in Human-Computer Interaction at Carnegie Mellon University, where I design and develop systems for automatic data understanding while programming. Data is the foundation of recent AI advancements and data-driven decision-making, yet while we have powerful tools to debug code, Making sense of data remains manual and challenging. My research addresses this gap by creating systems that provide rapid, interactive overviews of datasets and streamline data exploration during programming across both structured and unstructured datasets. My work has been published at top-tier venues such as CHI and IEEE VIS, and my open-source tools are used by data scientists to support their workflows.
 </span>
 
 <div class="cv-image-links-wrapper" style="font-size: 16px;">

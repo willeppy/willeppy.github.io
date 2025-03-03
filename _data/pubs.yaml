@@ -1,53 +1,53 @@
-# - id: texture
-#   title: "Texture: A General Purpose Data Model and UI for Visualization and Selections over Text Corpora"
-#   authors:
-#     - Will Epperson
-#     - Dominik Moritz
-#     - Adam Perer
-#   venue: "Ongoing Project"
-#   coming-soon: true
-#   venue-shorthand:
-#   location:
-#   year: 2024
-#   type: conference
-#   url:
-#   pdf:
-#   image:
-#   code: https://github.com/cmudig/Texture
-#   featured: false
-#   feature-order: 1
-#   feature-title: "Texture"
-#   summary: "Texture is an ongoing project that provides a general purpose text visualization tool and interactions for using LLMs to derive data from text."
-#   caption: "Texture is an ongoing project that provides a general purpose text visualization tool and interactions for using LLMs to derive data from text."
-#   abstract: TODO
+- id: texture
+  title: "Texture: A General Purpose Data Model and UI for Visualization and Selections over Text Corpora"
+  authors:
+    - Will Epperson
+    - Dominik Moritz
+    - Adam Perer
+  venue: "Ongoing Project"
+  coming-soon: true
+  venue-shorthand:
+  location:
+  year: 2025
+  type: conference
+  url:
+  pdf:
+  image: /images/papers/25-texture.png
+  code: https://github.com/cmudig/Texture
+  featured: true
+  feature-order: 2
+  feature-title: "Texture"
+  summary: "Texture is an ongoing project that provides a general purpose text visualization tool and interactions for using LLMs to derive data from text."
+  caption: "Texture is an ongoing project that provides a general purpose text visualization tool and interactions for using LLMs to derive data from text."
+  abstract: ""
 
-# - id: agexplore
-#   title: "Interactive Debugging and Steering of Multi-Agent AI Systems"
-#   authors:
-#     - Will Epperson
-#     - Gagan Bansal
-#     - Victor Dibia
-#     - Adam Fourney
-#     - Jack Gerrits
-#     - Erkang Zhu
-#     - Saleema Amershi
-#   venue: CHI (Under Review)
-#   venue-shorthand:
-#   location:
-#   coming-soon: true
-#   year: 2025
-#   type: conference
-#   url:
-#   pdf:
-#   image:
-#   code:
-#   featured: false
-#   feature-order: 1
-#   feature-title: "AgExplore"
-#   summary: "Interactive debugging tool for multi-agent systems with ability to reset to earlier state and user study on how users interact with the tool."
-#   caption: "Interactive debugging tool for multi-agent systems with ability to reset to earlier state and user study on how users interact with the tool.."
-#   abstract: |
-#     TODO
+- id: agdebugger
+  title: "Interactive Debugging and Steering of Multi-Agent AI Systems"
+  authors:
+    - Will Epperson
+    - Gagan Bansal
+    - Victor Dibia
+    - Adam Fourney
+    - Jack Gerrits
+    - Erkang Zhu
+    - Saleema Amershi
+  venue: "2025 CHI Conference on Human Factors in Computing Systems"
+  venue-shorthand: CHI
+  location: Yokohama, Japan
+  coming-soon: false
+  year: 2025
+  type: conference
+  url: /papers/agdebugger
+  pdf: /papers/agdebugger-chi25.pdf
+  image: /images/papers/25-agdebugger.png
+  code: https://github.com/microsoft/agdebugger
+  featured: true
+  feature-order: 1
+  feature-title: "AGDebugger"
+  summary: "AGDebugger is an interactive debugging tool multi-agent AI systems that supports interactively sending messages to agents and resetting to earlier points in the workflow."
+  caption: "AGDebugger is an interactive debugging tool multi-agent AI systems that supports interactively sending messages to agents and resetting to earlier points in the workflow."
+  abstract: |
+    Fully autonomous teams of LLM-powered AI agents are emerging that collaborate to perform complex tasks for users. What challenges do developers face when trying to build and debug these AI agent teams? In formative interviews with five AI agent developers, we identify core challenges: difficulty reviewing long agent conversations to localize errors, lack of support in current tools for interactive debugging, and the need for tool support to iterate on agent configuration. Based on these needs, we developed an interactive multi-agent debugging tool, AGDebugger, with a UI for browsing and sending messages, the ability to edit and reset prior agent messages, and an overview visualization for navigating complex message histories. In a two-part user study with 14 participants, we identify common user strategies for steering agents and highlight the importance of interactive message resets for debugging. Our studies deepen understanding of interfaces for debugging increasingly important agentic workflows.
 
 - id: guidedstats
   title: "Guided Statistical Workflows with Interactive Explanations and Assumption Checking"
@@ -64,8 +64,8 @@
   pdf: /papers/guidedstats_vis24.pdf
   image: /images/papers/24-guidedstats.png
   code: https://github.com/cmudig/GuidedStats
-  featured: true
-  feature-order: 1
+  featured: false
+  feature-order: 3
   feature-title: "GuidedStats"
   summary: "GuidedStats is a Jupyter extension that helps data scientists perform statistical analyses with guided workflows."
   caption: "GuidedStats is a Jupyter extension that helps data scientists perform statistical analyses with guided workflows."
@@ -90,7 +90,7 @@
   image: /images/papers/23-autoprofiler-vis.png
   code: https://github.com/cmudig/AutoProfiler
   featured: true
-  feature-order: 2
+  feature-order: 3
   feature-title: "AutoProfiler"
   summary: "AutoProfiler is a Jupyter extension that helps data scientists understand their data and find issues during analysis through continuous data profiling."
   caption: "AutoProfiler is a Jupyter extension that helps data scientists understand their data and find issues during analysis through continuous data profiling."
@@ -126,7 +126,7 @@
   url: /papers/quickdashboard
   pdf: /papers/quickdashboard-vds23.pdf
   image: /images/papers/23-quickdashboard-vis.png
-  featured: true
+  featured: false
   feature-order: 3
   feature-title: "Quick Dashboard"
   summary: "Quick dashboarding presents a novel specification for dashboard authoring, comprised of sections of metrics combined with dimensions."
@@ -157,7 +157,7 @@
   type: conference
   url: /papers/solas
   pdf: /papers/Solas_EuroVis22.pdf
-  image: /images/papers/solas-eurovis22.png
+  image: /images/papers/22-solas-eurovis.png
   code: https://github.com/cmudig/solas
   featured: false
   feature-order: 3
@@ -201,7 +201,7 @@
   url: /papers/reuse-ds
   pdf: /papers/reuse-sharing-DS-icse22.pdf
   slides: /slides/ICSE22_Reuse_Sharing_Slides.pdf
-  image: /images/papers/reuse-share-DS-icse22.png
+  image: /images/papers/22-reuse-share-DS-icse.png
   recording: https://www.youtube.com/watch?v=W4XAF2vkoCQ
   featured: false
   feature-order: 4
@@ -241,7 +241,7 @@
   type: conference
   url: /papers/ditl
   pdf: /papers/ditl-chi22.pdf
-  image: /images/papers/ditl-chi22.png
+  image: /images/papers/22-ditl-chi.png
   featured: false
   feature-order: 3
   feature-title: Diff in the Loop
