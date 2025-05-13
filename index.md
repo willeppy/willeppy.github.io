@@ -9,16 +9,16 @@ title: Home
 	</div>
 	<div class="intro-left">
 		<div class="intro-left">
-			I am a PhD student in the Human Computer Interaction Institute at Carnegie Mellon University. I work in the <a href="https://dig.cmu.edu"> DIG </a> research group and am advised by <a href="https://www.domoritz.de">Dominik Moritz</a> and <a href="https://perer.org">Adam Perer</a>.
+			I am a PhD candidate in the Human Computer Interaction Institute at Carnegie Mellon University. I work in the <a href="https://dig.cmu.edu"> DIG </a> research group and am advised by <a href="https://www.domoritz.de">Dominik Moritz</a> and <a href="https://perer.org">Adam Perer</a>.
 			<!-- I did my undergrad at Georgia Tech where I studied Computer Science and researched intersectional ML model errors with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a>. -->
 		</div>
 		<div style="height: 1rem"></div>
 		<div class="intro-left">	
-			My research focuses on building tools to make it easier to work with data. I build interactive systems that offer rapid feedback and intelligent assistance to users, helping users quickly profile and make sense of both structured and unstructured datasets. My work spans the full lifecycle of system development including design, development, and evaluation. 
+			My research focuses on developing interactive systems that help AI developers and data scientists better understand their data, with the goal of enabling more usable AI systems and trustworthy decision-making. Drawing on techniques from data visualization and human-computer interaction, I builds tools that allow users to more quickly explore their datasets, identify data quality issues, and streamline work with tabular data, text, and multi-agent AI workflows. My work has led to open-source tools adopted by the Python community and scientists, with publications and awards at venues such as VIS, EuroVis, and CHI.
 		</div>
 		<div style="height: 1rem"></div>
 		<div class="intro-left">
-			I've previously worked at Databricks, Microsoft Research, and Point72 Asset Management.
+			I've previously interned at Databricks, Microsoft Research, and Point72 Asset Management.
 		</div>
 		<div style="height: 1rem"></div>
 		<div class="intro-left title-callout">

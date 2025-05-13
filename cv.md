@@ -16,7 +16,7 @@ jsarr:
 </span> -->
 
 <span class="cv-max-width">
-I am a Ph.D. candidate in Human-Computer Interaction at Carnegie Mellon University, where I design and develop systems for automatic data understanding while programming. Data is the foundation of recent AI advancements and data-driven decision-making, yet while we have powerful tools to debug code, Making sense of data remains manual and challenging. My research addresses this gap by creating systems that provide rapid, interactive overviews of datasets and streamline data exploration during programming across both structured and unstructured datasets. My work has been published at top-tier venues such as CHI and IEEE VIS, and my open-source tools are used by data scientists to support their workflows.
+I am a PhD candidate in Human-Computer Interaction at Carnegie Mellon University. My research focuses on developing interactive systems that help AI developers and data scientists better understand their data, with the goal of enabling more usable AI systems and trustworthy decision-making. Drawing on techniques from data visualization and human-computer interaction, I builds tools that allow users to more quickly explore their datasets, identify data quality issues, and streamline work with tabular data, text, and multi-agent AI workflows. My work has led to open-source tools adopted by the Python community and scientists, with publications and awards at venues such as VIS, EuroVis, and CHI.
 </span>
 
 <div class="cv-image-links-wrapper" style="font-size: 16px;">
