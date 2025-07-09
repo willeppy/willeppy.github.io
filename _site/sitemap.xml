@@ -45,6 +45,10 @@
 <lastmod>2025-05-13T00:00:00-04:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/papers/thesis</loc>
+<lastmod>2025-06-03T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/cv/</loc>
 </url>
 <url>
@@ -52,7 +56,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/cv.pdf</loc>
-<lastmod>2025-05-13T11:35:53-04:00</lastmod>
+<lastmod>2025-07-09T15:01:46-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/papers/Solas_EuroVis22.pdf</loc>
@@ -92,6 +96,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/thesis.pdf</loc>
-<lastmod>2025-05-20T18:06:12-04:00</lastmod>
+<lastmod>2025-06-27T20:04:44-04:00</lastmod>
 </url>
 </urlset>

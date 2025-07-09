@@ -1,5 +1,21 @@
 - institution: Microsoft Research
   location: "Redmond, WA"
+  position: Senior Software Engineer
+  group: AI Frontiers
+  year: "August 2025 - Present"
+  description: "Research engineer working on AI agents in applied research group."
+  # mentors:
+  #   - Gagan Bansal
+  #   - Victor Dibia
+  institution-url: https://www.microsoft.com/en-us/research/
+  group-url: https://www.microsoft.com/en-us/research/group/hax-team/
+  type: industry
+  # skills:
+  #   - Python
+  #   - Typescript
+
+- institution: Microsoft Research
+  location: "Redmond, WA"
   position: Research Intern
   group: AI Frontiers - HAX Group
   year: "Summer 2024"
@@ -47,7 +63,7 @@
   location: "Pittsburgh, PA"
   position: Graduate Researcher
   group: Data Interaction Group (DIG)
-  year: "August 2020 - Present"
+  year: "August 2020 - June 2025"
   description: "Member of the DIG research group, working on novel data visualizations, ML interpretation techniques, and interactive data systems."
   mentors:
     - Dominik Moritz

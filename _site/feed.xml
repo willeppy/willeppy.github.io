@@ -1,43 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-20T18:13:39-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Will Epperson</title><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><entry><title type="html">Overreliance</title><link href="http://localhost:4000/papers/overreliance" rel="alternate" type="text/html" title="Overreliance" /><published>2025-05-13T00:00:00-04:00</published><updated>2025-05-13T00:00:00-04:00</updated><id>http://localhost:4000/papers/overreliance</id><content type="html" xml:base="http://localhost:4000/papers/overreliance">&lt;h1 id=&quot;over-relying-on-reliance-towards-realistic-evaluations-of-ai-based-clinical-decision-support&quot;&gt;Over-Relying on Reliance: Towards Realistic Evaluations of AI-Based Clinical Decision Support&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-09T15:01:46-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Will Epperson</title><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><entry><title type="html">Thesis</title><link href="http://localhost:4000/papers/thesis" rel="alternate" type="text/html" title="Thesis" /><published>2025-06-03T00:00:00-04:00</published><updated>2025-06-03T00:00:00-04:00</updated><id>http://localhost:4000/papers/thesis</id><content type="html" xml:base="http://localhost:4000/papers/thesis">&lt;h1 id=&quot;interactive-data-profiling&quot;&gt;Interactive Data Profiling&lt;/h1&gt;
 &lt;p&gt;
 
   
     
-&lt;a href=&quot;https://venkatesh-sivaraman.github.io/&quot;&gt;Venkatesh Sivaraman&lt;/a&gt;,
-  
-
-  
-    
-&lt;a href=&quot;https://katelyn98.github.io/&quot;&gt;Katelyn Morrison&lt;/a&gt;,
-  
-
-  
-    
-&lt;a href=&quot;http://www.willepperson.com&quot;&gt;Will Epperson&lt;/a&gt;,
-  
-
-  
-    
-&lt;a href=&quot;https://perer.org&quot;&gt;Adam Perer&lt;/a&gt;
+&lt;a href=&quot;http://www.willepperson.com&quot;&gt;Will Epperson&lt;/a&gt;
   
 
 &lt;/p&gt;
 
 &lt;figure&gt;
-    &lt;img class=&quot;single&quot; src=&quot;/images/papers/25-overreliance.png&quot; /&gt;
+    &lt;img class=&quot;single&quot; src=&quot;/images/papers/25-thesis-teaser.png&quot; /&gt;
     &lt;figcaption class=&quot;single&quot;&gt;
-      We discuss how evaluations of human-AI decision support systems can move beyond reliance as the primary metric.
+      An overview of the systems in my PhD thesis on Interactive Data Profiling.
 
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;As AI-based clinical decision support (AI-CDS) is introduced in more and more aspects of healthcare services, HCI research plays an increasingly important role in designing for complementarity between AI and clinicians. However, current evaluations of AI-CDS often fail to capture when AI is and is not useful to clinicians. This position paper reflects on our work and influential AI-CDS literature to advocate for moving beyond evaluation metrics like Trust, Reliance, Acceptance, and Performance on the AI’s task (what we term the “trap” of human-AI collaboration). Although these metrics can be meaningful in some simple scenarios, we argue that optimizing for them ignores important ways that AI falls short of clinical benefit, as well as ways that clinicians successfully use AI. As the fields of HCI and AI in healthcare develop new ways to design and evaluate CDS tools, we call on the community to prioritize ecologically valid, domain-appropriate study setups that measure the emergent forms of value that AI can bring to healthcare professionals.&lt;/p&gt;
+&lt;p&gt;Data has been a key driver behind recent advances in science, engineering, and artificial intelligence. As datasets have grown larger and more complex, the primary bottleneck has shifted from access to data towards the human effort required to interpret it. Human expertise is essential to understand datasets, however generating this understanding during analysis remains a time-consuming and manual process. Many AI modeling failures are, at their core, data problems—issues that might have been addressed earlier with better tools for understanding the data. Data visualization facilitates understanding through visual representations, however existing approaches to visual data exploration introduce friction that slows users down, requiring manually defining charts and interactions through code or context switching to a new analysis tool. How can we build flexible and lightweight systems to help people more quickly understand their data?&lt;/p&gt;
+
+&lt;p&gt;This thesis develops systems for Interactive Data Profiling that accelerate data exploration through a fast feedback loop between interactive interfaces and data programming workflows. We first motivate this problem through a large-scale interview study and survey of data scientists that reveals the potential for tools to help users manage the repetitive code used for data profiling. We then discuss the design, implementation, and evaluation of three systems that develop the approach of interactive data profiling. First, we describe AutoProfiler, a system that augments programming environments with automatic data profiles that show summaries of the data in memory and update as a user programs. We then extend this approach with Solas which tracks the history of a user’s analysis code to create data profiles adapted to the current task and user interest. User evaluations demonstrate how the lightweight visualizations and fast feedback loops enabled by these systems help users quickly identify important patterns and data quality issues. Finally, we present Texture, a general-purpose text exploration tool that enables users to iterate on attributes for describing their text and then explore results in the interactive UI. Expert user studies show how Texture enables more efficient exploration and helps users uncover new insights from their text datasets.&lt;/p&gt;
+
+&lt;p&gt;Together, these tools establish how to situate interactive data profiling within data science workflows to enable a fast feedback loop between manipulating data and inspecting the results. As data remains an increasingly important component of modern work, interactive data profiling systems can play a critical role in enabling faster, more reliable understanding of the data behind models and decisions.&lt;/p&gt;
 
 &lt;h2 id=&quot;citation&quot;&gt;Citation&lt;/h2&gt;
 &lt;p&gt;
 
-	&lt;strong&gt;Over-Relying on Reliance: Towards Realistic Evaluations of AI-Based Clinical Decision Support&lt;/strong&gt;
+	&lt;strong&gt;Interactive Data Profiling&lt;/strong&gt;
 
 
 &lt;br /&gt;
@@ -45,22 +34,7 @@
 
 	
 		
-&lt;a href=&quot;https://venkatesh-sivaraman.github.io/&quot;&gt;Venkatesh Sivaraman&lt;/a&gt;,
-	
-
-	
-		
-&lt;a href=&quot;https://katelyn98.github.io/&quot;&gt;Katelyn Morrison&lt;/a&gt;,
-	
-
-	
-		
-&lt;a href=&quot;http://www.willepperson.com&quot;&gt;Will Epperson&lt;/a&gt;,
-	
-
-	
-		
-&lt;a href=&quot;https://perer.org&quot;&gt;Adam Perer&lt;/a&gt;
+&lt;a href=&quot;http://www.willepperson.com&quot;&gt;Will Epperson&lt;/a&gt;
 	
 
 
@@ -68,12 +42,12 @@
 
 
 &lt;span class=&quot;cv-description&quot;&gt;
-	We discuss how evaluations of human-AI decision support systems can move beyond reliance as the primary metric.
+	PhD thesis.
 &lt;/span&gt;
 &lt;br /&gt;
 
 
-&lt;i&gt;2025 CHI Workshop on HCI+Health (CHI). Yokohama, Japan, 2025.&lt;/i&gt;
+&lt;i&gt;Carnegie Mellon University (CMU). Pittsburgh, PA, 2025.&lt;/i&gt;
 
 &lt;br /&gt;
 
@@ -83,7 +57,7 @@
 	
 
 	
-	  &lt;a href=&quot;/papers/overreliance&quot;&gt;
+	  &lt;a href=&quot;/papers/thesis&quot;&gt;
 	    &lt;i class=&quot;fas fa-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Project
 	  &lt;/a&gt;
 	
@@ -91,7 +65,7 @@
 	
 
 	
-	  &lt;a href=&quot;https://arxiv.org/abs/2504.07423&quot;&gt;
+	  &lt;a href=&quot;/thesis.pdf&quot;&gt;
 	    &lt;i class=&quot;far fa-file-pdf&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; PDF
 	  &lt;/a&gt;
 	
@@ -133,7 +107,7 @@
 ```
 
 
-``` --&gt;</content><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><summary type="html">Over-Relying on Reliance: Towards Realistic Evaluations of AI-Based Clinical Decision Support Venkatesh Sivaraman, Katelyn Morrison, Will Epperson, Adam Perer We discuss how evaluations of human-AI decision support systems can move beyond reliance as the primary metric. Abstract As AI-based clinical decision support (AI-CDS) is introduced in more and more aspects of healthcare services, HCI research plays an increasingly important role in designing for complementarity between AI and clinicians. However, current evaluations of AI-CDS often fail to capture when AI is and is not useful to clinicians. This position paper reflects on our work and influential AI-CDS literature to advocate for moving beyond evaluation metrics like Trust, Reliance, Acceptance, and Performance on the AI’s task (what we term the “trap” of human-AI collaboration). Although these metrics can be meaningful in some simple scenarios, we argue that optimizing for them ignores important ways that AI falls short of clinical benefit, as well as ways that clinicians successfully use AI. As the fields of HCI and AI in healthcare develop new ways to design and evaluate CDS tools, we call on the community to prioritize ecologically valid, domain-appropriate study setups that measure the emergent forms of value that AI can bring to healthcare professionals. Citation Over-Relying on Reliance: Towards Realistic Evaluations of AI-Based Clinical Decision Support Venkatesh Sivaraman, Katelyn Morrison, Will Epperson, Adam Perer We discuss how evaluations of human-AI decision support systems can move beyond reliance as the primary metric. 2025 CHI Workshop on HCI+Health (CHI). Yokohama, Japan, 2025. Project PDF</summary></entry><entry><title type="html">Texture</title><link href="http://localhost:4000/papers/texture" rel="alternate" type="text/html" title="Texture" /><published>2025-05-13T00:00:00-04:00</published><updated>2025-05-13T00:00:00-04:00</updated><id>http://localhost:4000/papers/texture</id><content type="html" xml:base="http://localhost:4000/papers/texture">&lt;h1 id=&quot;texture-structured-exploration-of-text-datasets&quot;&gt;Texture: Structured Exploration of Text Datasets&lt;/h1&gt;
+``` --&gt;</content><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><summary type="html">Interactive Data Profiling Will Epperson An overview of the systems in my PhD thesis on Interactive Data Profiling. Abstract Data has been a key driver behind recent advances in science, engineering, and artificial intelligence. As datasets have grown larger and more complex, the primary bottleneck has shifted from access to data towards the human effort required to interpret it. Human expertise is essential to understand datasets, however generating this understanding during analysis remains a time-consuming and manual process. Many AI modeling failures are, at their core, data problems—issues that might have been addressed earlier with better tools for understanding the data. Data visualization facilitates understanding through visual representations, however existing approaches to visual data exploration introduce friction that slows users down, requiring manually defining charts and interactions through code or context switching to a new analysis tool. How can we build flexible and lightweight systems to help people more quickly understand their data? This thesis develops systems for Interactive Data Profiling that accelerate data exploration through a fast feedback loop between interactive interfaces and data programming workflows. We first motivate this problem through a large-scale interview study and survey of data scientists that reveals the potential for tools to help users manage the repetitive code used for data profiling. We then discuss the design, implementation, and evaluation of three systems that develop the approach of interactive data profiling. First, we describe AutoProfiler, a system that augments programming environments with automatic data profiles that show summaries of the data in memory and update as a user programs. We then extend this approach with Solas which tracks the history of a user’s analysis code to create data profiles adapted to the current task and user interest. User evaluations demonstrate how the lightweight visualizations and fast feedback loops enabled by these systems help users quickly identify important patterns and data quality issues. Finally, we present Texture, a general-purpose text exploration tool that enables users to iterate on attributes for describing their text and then explore results in the interactive UI. Expert user studies show how Texture enables more efficient exploration and helps users uncover new insights from their text datasets. Together, these tools establish how to situate interactive data profiling within data science workflows to enable a fast feedback loop between manipulating data and inspecting the results. As data remains an increasingly important component of modern work, interactive data profiling systems can play a critical role in enabling faster, more reliable understanding of the data behind models and decisions. Citation Interactive Data Profiling Will Epperson PhD thesis. Carnegie Mellon University (CMU). Pittsburgh, PA, 2025. Project PDF</summary></entry><entry><title type="html">Texture</title><link href="http://localhost:4000/papers/texture" rel="alternate" type="text/html" title="Texture" /><published>2025-05-13T00:00:00-04:00</published><updated>2025-05-13T00:00:00-04:00</updated><id>http://localhost:4000/papers/texture</id><content type="html" xml:base="http://localhost:4000/papers/texture">&lt;h1 id=&quot;texture-structured-exploration-of-text-datasets&quot;&gt;Texture: Structured Exploration of Text Datasets&lt;/h1&gt;
 &lt;p&gt;
 
   
@@ -272,7 +246,142 @@
 ```
 
 
-``` --&gt;</content><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><summary type="html">Texture: Structured Exploration of Text Datasets Will Epperson, Arpit Mathur, Dominik Moritz, Adam Perer Texture is a general purpose text visualization and exploration tool with interactions for using LLMs to derive data from text. Abstract Exploratory analysis of a text corpus is essential for assessing data quality and developing meaningful hypotheses. Text analysis relies on understanding documents through structured attributes spanning various granularities of the documents such as words, phrases, sentences, topics, or clusters. However, current text visualization tools typically adopt a fixed representation tailored to specific tasks or domains, requiring users to switch tools as their analytical goals change. To address this limitation, we present Texture, a general-purpose interactive text exploration tool. Texture introduces a configurable data schema for representing text documents enriched with descriptive attributes. These attributes can appear at arbitrary levels of granularity in the text and possibly have multiple values, including document-level attributes, multi-valued attributes (e.g., topics), fine-grained span-level attributes (e.g., words), and vector embeddings. The system then combines existing interactive methods for text exploration into a single interface that provides attribute overview visualizations, supports cross-filtering attribute charts to explore subsets, uses embeddings for a dataset overview and similar instance search, and contextualizes filters in the actual documents. We evaluated Texture through a two-part user study with 10 participants from varied domains who each analyzed their own dataset in a baseline session and then with Texture. Texture was able to represent all of the previously derived dataset attributes, enabled participants to more quickly iterate during their exploratory analysis, and discover new insights about their data. Our findings contribute to the design of scalable, interactive, and flexible exploration systems that improve users’ ability to make sense of text data. Citation Texture: Structured Exploration of Text Datasets Will Epperson, Arpit Mathur, Dominik Moritz, Adam Perer Texture is a general purpose text exploration tool with interactions for using LLMs to derive data from text. Open source. 2025. Project PDF Code</summary></entry><entry><title type="html">Agdebugger</title><link href="http://localhost:4000/papers/agdebugger" rel="alternate" type="text/html" title="Agdebugger" /><published>2025-03-03T00:00:00-05:00</published><updated>2025-03-03T00:00:00-05:00</updated><id>http://localhost:4000/papers/agdebugger</id><content type="html" xml:base="http://localhost:4000/papers/agdebugger">&lt;h1 id=&quot;interactive-debugging-and-steering-of-multi-agent-ai-systems&quot;&gt;Interactive Debugging and Steering of Multi-Agent AI Systems&lt;/h1&gt;
+``` --&gt;</content><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><summary type="html">Texture: Structured Exploration of Text Datasets Will Epperson, Arpit Mathur, Dominik Moritz, Adam Perer Texture is a general purpose text visualization and exploration tool with interactions for using LLMs to derive data from text. Abstract Exploratory analysis of a text corpus is essential for assessing data quality and developing meaningful hypotheses. Text analysis relies on understanding documents through structured attributes spanning various granularities of the documents such as words, phrases, sentences, topics, or clusters. However, current text visualization tools typically adopt a fixed representation tailored to specific tasks or domains, requiring users to switch tools as their analytical goals change. To address this limitation, we present Texture, a general-purpose interactive text exploration tool. Texture introduces a configurable data schema for representing text documents enriched with descriptive attributes. These attributes can appear at arbitrary levels of granularity in the text and possibly have multiple values, including document-level attributes, multi-valued attributes (e.g., topics), fine-grained span-level attributes (e.g., words), and vector embeddings. The system then combines existing interactive methods for text exploration into a single interface that provides attribute overview visualizations, supports cross-filtering attribute charts to explore subsets, uses embeddings for a dataset overview and similar instance search, and contextualizes filters in the actual documents. We evaluated Texture through a two-part user study with 10 participants from varied domains who each analyzed their own dataset in a baseline session and then with Texture. Texture was able to represent all of the previously derived dataset attributes, enabled participants to more quickly iterate during their exploratory analysis, and discover new insights about their data. Our findings contribute to the design of scalable, interactive, and flexible exploration systems that improve users’ ability to make sense of text data. Citation Texture: Structured Exploration of Text Datasets Will Epperson, Arpit Mathur, Dominik Moritz, Adam Perer Texture is a general purpose text exploration tool with interactions for using LLMs to derive data from text. Open source. 2025. Project PDF Code</summary></entry><entry><title type="html">Overreliance</title><link href="http://localhost:4000/papers/overreliance" rel="alternate" type="text/html" title="Overreliance" /><published>2025-05-13T00:00:00-04:00</published><updated>2025-05-13T00:00:00-04:00</updated><id>http://localhost:4000/papers/overreliance</id><content type="html" xml:base="http://localhost:4000/papers/overreliance">&lt;h1 id=&quot;over-relying-on-reliance-towards-realistic-evaluations-of-ai-based-clinical-decision-support&quot;&gt;Over-Relying on Reliance: Towards Realistic Evaluations of AI-Based Clinical Decision Support&lt;/h1&gt;
+&lt;p&gt;
+
+  
+    
+&lt;a href=&quot;https://venkatesh-sivaraman.github.io/&quot;&gt;Venkatesh Sivaraman&lt;/a&gt;,
+  
+
+  
+    
+&lt;a href=&quot;https://katelyn98.github.io/&quot;&gt;Katelyn Morrison&lt;/a&gt;,
+  
+
+  
+    
+&lt;a href=&quot;http://www.willepperson.com&quot;&gt;Will Epperson&lt;/a&gt;,
+  
+
+  
+    
+&lt;a href=&quot;https://perer.org&quot;&gt;Adam Perer&lt;/a&gt;
+  
+
+&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img class=&quot;single&quot; src=&quot;/images/papers/25-overreliance.png&quot; /&gt;
+    &lt;figcaption class=&quot;single&quot;&gt;
+      We discuss how evaluations of human-AI decision support systems can move beyond reliance as the primary metric.
+
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;As AI-based clinical decision support (AI-CDS) is introduced in more and more aspects of healthcare services, HCI research plays an increasingly important role in designing for complementarity between AI and clinicians. However, current evaluations of AI-CDS often fail to capture when AI is and is not useful to clinicians. This position paper reflects on our work and influential AI-CDS literature to advocate for moving beyond evaluation metrics like Trust, Reliance, Acceptance, and Performance on the AI’s task (what we term the “trap” of human-AI collaboration). Although these metrics can be meaningful in some simple scenarios, we argue that optimizing for them ignores important ways that AI falls short of clinical benefit, as well as ways that clinicians successfully use AI. As the fields of HCI and AI in healthcare develop new ways to design and evaluate CDS tools, we call on the community to prioritize ecologically valid, domain-appropriate study setups that measure the emergent forms of value that AI can bring to healthcare professionals.&lt;/p&gt;
+
+&lt;h2 id=&quot;citation&quot;&gt;Citation&lt;/h2&gt;
+&lt;p&gt;
+
+	&lt;strong&gt;Over-Relying on Reliance: Towards Realistic Evaluations of AI-Based Clinical Decision Support&lt;/strong&gt;
+
+
+&lt;br /&gt;
+
+
+	
+		
+&lt;a href=&quot;https://venkatesh-sivaraman.github.io/&quot;&gt;Venkatesh Sivaraman&lt;/a&gt;,
+	
+
+	
+		
+&lt;a href=&quot;https://katelyn98.github.io/&quot;&gt;Katelyn Morrison&lt;/a&gt;,
+	
+
+	
+		
+&lt;a href=&quot;http://www.willepperson.com&quot;&gt;Will Epperson&lt;/a&gt;,
+	
+
+	
+		
+&lt;a href=&quot;https://perer.org&quot;&gt;Adam Perer&lt;/a&gt;
+	
+
+
+&lt;br /&gt;
+
+
+&lt;span class=&quot;cv-description&quot;&gt;
+	We discuss how evaluations of human-AI decision support systems can move beyond reliance as the primary metric.
+&lt;/span&gt;
+&lt;br /&gt;
+
+
+&lt;i&gt;2025 CHI Workshop on HCI+Health (CHI). Yokohama, Japan, 2025.&lt;/i&gt;
+
+&lt;br /&gt;
+
+
+	&lt;span class=&quot;pub-misc&quot;&gt;
+
+	
+
+	
+	  &lt;a href=&quot;/papers/overreliance&quot;&gt;
+	    &lt;i class=&quot;fas fa-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Project
+	  &lt;/a&gt;
+	
+
+	
+
+	
+	  &lt;a href=&quot;https://arxiv.org/abs/2504.07423&quot;&gt;
+	    &lt;i class=&quot;far fa-file-pdf&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; PDF
+	  &lt;/a&gt;
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+	
+	&lt;/span&gt;
+
+
+
+
+&lt;/p&gt;
+
+&lt;!-- ## BibTeX
+```
+
+
+``` --&gt;</content><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><summary type="html">Over-Relying on Reliance: Towards Realistic Evaluations of AI-Based Clinical Decision Support Venkatesh Sivaraman, Katelyn Morrison, Will Epperson, Adam Perer We discuss how evaluations of human-AI decision support systems can move beyond reliance as the primary metric. Abstract As AI-based clinical decision support (AI-CDS) is introduced in more and more aspects of healthcare services, HCI research plays an increasingly important role in designing for complementarity between AI and clinicians. However, current evaluations of AI-CDS often fail to capture when AI is and is not useful to clinicians. This position paper reflects on our work and influential AI-CDS literature to advocate for moving beyond evaluation metrics like Trust, Reliance, Acceptance, and Performance on the AI’s task (what we term the “trap” of human-AI collaboration). Although these metrics can be meaningful in some simple scenarios, we argue that optimizing for them ignores important ways that AI falls short of clinical benefit, as well as ways that clinicians successfully use AI. As the fields of HCI and AI in healthcare develop new ways to design and evaluate CDS tools, we call on the community to prioritize ecologically valid, domain-appropriate study setups that measure the emergent forms of value that AI can bring to healthcare professionals. Citation Over-Relying on Reliance: Towards Realistic Evaluations of AI-Based Clinical Decision Support Venkatesh Sivaraman, Katelyn Morrison, Will Epperson, Adam Perer We discuss how evaluations of human-AI decision support systems can move beyond reliance as the primary metric. 2025 CHI Workshop on HCI+Health (CHI). Yokohama, Japan, 2025. Project PDF</summary></entry><entry><title type="html">Agdebugger</title><link href="http://localhost:4000/papers/agdebugger" rel="alternate" type="text/html" title="Agdebugger" /><published>2025-03-03T00:00:00-05:00</published><updated>2025-03-03T00:00:00-05:00</updated><id>http://localhost:4000/papers/agdebugger</id><content type="html" xml:base="http://localhost:4000/papers/agdebugger">&lt;h1 id=&quot;interactive-debugging-and-steering-of-multi-agent-ai-systems&quot;&gt;Interactive Debugging and Steering of Multi-Agent AI Systems&lt;/h1&gt;
 &lt;p&gt;
 
   
@@ -1068,164 +1177,7 @@ demonstrating how leveraging analysis history improves in situ visualization rec
   url={}
 }
 
-``` --&gt;</content><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><summary type="html">Leveraging Analysis History for Improved In Situ Visualization Recommendation Will Epperson, Doris Jung-Lin Lee, Leijie Wang, Kunal Agarwal, Aditya Parameswaran, Dominik Moritz, Adam Perer Solas tracks the history of a user’s analysis to provide improved in situ visualization recommendations. Above, a user has most recently created the Class column that is visualized on the left side of the interface. Recently executed Pandas commands interacted with Worldwide_Gross, Viewership, and MPAA_Rating; therefore, Class is shown relative to these columns. Abstract Existing visualization recommendation systems commonly rely on a single snapshot of a dataset to suggest visualizations to users. However, exploratory data analysis involves a series of related interactions with a dataset over time rather than one-off analytical steps. We present Solas, a tool that tracks the history of a user’s data analysis, models their interest in each column, and uses this information to provide visualization recommendations, all within the user’s native analytical environment. Recommending with analysis history improves visualizations in three primary ways: task-specific visualizations use the provenance of data to provide sensible encodings for common analysis functions, aggregated history is used to rank visualizations by our model of a user’s interest in each column, and column data types are inferred based on applied operations. We present a usage scenario and a user evaluation demonstrating how leveraging analysis history improves in situ visualization recommendations on real-world analysis tasks. Citation Leveraging Analysis History for Improved In Situ Visualization Recommendation Will Epperson, Doris Jung-Lin Lee, Leijie Wang, Kunal Agarwal, Aditya Parameswaran, Dominik Moritz, Adam Perer Solas is a visualization recommendation tool that uses the history of analysis for in situ recommendations in Jupyter. EuroVis 22: Eurographics Conference on Visualization (EuroVis). Rome, Italy, 2022. Project PDF Code</summary></entry><entry><title type="html">Ditl</title><link href="http://localhost:4000/papers/ditl" rel="alternate" type="text/html" title="Ditl" /><published>2022-02-16T00:00:00-05:00</published><updated>2022-02-16T00:00:00-05:00</updated><id>http://localhost:4000/papers/ditl</id><content type="html" xml:base="http://localhost:4000/papers/ditl">&lt;h1 id=&quot;diff-in-the-loop-supporting-data-comparison-in-exploratory-data-analysis&quot;&gt;Diff in the Loop: Supporting Data Comparison in Exploratory Data Analysis&lt;/h1&gt;
-&lt;p&gt;
-
-  
-    
-&lt;a href=&quot;https://aprilwang.me&quot;&gt;April Yi Wang&lt;/a&gt;,
-  
-
-  
-    
-&lt;a href=&quot;http://www.willepperson.com&quot;&gt;Will Epperson&lt;/a&gt;,
-  
-
-  
-    
-&lt;a href=&quot;https://www.microsoft.com/en-us/research/people/rdeline/&quot;&gt;Robert DeLine&lt;/a&gt;,
-  
-
-  
-    
-&lt;a href=&quot;https://www.microsoft.com/en-us/research/people/sdrucker/&quot;&gt;Steven M. Drucker&lt;/a&gt;
-  
-
-&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;single&quot; src=&quot;/images/papers/22-ditl-chi.png&quot; /&gt;
-    &lt;figcaption class=&quot;single&quot;&gt;
-      As users iterate on their data during analysis, they can use DITL to compare data snapshots. 
-Every time users successfully execute code we save a snapshot (A). 
-Users can compare the code using traditional code diffing tools. 
-Additionally, users can also use DITL to compare data iterations with interactive visualizations, descriptive statistics, and data preview (B). 
-Users can choose three ways to visualize the differences in each column: the delta view (C), opacity view (D), and parallel view (E).
-
-
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;Data science is characterized by evolution: since data science is exploratory, results evolve from moment to moment; since it can be collaborative, results evolve as the work changes hands. 
-While existing tools help data scientists track changes in code, they provide less support for understanding the iterative changes that the code produces in the data. 
-We explore the idea of visualizing differences in datasets as a core feature of exploratory data analysis, a concept we call Diff in the Loop (DITL). 
-We evaluated DITL in a user study with 16 professional data scientists and found it helped them understand the implications of their actions when manipulating data. 
-We summarize these findings and discuss how the approach can be generalized to different data science workflows.&lt;/p&gt;
-
-&lt;h2 id=&quot;citation&quot;&gt;Citation&lt;/h2&gt;
-&lt;p&gt;
-
-	&lt;strong&gt;Diff in the Loop: Supporting Data Comparison in Exploratory Data Analysis&lt;/strong&gt;
-
-
-&lt;br /&gt;
-
-
-	
-		
-&lt;a href=&quot;https://aprilwang.me&quot;&gt;April Yi Wang&lt;/a&gt;,
-	
-
-	
-		
-&lt;a href=&quot;http://www.willepperson.com&quot;&gt;Will Epperson&lt;/a&gt;,
-	
-
-	
-		
-&lt;a href=&quot;https://www.microsoft.com/en-us/research/people/rdeline/&quot;&gt;Robert DeLine&lt;/a&gt;,
-	
-
-	
-		
-&lt;a href=&quot;https://www.microsoft.com/en-us/research/people/sdrucker/&quot;&gt;Steven M. Drucker&lt;/a&gt;
-	
-
-
-&lt;br /&gt;
-
-
-&lt;span class=&quot;cv-description&quot;&gt;
-	Diff in the Loop supports tracking, comparing, and visualizing differences in datasets during iterative data analysis.
-&lt;/span&gt;
-&lt;br /&gt;
-
-
-&lt;i&gt;SIGCHI 22: ACM Symposium on Computer Human Interaction (CHI). New Orleans, LA, 2022.&lt;/i&gt;
-
-&lt;br /&gt;
-
-
-	&lt;span class=&quot;pub-misc&quot;&gt;
-
-	
-
-	
-	  &lt;a href=&quot;/papers/ditl&quot;&gt;
-	    &lt;i class=&quot;fas fa-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Project
-	  &lt;/a&gt;
-	
-
-	
-
-	
-	  &lt;a href=&quot;/papers/ditl-chi22.pdf&quot;&gt;
-	    &lt;i class=&quot;far fa-file-pdf&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; PDF
-	  &lt;/a&gt;
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-		
-		
-	
-
-	
-
-	
-	
-	&lt;/span&gt;
-
-
-
-
-
-
-
-&lt;/p&gt;
-
-&lt;!-- ## BibTeX
-```
-@article{wang2022DITL,
-  title={Diff in the Loop: Supporting Data Comparison in Exploratory Data Analysis},
-  author={Wang, April Yi and Epperson, Will, and DeLine, Robert and Drucker, Steven M.},
-  journal={SIGCHI 22: ACM Symposium on Computer Human Interaction},
-  year={2022},
-  publisher={ACM}
-  url={}
-}
-
-``` --&gt;</content><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><summary type="html">Diff in the Loop: Supporting Data Comparison in Exploratory Data Analysis April Yi Wang, Will Epperson, Robert DeLine, Steven M. Drucker As users iterate on their data during analysis, they can use DITL to compare data snapshots. Every time users successfully execute code we save a snapshot (A). Users can compare the code using traditional code diffing tools. Additionally, users can also use DITL to compare data iterations with interactive visualizations, descriptive statistics, and data preview (B). Users can choose three ways to visualize the differences in each column: the delta view (C), opacity view (D), and parallel view (E). Abstract Data science is characterized by evolution: since data science is exploratory, results evolve from moment to moment; since it can be collaborative, results evolve as the work changes hands. While existing tools help data scientists track changes in code, they provide less support for understanding the iterative changes that the code produces in the data. We explore the idea of visualizing differences in datasets as a core feature of exploratory data analysis, a concept we call Diff in the Loop (DITL). We evaluated DITL in a user study with 16 professional data scientists and found it helped them understand the implications of their actions when manipulating data. We summarize these findings and discuss how the approach can be generalized to different data science workflows. Citation Diff in the Loop: Supporting Data Comparison in Exploratory Data Analysis April Yi Wang, Will Epperson, Robert DeLine, Steven M. Drucker Diff in the Loop supports tracking, comparing, and visualizing differences in datasets during iterative data analysis. SIGCHI 22: ACM Symposium on Computer Human Interaction (CHI). New Orleans, LA, 2022. Project PDF</summary></entry><entry><title type="html">Reuseshareds</title><link href="http://localhost:4000/papers/reuse-ds" rel="alternate" type="text/html" title="Reuseshareds" /><published>2022-02-16T00:00:00-05:00</published><updated>2022-02-16T00:00:00-05:00</updated><id>http://localhost:4000/papers/reuseshareds</id><content type="html" xml:base="http://localhost:4000/papers/reuse-ds">&lt;h1 id=&quot;strategies-for-reuse-and-sharing-among-data-scientists-in-software-teams&quot;&gt;Strategies for Reuse and Sharing among Data Scientists in Software Teams&lt;/h1&gt;
+``` --&gt;</content><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><summary type="html">Leveraging Analysis History for Improved In Situ Visualization Recommendation Will Epperson, Doris Jung-Lin Lee, Leijie Wang, Kunal Agarwal, Aditya Parameswaran, Dominik Moritz, Adam Perer Solas tracks the history of a user’s analysis to provide improved in situ visualization recommendations. Above, a user has most recently created the Class column that is visualized on the left side of the interface. Recently executed Pandas commands interacted with Worldwide_Gross, Viewership, and MPAA_Rating; therefore, Class is shown relative to these columns. Abstract Existing visualization recommendation systems commonly rely on a single snapshot of a dataset to suggest visualizations to users. However, exploratory data analysis involves a series of related interactions with a dataset over time rather than one-off analytical steps. We present Solas, a tool that tracks the history of a user’s data analysis, models their interest in each column, and uses this information to provide visualization recommendations, all within the user’s native analytical environment. Recommending with analysis history improves visualizations in three primary ways: task-specific visualizations use the provenance of data to provide sensible encodings for common analysis functions, aggregated history is used to rank visualizations by our model of a user’s interest in each column, and column data types are inferred based on applied operations. We present a usage scenario and a user evaluation demonstrating how leveraging analysis history improves in situ visualization recommendations on real-world analysis tasks. Citation Leveraging Analysis History for Improved In Situ Visualization Recommendation Will Epperson, Doris Jung-Lin Lee, Leijie Wang, Kunal Agarwal, Aditya Parameswaran, Dominik Moritz, Adam Perer Solas is a visualization recommendation tool that uses the history of analysis for in situ recommendations in Jupyter. EuroVis 22: Eurographics Conference on Visualization (EuroVis). Rome, Italy, 2022. Project PDF Code</summary></entry><entry><title type="html">Reuseshareds</title><link href="http://localhost:4000/papers/reuse-ds" rel="alternate" type="text/html" title="Reuseshareds" /><published>2022-02-16T00:00:00-05:00</published><updated>2022-02-16T00:00:00-05:00</updated><id>http://localhost:4000/papers/reuseshareds</id><content type="html" xml:base="http://localhost:4000/papers/reuse-ds">&lt;h1 id=&quot;strategies-for-reuse-and-sharing-among-data-scientists-in-software-teams&quot;&gt;Strategies for Reuse and Sharing among Data Scientists in Software Teams&lt;/h1&gt;
 &lt;p&gt;
 
   
@@ -1388,22 +1340,12 @@ We discuss how future tools might help meet these needs.&lt;/p&gt;
   url={}
 }
 
-``` --&gt;</content><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><summary type="html">Strategies for Reuse and Sharing among Data Scientists in Software Teams Will Epperson, April Yi Wang, Robert DeLine, Steven M. Drucker Five unique strategies are used to reuse and share analysis code in data science. Personal reuse strategies like reusing one&apos;s own code are common, whereas using template notebooks is more rare and dependent on tool support. Abstract Effective sharing and reuse practices have long been hallmarks of proficient software engineering. Yet the exploratory nature of data science presents new challenges and opportunities to support sharing and reuse of analysis code. To better understand current practices, we conducted interviews (N=17) and a survey (N=132) with data scientists at Microsoft, and extract five commonly used strategies for sharing and reuse of past work: personal analysis reuse, personal utility libraries, team shared analysis code, team shared template notebooks, and team shared libraries. We also identify factors that encourage or discourage data scientists from sharing and reusing. Our participants described obstacles to reuse and sharing including a lack of incentives to create shared code, difficulties in making data science code modular, and a lack of tool interoperability. We discuss how future tools might help meet these needs. Citation Strategies for Reuse and Sharing among Data Scientists in Software Teams Will Epperson, April Yi Wang, Robert DeLine, Steven M. Drucker Interviews and a survey with 149 data scientists at Microsoft revealed five distinct strategies for sharing and reusing analysis code along with factors that encourage or discourage reuse. ICSE 22: ACM International Conference on Software Engineering (ICSE). Pittsburgh, PA, 2022. Project PDF Recording Slides</summary></entry><entry><title type="html">Recast</title><link href="http://localhost:4000/papers/recast" rel="alternate" type="text/html" title="Recast" /><published>2020-01-08T00:00:00-05:00</published><updated>2020-01-08T00:00:00-05:00</updated><id>http://localhost:4000/papers/recast</id><content type="html" xml:base="http://localhost:4000/papers/recast">&lt;h1 id=&quot;recast-interactive-auditing-of-automatic-toxicity-detection-models&quot;&gt;RECAST: Interactive Auditing of Automatic Toxicity Detection Models&lt;/h1&gt;
+``` --&gt;</content><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><summary type="html">Strategies for Reuse and Sharing among Data Scientists in Software Teams Will Epperson, April Yi Wang, Robert DeLine, Steven M. Drucker Five unique strategies are used to reuse and share analysis code in data science. Personal reuse strategies like reusing one&apos;s own code are common, whereas using template notebooks is more rare and dependent on tool support. Abstract Effective sharing and reuse practices have long been hallmarks of proficient software engineering. Yet the exploratory nature of data science presents new challenges and opportunities to support sharing and reuse of analysis code. To better understand current practices, we conducted interviews (N=17) and a survey (N=132) with data scientists at Microsoft, and extract five commonly used strategies for sharing and reuse of past work: personal analysis reuse, personal utility libraries, team shared analysis code, team shared template notebooks, and team shared libraries. We also identify factors that encourage or discourage data scientists from sharing and reusing. Our participants described obstacles to reuse and sharing including a lack of incentives to create shared code, difficulties in making data science code modular, and a lack of tool interoperability. We discuss how future tools might help meet these needs. Citation Strategies for Reuse and Sharing among Data Scientists in Software Teams Will Epperson, April Yi Wang, Robert DeLine, Steven M. Drucker Interviews and a survey with 149 data scientists at Microsoft revealed five distinct strategies for sharing and reusing analysis code along with factors that encourage or discourage reuse. ICSE 22: ACM International Conference on Software Engineering (ICSE). Pittsburgh, PA, 2022. Project PDF Recording Slides</summary></entry><entry><title type="html">Ditl</title><link href="http://localhost:4000/papers/ditl" rel="alternate" type="text/html" title="Ditl" /><published>2022-02-16T00:00:00-05:00</published><updated>2022-02-16T00:00:00-05:00</updated><id>http://localhost:4000/papers/ditl</id><content type="html" xml:base="http://localhost:4000/papers/ditl">&lt;h1 id=&quot;diff-in-the-loop-supporting-data-comparison-in-exploratory-data-analysis&quot;&gt;Diff in the Loop: Supporting Data Comparison in Exploratory Data Analysis&lt;/h1&gt;
 &lt;p&gt;
 
   
     
-&lt;a href=&quot;http://austinpwright.com&quot;&gt;Austin P. Wright&lt;/a&gt;,
-  
-
-  
-    
-&lt;a href=&quot;http://oshaikh.com/&quot;&gt;Omar Shaikh&lt;/a&gt;,
-  
-
-  
-    
-&lt;a href=&quot;https://haekyu.com&quot;&gt;Haekyu Park&lt;/a&gt;,
+&lt;a href=&quot;https://aprilwang.me&quot;&gt;April Yi Wang&lt;/a&gt;,
   
 
   
@@ -1413,49 +1355,40 @@ We discuss how future tools might help meet these needs.&lt;/p&gt;
 
   
     
-Muhammed Ahmed,
+&lt;a href=&quot;https://www.microsoft.com/en-us/research/people/rdeline/&quot;&gt;Robert DeLine&lt;/a&gt;,
   
 
   
     
-Stephane Pinel,
-  
-
-  
-    
-&lt;a href=&quot;https://www.cc.gatech.edu/~dyang888/&quot;&gt;Diyi Yang&lt;/a&gt;,
-  
-
-  
-    
-&lt;a href=&quot;https://www.cc.gatech.edu/~dchau&quot;&gt;Duen Horng (Polo) Chau&lt;/a&gt;
+&lt;a href=&quot;https://www.microsoft.com/en-us/research/people/sdrucker/&quot;&gt;Steven M. Drucker&lt;/a&gt;
   
 
 &lt;/p&gt;
 
 &lt;figure&gt;
-    &lt;img class=&quot;single&quot; src=&quot;/images/papers/20-recast-chi.png&quot; /&gt;
+    &lt;img class=&quot;single&quot; src=&quot;/images/papers/22-ditl-chi.png&quot; /&gt;
     &lt;figcaption class=&quot;single&quot;&gt;
-      A: RECAST consists of a textbox and a radial progress bar. A color change on the radial progress, along with a score, indicate the toxicity of a sentence. 
-Toxicity ranges from white (non-toxic) to red (very toxic). Users can hover over options to preview toxicity scores for replacing the selected word in the sentence. 
-B: upon replacing the word (in the case of this figure, replacing “idiotic” with “nonsensical”), the main radial progress bar reflects the reduced toxicity score. 
-However the small attention on the other pejorative word &quot;moron&quot; compared to &quot;video&quot; in the alternative version shows the idiosyncrasies of the model and underlying dataset.
+      As users iterate on their data during analysis, they can use DITL to compare data snapshots. 
+Every time users successfully execute code we save a snapshot (A). 
+Users can compare the code using traditional code diffing tools. 
+Additionally, users can also use DITL to compare data iterations with interactive visualizations, descriptive statistics, and data preview (B). 
+Users can choose three ways to visualize the differences in each column: the delta view (C), opacity view (D), and parallel view (E).
 
 
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;As toxic language becomes nearly pervasive online, there has been increasing interest in leveraging the advancements in natural language processing (NLP) to automatically detect and remove toxic comments. 
-Despite fairness concerns and limited interpretability, there is currently little work for auditing these systems in particular for end users. 
-We present our ongoing work, RECAST, an interactive tool for auditing toxicity detection models by visualizing explanations for predictions and providing alternative wordings for detected toxic speech. 
-RECAST displays the attention of toxicity detection models on user input, and provides an intuitive system for rewording impactful language within a comment with less toxic alternative words close in embedding space. 
-Finally we propose a larger user study  of RECAST, with promising preliminary results, to validate it’s effectiveness and useability with end users.&lt;/p&gt;
+&lt;p&gt;Data science is characterized by evolution: since data science is exploratory, results evolve from moment to moment; since it can be collaborative, results evolve as the work changes hands. 
+While existing tools help data scientists track changes in code, they provide less support for understanding the iterative changes that the code produces in the data. 
+We explore the idea of visualizing differences in datasets as a core feature of exploratory data analysis, a concept we call Diff in the Loop (DITL). 
+We evaluated DITL in a user study with 16 professional data scientists and found it helped them understand the implications of their actions when manipulating data. 
+We summarize these findings and discuss how the approach can be generalized to different data science workflows.&lt;/p&gt;
 
 &lt;h2 id=&quot;citation&quot;&gt;Citation&lt;/h2&gt;
 &lt;p&gt;
 
-	&lt;strong&gt;RECAST: Interactive Auditing of Automatic Toxicity Detection Models&lt;/strong&gt;
+	&lt;strong&gt;Diff in the Loop: Supporting Data Comparison in Exploratory Data Analysis&lt;/strong&gt;
 
 
 &lt;br /&gt;
@@ -1463,17 +1396,7 @@ Finally we propose a larger user study  of RECAST, with promising preliminary re
 
 	
 		
-&lt;a href=&quot;http://austinpwright.com&quot;&gt;Austin P. Wright&lt;/a&gt;,
-	
-
-	
-		
-&lt;a href=&quot;http://oshaikh.com/&quot;&gt;Omar Shaikh&lt;/a&gt;,
-	
-
-	
-		
-&lt;a href=&quot;https://haekyu.com&quot;&gt;Haekyu Park&lt;/a&gt;,
+&lt;a href=&quot;https://aprilwang.me&quot;&gt;April Yi Wang&lt;/a&gt;,
 	
 
 	
@@ -1483,22 +1406,12 @@ Finally we propose a larger user study  of RECAST, with promising preliminary re
 
 	
 		
-Muhammed Ahmed,
+&lt;a href=&quot;https://www.microsoft.com/en-us/research/people/rdeline/&quot;&gt;Robert DeLine&lt;/a&gt;,
 	
 
 	
 		
-Stephane Pinel,
-	
-
-	
-		
-&lt;a href=&quot;https://www.cc.gatech.edu/~dyang888/&quot;&gt;Diyi Yang&lt;/a&gt;,
-	
-
-	
-		
-&lt;a href=&quot;https://www.cc.gatech.edu/~dchau&quot;&gt;Duen Horng (Polo) Chau&lt;/a&gt;
+&lt;a href=&quot;https://www.microsoft.com/en-us/research/people/sdrucker/&quot;&gt;Steven M. Drucker&lt;/a&gt;
 	
 
 
@@ -1506,12 +1419,12 @@ Stephane Pinel,
 
 
 &lt;span class=&quot;cv-description&quot;&gt;
-	Interactive Auditing of Automatic Toxicity Detection Models
+	Diff in the Loop supports tracking, comparing, and visualizing differences in datasets during iterative data analysis.
 &lt;/span&gt;
 &lt;br /&gt;
 
 
-&lt;i&gt;24th ACM Conference on Computer-Supported Cooperative Work &amp;amp; Social Computing.  2021.&lt;/i&gt;
+&lt;i&gt;SIGCHI 22: ACM Symposium on Computer Human Interaction (CHI). New Orleans, LA, 2022.&lt;/i&gt;
 
 &lt;br /&gt;
 
@@ -1521,7 +1434,7 @@ Stephane Pinel,
 	
 
 	
-	  &lt;a href=&quot;/papers/recast&quot;&gt;
+	  &lt;a href=&quot;/papers/ditl&quot;&gt;
 	    &lt;i class=&quot;fas fa-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Project
 	  &lt;/a&gt;
 	
@@ -1529,7 +1442,7 @@ Stephane Pinel,
 	
 
 	
-	  &lt;a href=&quot;https://arxiv.org/pdf/2102.04427&quot;&gt;
+	  &lt;a href=&quot;/papers/ditl-chi22.pdf&quot;&gt;
 	    &lt;i class=&quot;far fa-file-pdf&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; PDF
 	  &lt;/a&gt;
 	
@@ -1575,13 +1488,13 @@ Stephane Pinel,
 
 &lt;!-- ## BibTeX
 ```
-@article{wright2020recast,
-title={RECAST: Interactive Auditing of Automatic Toxicity Detection Models},
-author={Austin P. Wright and Omar Shaikh and Haekyu Park and Will Epperson and Muhammed Ahmed and Stephane Pinel and Diyi Yang and Duen Horng (Polo) Chau},
-year={2020},
-eprint={2001.01819},
-archivePrefix={arXiv},
-primaryClass={cs.CL}
+@article{wang2022DITL,
+  title={Diff in the Loop: Supporting Data Comparison in Exploratory Data Analysis},
+  author={Wang, April Yi and Epperson, Will, and DeLine, Robert and Drucker, Steven M.},
+  journal={SIGCHI 22: ACM Symposium on Computer Human Interaction},
+  year={2022},
+  publisher={ACM}
+  url={}
 }
 
-``` --&gt;</content><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><summary type="html">RECAST: Interactive Auditing of Automatic Toxicity Detection Models Austin P. Wright, Omar Shaikh, Haekyu Park, Will Epperson, Muhammed Ahmed, Stephane Pinel, Diyi Yang, Duen Horng (Polo) Chau A: RECAST consists of a textbox and a radial progress bar. A color change on the radial progress, along with a score, indicate the toxicity of a sentence. Toxicity ranges from white (non-toxic) to red (very toxic). Users can hover over options to preview toxicity scores for replacing the selected word in the sentence. B: upon replacing the word (in the case of this figure, replacing “idiotic” with “nonsensical”), the main radial progress bar reflects the reduced toxicity score. However the small attention on the other pejorative word &quot;moron&quot; compared to &quot;video&quot; in the alternative version shows the idiosyncrasies of the model and underlying dataset. Abstract As toxic language becomes nearly pervasive online, there has been increasing interest in leveraging the advancements in natural language processing (NLP) to automatically detect and remove toxic comments. Despite fairness concerns and limited interpretability, there is currently little work for auditing these systems in particular for end users. We present our ongoing work, RECAST, an interactive tool for auditing toxicity detection models by visualizing explanations for predictions and providing alternative wordings for detected toxic speech. RECAST displays the attention of toxicity detection models on user input, and provides an intuitive system for rewording impactful language within a comment with less toxic alternative words close in embedding space. Finally we propose a larger user study of RECAST, with promising preliminary results, to validate it’s effectiveness and useability with end users. Citation RECAST: Interactive Auditing of Automatic Toxicity Detection Models Austin P. Wright, Omar Shaikh, Haekyu Park, Will Epperson, Muhammed Ahmed, Stephane Pinel, Diyi Yang, Duen Horng (Polo) Chau Interactive Auditing of Automatic Toxicity Detection Models 24th ACM Conference on Computer-Supported Cooperative Work &amp;amp; Social Computing. 2021. Project PDF</summary></entry></feed>
+``` --&gt;</content><author><name>Will Epperson</name><email>willepp@cmu.edu</email></author><summary type="html">Diff in the Loop: Supporting Data Comparison in Exploratory Data Analysis April Yi Wang, Will Epperson, Robert DeLine, Steven M. Drucker As users iterate on their data during analysis, they can use DITL to compare data snapshots. Every time users successfully execute code we save a snapshot (A). Users can compare the code using traditional code diffing tools. Additionally, users can also use DITL to compare data iterations with interactive visualizations, descriptive statistics, and data preview (B). Users can choose three ways to visualize the differences in each column: the delta view (C), opacity view (D), and parallel view (E). Abstract Data science is characterized by evolution: since data science is exploratory, results evolve from moment to moment; since it can be collaborative, results evolve as the work changes hands. While existing tools help data scientists track changes in code, they provide less support for understanding the iterative changes that the code produces in the data. We explore the idea of visualizing differences in datasets as a core feature of exploratory data analysis, a concept we call Diff in the Loop (DITL). We evaluated DITL in a user study with 16 professional data scientists and found it helped them understand the implications of their actions when manipulating data. We summarize these findings and discuss how the approach can be generalized to different data science workflows. Citation Diff in the Loop: Supporting Data Comparison in Exploratory Data Analysis April Yi Wang, Will Epperson, Robert DeLine, Steven M. Drucker Diff in the Loop supports tracking, comparing, and visualizing differences in datasets during iterative data analysis. SIGCHI 22: ACM Symposium on Computer Human Interaction (CHI). New Orleans, LA, 2022. Project PDF</summary></entry></feed>

@@ -15,9 +15,9 @@ jsarr:
 <!-- <span class="cv-subtitle">
 </span> -->
 
-<span class="cv-max-width">
+<!-- <span class="cv-max-width">
 I am a PhD candidate in Human-Computer Interaction at Carnegie Mellon University. My research focuses on developing interactive systems that help AI developers and data scientists better understand their data, with the goal of enabling more usable AI systems and trustworthy decision-making. Drawing on techniques from data visualization and human-computer interaction, I builds tools that allow users to more quickly explore their datasets, identify data quality issues, and streamline work with tabular data, text, and multi-agent AI workflows. My work has led to open-source tools adopted by the Python community and scientists, with publications and awards at venues such as VIS, EuroVis, and CHI.
-</span>
+</span> -->
 
 <div class="cv-image-links-wrapper" style="font-size: 16px;">
 	<div class="cv-image-links">
@@ -44,18 +44,18 @@ I am a PhD candidate in Human-Computer Interaction at Carnegie Mellon University
 {% include degree.html degree=degree %}
 {% endfor %}
 
-## Research Experience
-
-{% for experience in site.data.experiences %}
-{% if experience.type == "academic"%}
-{% include experience.html experience=experience %}
-{% endif %}
-{% endfor %}
-
 ## Industry Experience
 
 {% for experience in site.data.experiences %}
 {% if experience.type == "industry"%}
+{% include experience.html experience=experience %}
+{% endif %}
+{% endfor %}
+
+## Research Experience
+
+{% for experience in site.data.experiences %}
+{% if experience.type == "academic"%}
 {% include experience.html experience=experience %}
 {% endif %}
 {% endfor %}
