@@ -9,7 +9,7 @@ title: Home
 	</div>
 	<div class="intro-left">
 		<div class="intro-left">
-			I am an incoming research engineer on the AI Frontiers team at Microsoft Research working on AI agents. 
+			I am a research engineer on the AI Frontiers team at Microsoft Research working on AI agents. 
 			<!-- I did my undergrad at Georgia Tech where I studied Computer Science and researched intersectional ML model errors with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a>. -->
 		</div>
 		<div style="height: 1rem"></div>
