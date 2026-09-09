@@ -1,0 +1,29 @@
+import type { Mentee } from './types';
+
+export const mentees: Mentee[] = [
+	{
+		name: 'Leijie Wang',
+		year: 'Summer 2021 - Fall 2021',
+		description: 'Visualization recommendation for python in notebooks using history'
+	},
+	{
+		name: 'Asad Sheikh',
+		year: 'Fall 2021 - Spring 2022',
+		description: 'Visualization recommendation for SQL using history'
+	},
+	{
+		name: 'Vaishnavi Gorantla',
+		year: 'Spring 2022 - Spring 2023',
+		description: 'Fact generation from data and presentation as text'
+	},
+	{
+		name: 'Yuqi Zhang',
+		year: 'Spring 2023 - Spring 2024',
+		description: 'Notebook extension for guided statistical analysis'
+	},
+	{
+		name: 'Allie Feldman',
+		year: 'Summer 2023 - Spring 2024',
+		description: 'Guided Data Analysis'
+	}
+];

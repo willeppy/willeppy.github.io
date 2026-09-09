@@ -1,0 +1,40 @@
+import type { Talk } from './types';
+
+export const talks: Talk[] = [
+	{
+		title: 'Interactive Data Profiling for Python DataFrames with AutoProfiler and Texture',
+		location: 'PyCON 2024',
+		month: 'May',
+		year: 2024
+	},
+	{
+		title: 'Dead or Alive: Continuous Data Profiling for Interactive Data Science',
+		location: 'VIS 23: IEEE Visualization Conference',
+		month: 'October',
+		year: 2023
+	},
+	{
+		title: 'A Declarative Specification for Authoring Metrics Dashboards',
+		location: 'VDS at VIS 23: Visual Data Science Symposium',
+		month: 'October',
+		year: 2023
+	},
+	{
+		title: 'Leveraging Analysis History for Improved In Situ Visualization Recommendation',
+		location: 'EuroVis 22: Eurographics Conference on Visualization',
+		month: 'June',
+		year: 2022
+	},
+	{
+		title: 'Strategies for Reuse and Sharing among Data Scientists in Software Teams',
+		location: 'ICSE 22: ACM International Conference on Software Engineering',
+		month: 'May',
+		year: 2022
+	},
+	{
+		title: 'FairVis',
+		location: 'VIS 19: IEEE Visualization Conference',
+		month: 'October',
+		year: 2019
+	}
+];
