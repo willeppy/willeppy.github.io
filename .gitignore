@@ -27,5 +27,8 @@ images/.DS_Store
 images/pc
 .jekyll-cache/
 _drafts/
+node_modules/
+.svelte-kit/
+test-results/
 .bundle/
 vendor/

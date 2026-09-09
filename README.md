@@ -1,15 +1,15 @@
-# Personal Website for Will Epperson
+# Will Epperson's website
 
-## Install
-First time running ruby or jekyll on mac requires separate ruby install from built in version. If not done correctly can lead to permission write errors. See [this SO post](https://stackoverflow.com/questions/51126403/you-dont-have-write-permissions-for-the-library-ruby-gems-2-3-0-directory-ma) about getting Ruby and bundler set up.
+Requires Node.js 22.12 or newer.
 
-To install packages for this project run:
-```bash
-bundle install
+```sh
+npm ci
+npm run dev
 ```
 
-## Run
-```bash
-chruby 3.1.0 # switch to user ruby
-bundle exec jekyll serve
+```sh
+npm run check
+npm run build
+npm test
+npm run preview
 ```

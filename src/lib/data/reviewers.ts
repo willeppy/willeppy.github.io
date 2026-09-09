@@ -1,0 +1,36 @@
+import type { Reviewer } from './types';
+
+export const reviewers: Reviewer[] = [
+	{
+		conference: 'CHI',
+		year: 2025
+	},
+	{
+		conference: 'VIS',
+		year: 2024
+	},
+	{
+		conference: 'VIS',
+		year: 2023
+	},
+	{
+		conference: 'CHI',
+		year: 2023
+	},
+	{
+		conference: 'VIS',
+		year: 2022
+	},
+	{
+		conference: 'CHI',
+		year: 2022
+	},
+	{
+		conference: 'CSCW',
+		year: 2021
+	},
+	{
+		conference: 'VIS',
+		year: 2021
+	}
+];
