@@ -27,3 +27,5 @@ images/.DS_Store
 images/pc
 .jekyll-cache/
 _drafts/
+.bundle/
+vendor/

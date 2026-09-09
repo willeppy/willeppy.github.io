@@ -7,10 +7,10 @@
   cv-group: 1
 
 - id: email
-  description: "willepp@cmu.edu"
+  description: "willepp@live.com"
   color: "#515151"
   class: "fas fa-envelope icon"
-  url: "mailto:willepp@cmu.edu"
+  url: "mailto:willepp@live.com"
   on-homepage: true
   cv-group: 1
 
