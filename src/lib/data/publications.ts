@@ -66,7 +66,7 @@ export const publications: Publication[] = [
 	{
 		id: 'redteam-network',
 		title:
-			'Red-teaming a Network of Agents: Understanding What Breaks When AI Agents Interact at Scale',
+			'Red-Teaming a Network of Agents: Understanding What Breaks When AI Agents Interact at Scale',
 		authors: [
 			'Gagan Bansal',
 			'Shujaat Mirza',
@@ -93,7 +93,7 @@ export const publications: Publication[] = [
 		blog: 'https://www.microsoft.com/en-us/research/blog/red-teaming-a-network-of-agents-understanding-what-breaks-when-ai-agents-interact-at-scale/',
 		image: '/images/papers/26-redteam-network.jpg',
 		featured: true,
-		featureTitle: 'Red-teaming a Network of Agents',
+		featureTitle: 'Red-Teaming a Network of Agents',
 		summary:
 			'Red-teaming a live network of over 100 AI agents to understand the risks that emerge only when agents interact.',
 		caption:
