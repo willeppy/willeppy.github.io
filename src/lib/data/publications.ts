@@ -25,7 +25,7 @@ export const publications: Publication[] = [
 		featured: true,
 		featureTitle: 'SocialReasoning-Bench',
 		summary:
-			'A benchmark for measuing AI agents\u2019 negotiation ability in calendar coordination and marketplace settings.',
+			'A benchmark for measuring AI agents\u2019 negotiation ability in calendar coordination and marketplace settings.',
 		caption:
 			'SocialReasoning-Bench evaluates social reasoning in two domains: Calendar Coordination and Marketplace Negotiation.',
 		abstract:
