@@ -28,7 +28,7 @@
 		{#if showBibtex && publication.bibtex}
 			<button
 				type="button"
-				class="mr-2 cursor-pointer whitespace-nowrap text-main-light hover:text-main"
+				class="mr-2 cursor-pointer whitespace-nowrap text-main-light hover:text-main print:hidden"
 				aria-expanded={expanded}
 				aria-controls={`_${publication.id}_selected`}
 				onclick={() => (expanded = !expanded)}><Icon icon={faBook} /> BibTeX</button
@@ -42,6 +42,6 @@
 {#if showBibtex && publication.bibtex}
 	<pre
 		id={`_${publication.id}_selected`}
-		class="mb-4 overflow-x-auto px-4"
+		class="mb-4 overflow-x-auto px-4 print:hidden"
 		hidden={!expanded}>{publication.bibtex.trim()}</pre>
 {/if}

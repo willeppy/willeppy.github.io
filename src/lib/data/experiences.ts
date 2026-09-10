@@ -7,7 +7,8 @@ export const experiences: Experience[] = [
 		position: 'Senior Software Engineer',
 		group: 'AI Frontiers',
 		year: 'August 2025 - Present',
-		description: 'Research engineer working on AI agents, multi-agent systems, AI evaluations, and environments.',
+		description:
+			'Research engineer working on AI agents, multi-agent systems, AI evaluations, and environments.',
 		institutionUrl: 'https://www.microsoft.com/en-us/research/',
 		groupUrl: 'https://www.microsoft.com/en-us/research/group/hax-team/',
 		type: 'industry'

@@ -33,7 +33,7 @@
 <main class="flex flex-col px-4 pb-12 md:px-6">
 	<article
 		id="cv"
-		class="mx-auto mt-4 mb-12 w-full max-w-page [--link-color:var(--color-body)] [&_h2]:font-medium"
+		class="mx-auto mt-4 mb-12 w-full max-w-page [--link-color:var(--color-body)] [&_h2]:font-medium print:mt-0 print:[&_h2]:break-after-avoid print:[&_p]:break-inside-avoid"
 	>
 		<h1>
 			<a class="text-[1.25em] font-medium text-title hover:text-main" href="/">Will Epperson</a>
@@ -122,7 +122,8 @@
 		{/each}
 		<h2 id="skills">Skills</h2>
 		<p class="mb-[0.3rem]">
-			{#each skillGroups as group}<strong>{group.title}: </strong> {skills
+			{#each skillGroups as group}<strong>{group.title}: </strong>
+				{skills
 					.filter((skill) => skill.type === group.type)
 					.map((skill) => skill.name)
 					.join(' ')}<br />{/each}

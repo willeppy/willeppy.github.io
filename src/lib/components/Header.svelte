@@ -3,7 +3,7 @@
 	const home = $derived(page.url.pathname === '/');
 </script>
 
-<header class="mb-8 bg-main text-white">
+<header class="mb-8 bg-main text-white print:hidden">
 	<div class="flex h-14 items-center px-2 md:px-4">
 		{#if !home}
 			<a
