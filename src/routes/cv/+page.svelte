@@ -59,14 +59,7 @@
 				{experience}
 			/>{/each}
 		<h2 id="publications">Publications</h2>
-		{#each publications.filter((publication) => publication.type !== 'blog') as publication}<Publication
-				{publication}
-				showBibtex
-			/>{/each}
-		<h2 id="writing">Writing</h2>
-		{#each publications.filter((publication) => publication.type === 'blog') as publication}<Publication
-				{publication}
-			/>{/each}
+		{#each publications as publication}<Publication {publication} showBibtex />{/each}
 		<h2 id="talks">Talks</h2>
 		{#each talkTitles as title}
 			<p>

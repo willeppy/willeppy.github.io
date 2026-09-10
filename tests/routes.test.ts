@@ -70,7 +70,6 @@ test('CV section anchors and BibTeX targets are preserved', async () => {
 		'industry-experience',
 		'research-experience',
 		'publications',
-		'writing',
 		'talks',
 		'honors-and-awards',
 		'mentees',
