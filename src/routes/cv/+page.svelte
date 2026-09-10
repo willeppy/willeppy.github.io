@@ -1,5 +1,6 @@
 <script lang="ts">
 	import CvDate from '$lib/components/CvDate.svelte';
+	import Header from '$lib/components/Header.svelte';
 	import Degree from '$lib/components/Degree.svelte';
 	import Experience from '$lib/components/Experience.svelte';
 	import Metadata from '$lib/components/Metadata.svelte';
@@ -28,7 +29,8 @@
 </script>
 
 <Metadata title="CV" />
-<main class="flex flex-col px-4 pt-[30px] md:px-6">
+<Header />
+<main class="flex flex-col px-4 pb-12 md:px-6">
 	<article
 		id="cv"
 		class="mx-auto mt-4 mb-12 w-full max-w-text [--link-color:var(--color-body)] [&_h2]:font-medium"

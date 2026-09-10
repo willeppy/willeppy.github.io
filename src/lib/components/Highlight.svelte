@@ -1,15 +1,6 @@
 <script lang="ts">
-	import { faFileLines, faGraduationCap, faNewspaper } from '@fortawesome/free-solid-svg-icons';
 	import type { Publication } from '$lib/data/types';
-	import Icon from './Icon.svelte';
 	let { publication }: { publication: Publication } = $props();
-	const icon = $derived(
-		publication.type === 'thesis'
-			? faGraduationCap
-			: publication.type === 'blog'
-				? faNewspaper
-				: faFileLines
-	);
 	const meta = $derived(
 		publication.type === 'blog'
 			? `${publication.venue} · ${publication.year}`
@@ -17,17 +8,20 @@
 	);
 </script>
 
-<li class="flex gap-4 py-4">
+<a
+	class="group -mx-3 flex flex-col gap-3 rounded-md p-3 text-body hover:bg-[#f4f4f4] hover:text-body hover:no-underline sm:flex-row sm:gap-5"
+	href={publication.url}
+>
 	<div
-		class="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-main-light-bg text-lg text-main"
-	>
-		<Icon {icon} />
-	</div>
+		class="h-36 w-full shrink-0 rounded border border-rule bg-cover bg-top-left transition-[background-position] duration-[1500ms] group-hover:bg-bottom-right sm:h-24 sm:w-40"
+		style:background-image={`url(${publication.image})`}
+		aria-hidden="true"
+	></div>
 	<div>
-		<a class="text-[1.1rem] font-semibold text-title hover:text-main" href={publication.url}
-			>{publication.featureTitle}</a
-		>
+		<div class="text-[1.1rem] font-semibold text-title group-hover:text-main">
+			{publication.featureTitle}
+		</div>
 		<div class="text-sm text-silver">{publication.summary}</div>
 		<div class="mt-1 text-xs text-muted">{meta}</div>
 	</div>
-</li>
+</a>

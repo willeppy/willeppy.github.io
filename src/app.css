@@ -39,7 +39,6 @@
 		}
 	}
 	body {
-		border-top: 10px solid var(--color-main);
 		color: var(--color-body);
 		background-color: white;
 	}

@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Authors from '$lib/components/Authors.svelte';
-	import Footer from '$lib/components/Footer.svelte';
 	import Header from '$lib/components/Header.svelte';
 	import Metadata from '$lib/components/Metadata.svelte';
 	import Publication from '$lib/components/Publication.svelte';
@@ -13,8 +12,8 @@
 
 <Metadata title={publication.title} description={publication.summary} image={publication.image} />
 <Header />
-<main class="flex flex-col px-4 md:px-6">
-	<article class="mx-auto w-full max-w-text">
+<main class="flex flex-col px-4 pb-12 md:px-6">
+	<article class="mx-auto w-full max-w-page">
 		<h1 id={headingId(publication.title)}>{publication.title}</h1>
 		<p>
 			<Authors names={publication.authors} />
@@ -29,4 +28,3 @@
 		<Publication {publication} />
 	</article>
 </main>
-<Footer />

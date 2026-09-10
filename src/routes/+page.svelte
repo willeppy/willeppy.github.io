@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Footer from '$lib/components/Footer.svelte';
+	import Header from '$lib/components/Header.svelte';
 	import Highlight from '$lib/components/Highlight.svelte';
 	import Metadata from '$lib/components/Metadata.svelte';
 	import SocialLink from '$lib/components/SocialLink.svelte';
@@ -12,7 +12,8 @@
 </script>
 
 <Metadata />
-<main class="flex flex-col px-4 pt-[30px] md:px-6">
+<Header />
+<main class="flex flex-col px-4 pb-12 md:px-6">
 	<div id="intro-wrapper" class="mx-auto mt-12 grid w-full max-w-page grid-cols-8 gap-x-8 gap-y-4">
 		<h1 class="col-span-8 mt-0 mb-6 text-[3.75rem] font-semibold text-[#111]">Will Epperson</h1>
 		<div class="col-span-8 space-y-4 pb-4 text-[1.2em] md:col-span-5">
@@ -54,11 +55,10 @@
 	</div>
 	<hr class="mx-auto w-full max-w-page" />
 	<section class="mx-auto w-full max-w-page">
-		<h2 class="mt-8 mb-2 font-medium">Highlights and recent updates</h2>
-		<ul class="divide-y divide-rule">
+		<h2 class="mt-8 mb-4 font-medium">Recent Work</h2>
+		<div class="flex flex-col gap-1">
 			{#each highlights as publication}<Highlight {publication} />{/each}
-		</ul>
-		<a class="text-sm" href="/cv/#publications">See all publications on my CV</a>
+		</div>
+		<a class="mt-4 inline-block text-sm" href="/cv/#publications">See all publications on my CV</a>
 	</section>
 </main>
-<Footer />
