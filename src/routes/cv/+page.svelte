@@ -122,7 +122,7 @@
 		{/each}
 		<h2 id="skills">Skills</h2>
 		<p class="mb-[0.3rem]">
-			{#each skillGroups as group}<strong>{group.title}: </strong>{skills
+			{#each skillGroups as group}<strong>{group.title}: </strong> {skills
 					.filter((skill) => skill.type === group.type)
 					.map((skill) => skill.name)
 					.join(' ')}<br />{/each}

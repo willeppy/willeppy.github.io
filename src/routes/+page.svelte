@@ -18,13 +18,9 @@
 		<h1 class="col-span-12 mt-0 mb-6 text-[3.75rem] font-semibold text-[#111]">Will Epperson</h1>
 		<div class="col-span-12 space-y-4 text-[1.2em] md:col-span-8">
 			<div>
-				I am a research engineer on the AI Frontiers team at Microsoft Research working on AI
-				agents.
-			</div>
-			<div>
-				My recent work is on agents that act on a user's behalf and work with other agents. I work
-				on agent design, multi-agent environments, and the evaluations that measure how well they
-				serve the people they represent.
+				I am a research engineer on the AI Frontiers team at Microsoft Research. I work on AI
+				agents, including human-AI interaction, multi-agent systems, and agent environments and
+				evaluation.
 			</div>
 			<div>
 				I did my PhD in Human Computer Interaction at Carnegie Mellon University. My thesis was on

@@ -25,7 +25,7 @@ export const publications: Publication[] = [
 		featured: true,
 		featureTitle: 'SocialReasoning-Bench',
 		summary:
-			'A benchmark for whether AI agents can negotiate on a user\u2019s behalf in calendar coordination and marketplace settings.',
+			'A benchmark for measuing AI agents\u2019 negotiation ability in calendar coordination and marketplace settings.',
 		caption:
 			'SocialReasoning-Bench evaluates social reasoning in two domains: Calendar Coordination and Marketplace Negotiation.',
 		abstract:
@@ -95,7 +95,7 @@ export const publications: Publication[] = [
 		featured: true,
 		featureTitle: 'Red-Teaming a Network of Agents',
 		summary:
-			'Red-teaming a live network of over 100 AI agents to understand the risks that emerge only when agents interact.',
+			'We evaluated a live network of over 100 always on AI agents and found new failure modes that only emerge at the network level.',
 		caption:
 			'The agent network platform: always-on agents, each acting for a human principal, share forums, direct messages, a wallet, and a marketplace.',
 		abstract:
@@ -170,7 +170,7 @@ export const publications: Publication[] = [
 		image: '/images/papers/25-thesis-teaser.png',
 		featured: true,
 		featureTitle: 'Interactive Data Profiling',
-		summary: 'PhD thesis.',
+		summary: 'My PhD thesis on interactive systems to help users automatically understand their data while programming.',
 		caption: 'An overview of the systems in my PhD thesis on Interactive Data Profiling.',
 		abstract:
 			'Data has been a key driver behind recent advances in science, engineering, and artificial intelligence. As datasets have grown larger and more complex, the primary bottleneck has shifted from access to data towards the human effort required to interpret it. Human expertise is essential to understand datasets, however generating this understanding during analysis remains a time-consuming and manual process. Many AI modeling failures are, at their core, data problems—issues that might have been addressed earlier with better tools for understanding the data. Data visualization facilitates understanding through visual representations, however existing approaches to visual data exploration introduce friction that slows users down, requiring manually defining charts and interactions through code or context switching to a new analysis tool. How can we build flexible and lightweight systems to help people more quickly understand their data?\n\nThis thesis develops systems for Interactive Data Profiling that accelerate data exploration through a fast feedback loop between interactive interfaces and data programming workflows. We first motivate this problem through a large-scale interview study and survey of data scientists that reveals the potential for tools to help users manage the repetitive code used for data profiling. We then discuss the design, implementation, and evaluation of three systems that develop the approach of interactive data profiling. First, we describe AutoProfiler, a system that augments programming environments with automatic data profiles that show summaries of the data in memory and update as a user programs. We then extend this approach with Solas which tracks the history of a user’s analysis code to create data profiles adapted to the current task and user interest. User evaluations demonstrate how the lightweight visualizations and fast feedback loops enabled by these systems help users quickly identify important patterns and data quality issues. Finally, we present Texture, a general-purpose text exploration tool that enables users to iterate on attributes for describing their text and then explore results in the interactive UI. Expert user studies show how Texture enables more efficient exploration and helps users uncover new insights from their text datasets.\n\nTogether, these tools establish how to situate interactive data profiling within data science workflows to enable a fast feedback loop between manipulating data and inspecting the results. As data remains an increasingly important component of modern work, interactive data profiling systems can play a critical role in enabling faster, more reliable understanding of the data behind models and decisions.\n',
