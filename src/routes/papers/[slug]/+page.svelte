@@ -13,22 +13,20 @@
 
 <Metadata title={publication.title} description={publication.summary} image={publication.image} />
 <Header />
-<div class="content">
-	<main>
-		<article class="post paper">
-			<h1 id={headingId(publication.title)}>{publication.title}</h1>
-			<p>
-				<Authors names={publication.authors} equalContribution={publication.equalContribution} />
-			</p>
-			<figure>
-				<img class="single" src={publication.image} alt={`${publication.featureTitle} overview`} />
-				<figcaption class="single">{@html publication.caption}</figcaption>
-			</figure>
-			<h2 id="abstract">Abstract</h2>
-			{#each publication.abstract.trim().split(/\n\s*\n/) as paragraph}<p>{paragraph}</p>{/each}
-			<h2 id="citation">Citation</h2>
-			<Publication {publication} />
-		</article>
-	</main>
-</div>
+<main class="flex flex-col px-4 md:px-6">
+	<article class="mx-auto w-full max-w-text">
+		<h1 id={headingId(publication.title)}>{publication.title}</h1>
+		<p>
+			<Authors names={publication.authors} equalContribution={publication.equalContribution} />
+		</p>
+		<figure class="my-4">
+			<img src={publication.image} alt={`${publication.featureTitle} overview`} />
+			<figcaption class="mt-2 text-center text-muted">{@html publication.caption}</figcaption>
+		</figure>
+		<h2 id="abstract">Abstract</h2>
+		{#each publication.abstract.trim().split(/\n\s*\n/) as paragraph}<p>{paragraph}</p>{/each}
+		<h2 id="citation">Citation</h2>
+		<Publication {publication} />
+	</article>
+</main>
 <Footer />

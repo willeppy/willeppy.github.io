@@ -6,8 +6,10 @@
 {#if page.status === 404}
 	<NotFound />
 {:else}
-	<main>
-		<h1>{page.status}: {page.error?.message}</h1>
-		<p><a href="/">Head back home</a></p>
+	<main class="flex flex-col px-4 md:px-6">
+		<div class="mx-auto w-full max-w-text">
+			<h1>{page.status}: {page.error?.message}</h1>
+			<p><a href="/">Head back home</a></p>
+		</div>
 	</main>
 {/if}

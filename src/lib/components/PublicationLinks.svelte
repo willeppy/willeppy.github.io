@@ -23,7 +23,9 @@
 	>{/if}
 {#each links as link}
 	{@const url = publication[link.key]}
-	{#if url}<a href={url}
+	{#if url}<a
+			class="mr-2 whitespace-nowrap text-main-light hover:text-main hover:no-underline"
+			href={url}
 			><i class={featured && link.key === 'pdf' ? 'fas fa-file-pdf' : link.icon} aria-hidden="true"
 			></i>
 			{link.label}</a

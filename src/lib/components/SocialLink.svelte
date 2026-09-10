@@ -10,6 +10,6 @@
 		>
 	</div>
 	<div class="flex-1">
-		<a class="intro-image-links-color" href={link.url}>{link.description}</a>
+		<a href={link.url}>{link.description}</a>
 	</div>
 </div>

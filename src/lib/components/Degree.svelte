@@ -1,11 +1,12 @@
 <script lang="ts">
 	import type { Degree } from '$lib/data/types';
+	import CvDate from './CvDate.svelte';
 	import Person from './Person.svelte';
 	let { degree }: { degree: Degree } = $props();
 </script>
 
 <p>
-	<span class="cv-left-date">{degree.years}</span><strong>{degree.degree}</strong><br />
+	<CvDate date={degree.years} /><strong>{degree.degree}</strong><br />
 	{#if degree.institutionUrl}<a href={degree.institutionUrl}>{degree.institution}</a
 		>{:else}{degree.institution}{/if}<br />
 	{#if degree.advisor}<em>Advisors:</em>{' '}<Person
