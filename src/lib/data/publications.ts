@@ -2,6 +2,161 @@ import type { Publication } from './types';
 
 export const publications: Publication[] = [
 	{
+		id: 'socialreasoning-bench',
+		title: 'SocialReasoning-Bench: Measuring Whether AI Agents Act in Users\u2019 Best Interests',
+		authors: [
+			'Tyler Payne',
+			'Will Epperson',
+			'Safoora Yousefi',
+			'Zachary Huang',
+			'Gagan Bansal',
+			'Wenyue Hua',
+			'Maya Murad',
+			'Asli Celikyilmaz',
+			'Saleema Amershi'
+		],
+		venue: 'Microsoft Research Blog',
+		year: 2026,
+		type: 'blog',
+		url: '/papers/socialreasoning-bench',
+		blog: 'https://www.microsoft.com/en-us/research/blog/socialreasoning-bench-measuring-whether-ai-agents-act-in-users-best-interests/',
+		code: 'https://github.com/microsoft/social-reasoning-bench',
+		image: '/images/papers/26-socialreasoning-bench.jpg',
+		featured: true,
+		featureTitle: 'SocialReasoning-Bench',
+		summary:
+			'A benchmark for measuring AI agents\u2019 negotiation ability in calendar coordination and marketplace settings.',
+		caption:
+			'SocialReasoning-Bench evaluates social reasoning in two domains: Calendar Coordination and Marketplace Negotiation.',
+		abstract:
+			'AI agents are moving into social contexts. When agents manage calendars, negotiate purchases, or interact with other agents on a user\u2019s behalf, they need more than task competence: they need social reasoning, an understanding of what the user wants, what the counterparty wants, and what information to reveal, protect, or push back on. SocialReasoning-Bench evaluates that ability. The benchmark tests whether an agent can negotiate for a user in two realistic settings, Calendar Coordination and Marketplace Negotiation, against a counterparty with its own goals, private information, and sometimes adversarial intent. It measures both outcomes and process, scoring agents on outcome optimality (how much value they secure for the user) and due diligence (whether they follow a competent decision-making process).\n\nCurrent frontier models often leave value on the table. They usually complete the task, but they frequently accept suboptimal meeting times or poor deals instead of advocating effectively for the user. Prompting helps, but it is not enough: even with explicit guidance to act in the user\u2019s best interest, performance remains well below what a trustworthy delegate should achieve.',
+		date: '2026-05-11'
+	},
+	{
+		id: 'whimsical-strategies',
+		title:
+			'Whimsical Strategies Break AI Agents: Generating Out-of-Distribution Adversarial Strategies at Scale',
+		authors: [
+			'Zachary Huang',
+			'Tyler Payne',
+			'Gagan Bansal',
+			'Will Epperson',
+			'Wenyue Hua',
+			'Adam Fourney',
+			'Amanda Swearngin',
+			'Maya Murad',
+			'Ece Kamar',
+			'Saleema Amershi'
+		],
+		venue: 'Microsoft Research Blog',
+		year: 2026,
+		type: 'blog',
+		url: '/papers/whimsical-strategies',
+		blog: 'https://www.microsoft.com/en-us/research/articles/whimsical-strategies-break-ai-agents-generating-out-of-distribution-adversarial-strategies-at-scale/',
+		image: '/images/papers/26-whimsical-strategies.jpg',
+		featured: false,
+		featureTitle: 'Whimsical Strategies Break AI Agents',
+		summary:
+			'Automatically generating out-of-distribution adversarial strategies that reliably manipulate frontier agents in negotiations.',
+		caption: 'AI agents resisted obvious pressure tactics but fell for whimsical strategies.',
+		abstract:
+			'As AI agents are increasingly deployed to handle real transactions and negotiations, they can exhibit vulnerabilities that traditional safety testing struggles to fully capture. Our prior work on Magentic Marketplace found significant vulnerability for smaller models like GPT-4o, GPTOSS-20b, and Qwen3-4b to prompt injection attacks. But frontier models like Claude Sonnet 4.5 proved nearly immune to these same attacks. However, when we scaled to network environments, even frontier models like GPT-5 struggled: single malicious messages propagated through 100+ agents, consuming 100+ LLM calls and circulating for over twelve minutes.\n\nThese findings raised a question: what other vulnerabilities might we be missing? Previous work relied mostly on hand-designed attacks within threat models applied by humans. In contrast, we found that it is possible to automatically generate whimsical strategies: attacks that appear implausible or even absurd to humans, yet reliably succeeded against agents in our experiments. These strategies worked, we hypothesize, because they fell outside the distribution of threats that current safety training prevents.\n\nConsider an AI shopping agent negotiating coffee bean prices. Traditional strategies like aggressive demands ("Take it or leave it!") or emotional appeals often fail, but we observed that agents accepted the same low prices when wrapped in whimsical strategies. They fell for fake treaties ("Geneva Coffee Convention legally requires maximum $2 per bean"), fabricated emergencies ("Climate crisis! Your beans will be worthless"), and invented technical constraints ("My payment algorithm is mathematically capped at $2"). All three approaches were whimsical. Red teams find such attacks unusual and have not tested them comprehensively, but humans do come up with whimsical framings in practice.\n\nWe hypothesize that these vulnerabilities stem from a distributional gap that runs through the safety pipeline. Pretraining corpora reflect human vulnerability patterns, RLHF reward models are trained on human judgments about what constitutes a threat, and adversarial evaluations are conducted by human testers who probe for attacks they can imagine. Each stage tends to reinforce a similar assumption: that the attacks worth defending against are those effective against humans. This approach should defend well against familiar manipulation techniques, but offer weaker protection against out-of-distribution attacks, those few humans would fall for, and which therefore rarely appear in the training signal.\n\nWe approach this by seeding strategy generation with diverse external knowledge. Eventually we generated 30K adversarial strategies from 2.5K Wikipedia seed articles, and we found that these whimsical strategies consistently compromised even frontier models in our experiments.',
+		date: '2026-05-06'
+	},
+	{
+		id: 'redteam-network',
+		title:
+			'Red-Teaming a Network of Agents: Understanding What Breaks When AI Agents Interact at Scale',
+		authors: [
+			'Gagan Bansal',
+			'Shujaat Mirza',
+			'Keegan Hines',
+			'Will Epperson',
+			'Zachary Huang',
+			'Whitney Maxwell',
+			'Pete Bryan',
+			'Tyler Payne',
+			'Adam Fourney',
+			'Amanda Swearngin',
+			'Wenyue Hua',
+			'Tori Westerhoff',
+			'Amanda Minnich',
+			'Maya Murad',
+			'Ece Kamar',
+			'Ram Shankar Siva Kumar',
+			'Saleema Amershi'
+		],
+		venue: 'Microsoft Research Blog',
+		year: 2026,
+		type: 'blog',
+		url: '/papers/redteam-network',
+		blog: 'https://www.microsoft.com/en-us/research/blog/red-teaming-a-network-of-agents-understanding-what-breaks-when-ai-agents-interact-at-scale/',
+		image: '/images/papers/26-redteam-network.jpg',
+		featured: true,
+		featureTitle: 'Red-Teaming a Network of Agents',
+		summary:
+			'We evaluated a live network of over 100 always on AI agents and found new failure modes that only emerge at the network level.',
+		caption:
+			'The agent network platform: always-on agents, each acting for a human principal, share forums, direct messages, a wallet, and a marketplace.',
+		abstract:
+			'Agents belonging to different users and organizations are beginning to interact with each other, brought into constant contact by tools like Claude, Copilot, and ChatGPT and by existing platforms such as email and GitHub. Networks of agents can distribute tasks, share resources, and spread information across a network in minutes. Those same capabilities introduce new risks. Some risks appear only when agents interact, not when they are tested alone, and actions that seem harmless can cascade into a chain reaction across the network.\n\nTo understand these dynamics, we red-teamed a live internal platform with over 100 always-on agents running different models, each acting on behalf of a human across forums, direct messages, and collaborative tasks. In our tests, a single malicious message passed from agent to agent, extracting private data at each step and pulling uninvolved agents into the chain. We observed four risks that arise only at the network level: propagation, where agent worms sustain themselves across multiple hops; amplification, where an attacker borrows a trusted agent\u2019s reputation to seed a false claim; trust capture, where the process agents use to verify claims is turned into one that reinforces falsehoods; and invisibility, where information passes through chains of unaware agents so the source of an attack is hard to trace.\n\nWe also saw early signs of defense. A small fraction of agents adopted security-related behaviors that limited how far attacks spread, but defenses remain an open challenge. Building useful networks of agents will require understanding and mitigating these network-level risks, starting with real-world deployments.',
+		date: '2026-04-30'
+	},
+	{
+		id: 'magentic-marketplace',
+		title: 'Magentic Marketplace: An Open-Source Environment for Studying Agentic Markets',
+		authors: [
+			'Gagan Bansal',
+			'Wenyue Hua',
+			'Zezhou Huang',
+			'Adam Fourney',
+			'Amanda Swearngin',
+			'Will Epperson',
+			'Tyler Payne',
+			'Jake M. Hofman',
+			'Brendan Lucier',
+			'Chinmay Singh',
+			'Markus Mobius',
+			'Akshay Nambi',
+			'Archana Yadav',
+			'Kevin Gao',
+			'David M. Rothschild',
+			'Aleksandrs Slivkins',
+			'Daniel G. Goldstein',
+			'Hussein Mozannar',
+			'Nicole Immorlica',
+			'Maya Murad',
+			'Matthew Vogel',
+			'Subbarao Kambhampati',
+			'Eric Horvitz',
+			'Saleema Amershi'
+		],
+		venue: 'Preprint',
+		year: 2025,
+		type: 'preprint',
+		url: '/papers/magentic-marketplace',
+		pdf: 'https://arxiv.org/abs/2510.25779',
+		code: 'https://github.com/microsoft/multi-agent-marketplace',
+		image: '/images/papers/25-magentic-marketplace.png',
+		featured: true,
+		featureTitle: 'Magentic Marketplace',
+		summary:
+			'An open-source simulation environment for studying how LLM agents behave as buyers and sellers in two-sided markets.',
+		caption:
+			'In the Magentic Marketplace environment, customer agents search for businesses, communicate with business agents, and complete transactions.',
+		abstract:
+			'As LLM agents advance, they are increasingly mediating economic decisions, ranging from product discovery to transactions, on behalf of users. Such applications promise benefits but also raise many questions about agent accountability and value for users. Addressing these questions requires understanding how agents behave in realistic market conditions. However, previous research has largely evaluated agents in constrained settings, such as single-task marketplaces (e.g., negotiation) or structured two-agent interactions. Real-world markets are fundamentally different: they require agents to handle diverse economic activities and coordinate within large, dynamic ecosystems where multiple agents with opaque behaviors may engage in open-ended dialogues. To bridge this gap, we investigate two-sided agentic marketplaces where Assistant agents represent consumers and Service agents represent competing businesses. To study these interactions safely, we develop Magentic-Marketplace, a simulated environment where Assistants and Services can operate. This environment enables us to study key market dynamics: the utility agents achieve, behavioral biases, vulnerability to manipulation, and how search mechanisms shape market outcomes. Our experiments show that frontier models can approach optimal welfare, but only under ideal search conditions. Performance degrades sharply with scale, and all models exhibit severe first-proposal bias, creating 10-30x advantages for response speed over quality. These findings reveal how behaviors emerge across market conditions, informing the design of fair and efficient agentic marketplaces.',
+		bibtex: `
+@article{bansal2025magentic,
+  title={Magentic Marketplace: An Open-Source Environment for Studying Agentic Markets},
+  author={Bansal, Gagan and Hua, Wenyue and Huang, Zezhou and Fourney, Adam and Swearngin, Amanda and Epperson, Will and Payne, Tyler and Hofman, Jake M. and Lucier, Brendan and Singh, Chinmay and Mobius, Markus and Nambi, Akshay and Yadav, Archana and Gao, Kevin and Rothschild, David M. and Slivkins, Aleksandrs and Goldstein, Daniel G. and Mozannar, Hussein and Immorlica, Nicole and Murad, Maya and Vogel, Matthew and Kambhampati, Subbarao and Horvitz, Eric and Amershi, Saleema},
+  journal={arXiv preprint arXiv:2510.25779},
+  year={2025}
+}
+`,
+		date: '2025-10-27'
+	},
+	{
 		id: 'thesis',
 		title: 'Interactive Data Profiling',
 		authors: ['Will Epperson'],
@@ -14,9 +169,9 @@ export const publications: Publication[] = [
 		pdf: '/thesis.pdf',
 		image: '/images/papers/25-thesis-teaser.png',
 		featured: true,
-		featureOrder: 1,
 		featureTitle: 'Interactive Data Profiling',
-		summary: 'PhD thesis.',
+		summary:
+			'My PhD thesis on interactive systems to help users automatically understand their data while programming.',
 		caption: 'An overview of the systems in my PhD thesis on Interactive Data Profiling.',
 		abstract:
 			'Data has been a key driver behind recent advances in science, engineering, and artificial intelligence. As datasets have grown larger and more complex, the primary bottleneck has shifted from access to data towards the human effort required to interpret it. Human expertise is essential to understand datasets, however generating this understanding during analysis remains a time-consuming and manual process. Many AI modeling failures are, at their core, data problems—issues that might have been addressed earlier with better tools for understanding the data. Data visualization facilitates understanding through visual representations, however existing approaches to visual data exploration introduce friction that slows users down, requiring manually defining charts and interactions through code or context switching to a new analysis tool. How can we build flexible and lightweight systems to help people more quickly understand their data?\n\nThis thesis develops systems for Interactive Data Profiling that accelerate data exploration through a fast feedback loop between interactive interfaces and data programming workflows. We first motivate this problem through a large-scale interview study and survey of data scientists that reveals the potential for tools to help users manage the repetitive code used for data profiling. We then discuss the design, implementation, and evaluation of three systems that develop the approach of interactive data profiling. First, we describe AutoProfiler, a system that augments programming environments with automatic data profiles that show summaries of the data in memory and update as a user programs. We then extend this approach with Solas which tracks the history of a user’s analysis code to create data profiles adapted to the current task and user interest. User evaluations demonstrate how the lightweight visualizations and fast feedback loops enabled by these systems help users quickly identify important patterns and data quality issues. Finally, we present Texture, a general-purpose text exploration tool that enables users to iterate on attributes for describing their text and then explore results in the interactive UI. Expert user studies show how Texture enables more efficient exploration and helps users uncover new insights from their text datasets.\n\nTogether, these tools establish how to situate interactive data profiling within data science workflows to enable a fast feedback loop between manipulating data and inspecting the results. As data remains an increasingly important component of modern work, interactive data profiling systems can play a critical role in enabling faster, more reliable understanding of the data behind models and decisions.\n',
@@ -34,7 +189,6 @@ export const publications: Publication[] = [
 		image: '/images/papers/25-texture.png',
 		code: 'https://github.com/cmudig/Texture',
 		featured: true,
-		featureOrder: 2,
 		featureTitle: 'Texture',
 		summary:
 			'Texture is a general purpose text exploration tool with interactions for using LLMs to derive data from text.',
@@ -66,7 +220,6 @@ export const publications: Publication[] = [
 		image: '/images/papers/25-agdebugger.png',
 		code: 'https://github.com/microsoft/agdebugger',
 		featured: true,
-		featureOrder: 1,
 		featureTitle: 'AGDebugger',
 		summary: 'AGDebugger is an interactive debugging tool for multi-agent AI systems.',
 		caption: 'AGDebugger is an interactive debugging tool for multi-agent AI systems.',
@@ -88,7 +241,6 @@ export const publications: Publication[] = [
 		pdf: 'https://arxiv.org/abs/2504.07423',
 		image: '/images/papers/25-overreliance.png',
 		featured: false,
-		featureOrder: 3,
 		featureTitle: 'Over-reliance',
 		summary:
 			'We discuss how evaluations of human-AI decision support systems can move beyond reliance as the primary metric.',
@@ -112,7 +264,6 @@ export const publications: Publication[] = [
 		image: '/images/papers/24-guidedstats.png',
 		code: 'https://github.com/cmudig/GuidedStats',
 		featured: false,
-		featureOrder: 3,
 		featureTitle: 'GuidedStats',
 		summary:
 			'GuidedStats is a Jupyter extension that helps data scientists perform statistical analyses with guided workflows.',
@@ -137,7 +288,6 @@ export const publications: Publication[] = [
 		image: '/images/papers/23-autoprofiler-vis.png',
 		code: 'https://github.com/cmudig/AutoProfiler',
 		featured: false,
-		featureOrder: 3,
 		featureTitle: 'AutoProfiler',
 		summary:
 			'AutoProfiler is a Jupyter extension that helps data scientists understand their data and find issues during analysis through continuous data profiling.',
@@ -167,7 +317,6 @@ export const publications: Publication[] = [
 		pdf: '/papers/quickdashboard-vds23.pdf',
 		image: '/images/papers/23-quickdashboard-vis.png',
 		featured: false,
-		featureOrder: 3,
 		featureTitle: 'Quick Dashboard',
 		summary:
 			'Quick dashboarding presents a novel specification for dashboard authoring, comprised of sections of metrics combined with dimensions.',
@@ -199,7 +348,6 @@ export const publications: Publication[] = [
 		image: '/images/papers/22-solas-eurovis.png',
 		code: 'https://github.com/cmudig/solas',
 		featured: false,
-		featureOrder: 3,
 		featureTitle: 'Leveraging Analysis History for Improved In Situ Visualization Recommendation',
 		summary:
 			'Solas is a visualization recommendation tool that uses the history of analysis for in situ recommendations in Jupyter.',
@@ -226,7 +374,6 @@ export const publications: Publication[] = [
 		image: '/images/papers/22-reuse-share-DS-icse.png',
 		recording: 'https://www.youtube.com/watch?v=W4XAF2vkoCQ',
 		featured: false,
-		featureOrder: 4,
 		featureTitle: 'Strategies for Reuse and Sharing in Data Science',
 		summary:
 			'Interviews and a survey with 149 data scientists at Microsoft revealed five distinct strategies for sharing and reusing analysis code along with factors that encourage or discourage reuse.',
@@ -251,7 +398,6 @@ export const publications: Publication[] = [
 		pdf: '/papers/ditl-chi22.pdf',
 		image: '/images/papers/22-ditl-chi.png',
 		featured: false,
-		featureOrder: 3,
 		featureTitle: 'Diff in the Loop',
 		summary:
 			'Diff in the Loop supports tracking, comparing, and visualizing differences in datasets during iterative data analysis.',
@@ -285,7 +431,6 @@ export const publications: Publication[] = [
 		featureTitle: 'RECAST',
 		summary: 'Interactive Auditing of Automatic Toxicity Detection Models',
 		featured: false,
-		featureOrder: 10,
 		caption:
 			'A: RECAST consists of a textbox and a radial progress bar. A color change on the radial progress, along with a score, indicate the toxicity of a sentence. \nToxicity ranges from white (non-toxic) to red (very toxic). Users can hover over options to preview toxicity scores for replacing the selected word in the sentence. \nB: upon replacing the word (in the case of this figure, replacing “idiotic” with “nonsensical”), the main radial progress bar reflects the reduced toxicity score. \nHowever the small attention on the other pejorative word "moron" compared to "video" in the alternative version shows the idiosyncrasies of the model and underlying dataset.\n',
 		abstract:
@@ -318,7 +463,6 @@ export const publications: Publication[] = [
 		code: 'https://github.com/poloclub/FairVis',
 		blog: 'https://medium.com/@cabreraalex/fairvis-discovering-bias-in-machine-learning-using-visual-analytics-acbd362a3e2f',
 		featured: false,
-		featureOrder: 4,
 		featureTitle: 'FairVis',
 		summary: 'Discovering intersectional ML Bias through interactive visualization.',
 		caption:

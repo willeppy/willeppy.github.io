@@ -9,11 +9,10 @@ export interface Publication {
 	location?: string;
 	year: number;
 	date: string;
-	type: 'thesis' | 'conference' | 'workshop';
+	type: 'thesis' | 'conference' | 'workshop' | 'preprint' | 'blog';
 	url: `/papers/${string}`;
 	image: string;
 	featured: boolean;
-	featureOrder: number;
 	featureTitle: string;
 	summary: string;
 	caption: string;
@@ -37,7 +36,7 @@ export interface Degree {
 	advisor?: string;
 	coAdvisor?: string;
 	description?: string[];
-	coursework?: string[];
+	thesis?: { title: string; url: string };
 }
 
 export interface Experience {

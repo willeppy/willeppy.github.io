@@ -9,7 +9,8 @@
 		"prepare": "svelte-kit sync",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json && tsc -p tsconfig.node.json",
 		"test": "tsx --test tests/*.test.ts",
-		"test:browser": "playwright test"
+		"test:browser": "playwright test",
+		"cv:pdf": "node scripts/cv-pdf.mjs"
 	},
 	"engines": {
 		"node": ">=22.12.0"

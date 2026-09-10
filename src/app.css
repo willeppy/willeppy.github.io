@@ -13,7 +13,7 @@
 	--container-page: 58.5rem;
 
 	--color-main: #0c2e15;
-	--color-main-light: #7cb38b;
+	--color-main-light: #6aa37b;
 	--color-main-light-bg: #d8e6dc;
 	--color-body: #414141;
 	--color-title: #313131;
@@ -39,7 +39,6 @@
 		}
 	}
 	body {
-		border-top: 10px solid var(--color-main);
 		color: var(--color-body);
 		background-color: white;
 	}
@@ -86,5 +85,14 @@
 	}
 	time {
 		color: var(--color-muted);
+	}
+}
+
+@media print {
+	@page {
+		margin: 0.6in;
+	}
+	html {
+		font-size: 11px;
 	}
 }

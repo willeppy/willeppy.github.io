@@ -19,7 +19,7 @@ test('every page is prerendered with its content', async () => {
 	for (const publication of publications) {
 		const page = load(await readFile(join('build', pageFile(publication.url)), 'utf8'));
 		assert.equal(page('article h1').text(), publication.title);
-		assert.equal(page('#abstract').text(), 'Abstract');
+		assert.equal(page('#abstract').text(), publication.type === 'blog' ? 'Summary' : 'Abstract');
 		assert.equal(page('#citation').text(), 'Citation');
 	}
 });
