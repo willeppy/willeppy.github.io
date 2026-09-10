@@ -59,6 +59,6 @@
 		<div class="flex flex-col gap-1">
 			{#each highlights as publication}<Highlight {publication} />{/each}
 		</div>
-		<a class="mt-4 inline-block text-sm" href="/cv/#publications">See all publications on my CV</a>
+		<a class="mt-4 inline-block" href="/cv/#publications">See all publications</a>
 	</section>
 </main>
