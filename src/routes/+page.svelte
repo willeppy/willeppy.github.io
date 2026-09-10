@@ -22,21 +22,17 @@
 				agents.
 			</div>
 			<div>
-				I did my PhD in Human Computer Interaction at Carnegie Mellon University in the <a
-					href="https://dig.cmu.edu"
-				>
-					DIG
-				</a>
-				research group advised by <a href="https://www.domoritz.de">Dominik Moritz</a> and
-				<a href="https://perer.org">Adam Perer</a>. My PhD focused on
-				<a href="/thesis.pdf">Interactive Data Profiling</a> where I developed interactive systems to
-				help AI developers and data scientists better understand their data, with the goal of enabling
-				more usable AI systems and trustworthy decision-making. Drawing on techniques from data visualization
-				and human-computer interaction, my research helps users more quickly explore their datasets, identify
-				data quality issues, and streamline work with tabular data, text, and multi-agent AI workflows.
-				My research has led to open-source tools adopted by the Python community and scientists, with
-				publications and awards at venues such as IEEE VIS, EuroVis, and CHI. I've previously interned
-				at Databricks, Microsoft Research, and Point72 Asset Management.
+				My recent work is on personal assistant agents that act on a user's behalf and work with
+				other agents. I work on the design of multi-agent environments and the evaluations that
+				measure how well they serve the people they represent.
+			</div>
+			<div>
+				I did my PhD in Human Computer Interaction at Carnegie Mellon University. My thesis was on
+				<a href="/papers/thesis">Interactive Data Profiling</a> systems that automatically help data scientists
+				and AI developers better understand their data. My research has led to open-source tools adopted
+				by the Python community and scientists, with publications and awards at venues such as IEEE VIS,
+				EuroVis, and CHI. I've previously interned at Databricks, Microsoft Research, and Point72 Asset
+				Management.
 			</div>
 		</div>
 		<div class="col-span-8 md:col-span-3">
