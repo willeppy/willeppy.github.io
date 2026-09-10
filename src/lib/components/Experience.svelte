@@ -1,11 +1,12 @@
 <script lang="ts">
 	import type { Experience } from '$lib/data/types';
 	import Authors from './Authors.svelte';
+	import CvDate from './CvDate.svelte';
 	let { experience }: { experience: Experience } = $props();
 </script>
 
 <p>
-	<span class="cv-left-date">{experience.year}</span><a href={experience.institutionUrl}
+	<CvDate date={experience.year} /><a href={experience.institutionUrl}
 		><strong>{experience.institution}</strong></a
 	>, {experience.location}
 	<br />
@@ -20,5 +21,5 @@
 			names={experience.mentors}
 		/><br />
 	{/if}
-	<span class="cv-description">{experience.description}</span>
+	<span class="text-sm font-light text-silver">{experience.description}</span>
 </p>

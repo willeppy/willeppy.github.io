@@ -1,7 +1,6 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
-	import '$lib/styles/tailwind.css';
-	import '$lib/styles/site.scss';
+	import '../app.css';
 
 	let { children }: { children: Snippet } = $props();
 </script>

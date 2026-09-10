@@ -1,8 +1,8 @@
 import { expect, test } from '@playwright/test';
 import assert from 'node:assert/strict';
-import inventory from './routes.json' with { type: 'json' };
+import { pages } from './pages';
 
-for (const path of [...inventory.pages, '/404.html']) {
+for (const path of [...pages, '/404.html']) {
 	test(`${path} loads directly and survives a refresh`, async ({ page }) => {
 		const errors: string[] = [];
 		page.on('pageerror', (error) => errors.push(error.message));
@@ -12,9 +12,7 @@ for (const path of [...inventory.pages, '/404.html']) {
 		await page.reload();
 		await expect(page.locator('main h1').first()).toBeVisible();
 		await page.evaluate(() => document.fonts.ready);
-		const content = await page
-			.locator('main > article, #intro-wrapper, main > .page')
-			.boundingBox();
+		const content = await page.locator('main > :first-child').boundingBox();
 		const viewport = page.viewportSize();
 		assert(content && viewport);
 		expect(Math.abs(content.x + content.width / 2 - viewport.width / 2)).toBeLessThan(1);
@@ -36,7 +34,7 @@ for (const path of [...inventory.pages, '/404.html']) {
 
 test('homepage links navigate to projects and the CV publication anchor', async ({ page }) => {
 	await page.goto('/');
-	await page.locator('.cover-image a[href="/papers/agdebugger"]').click();
+	await page.locator('main a[href="/papers/agdebugger"]').first().click();
 	await expect(page.locator('article h1')).toHaveText(
 		'Interactive Debugging and Steering of Multi-Agent AI Systems'
 	);
@@ -53,10 +51,10 @@ test('BibTeX toggles using the keyboard without expanding another citation', asy
 	await first.focus();
 	await page.keyboard.press('Enter');
 	await expect(first).toHaveAttribute('aria-expanded', 'true');
-	await expect(page.locator('.bibtex:visible')).toHaveCount(1);
+	await expect(page.locator('pre:visible')).toHaveCount(1);
 	await expect(buttons.nth(1)).toHaveAttribute('aria-expanded', 'false');
 	await page.keyboard.press('Space');
-	await expect(page.locator('.bibtex:visible')).toHaveCount(0);
+	await expect(page.locator('pre:visible')).toHaveCount(0);
 });
 
 test('an unknown URL returns a useful 404', async ({ page }) => {

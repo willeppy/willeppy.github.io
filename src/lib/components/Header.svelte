@@ -1,9 +1,5 @@
-<header class="masthead">
-	<h1 class="masthead-title">
-		<a href="/" title="Home">Will Epperson</a>
-		<span class="mastheadspacer"></span>
-		<span class="masthead-slash">/</span>
-		<small>PhD Student at CMU</small>
+<header class="mb-12 border-b border-[#ececec] pt-4 pb-5">
+	<h1 class="my-0 px-4 font-medium">
+		<a class="text-[#303030] hover:no-underline" href="/" title="Home">Will Epperson</a>
 	</h1>
 </header>
-<nav aria-label="Main"><div class="nav"></div></nav>

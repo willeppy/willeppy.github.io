@@ -1,3 +1,5 @@
+import type { IconDefinition } from '@fortawesome/free-solid-svg-icons';
+
 export interface Publication {
 	id: string;
 	title: string;
@@ -16,22 +18,14 @@ export interface Publication {
 	summary: string;
 	caption: string;
 	abstract: string;
-	comingSoon?: boolean;
-	link?: string;
 	demo?: string;
 	pdf?: string;
 	blog?: string;
-	video?: string;
 	recording?: string;
-	preview?: string;
-	talk?: string;
 	code?: string;
 	slides?: string;
-	poster?: string;
-	data?: string;
 	bibtex?: string;
 	award?: string;
-	equalContribution?: string[];
 }
 
 export interface Degree {
@@ -112,7 +106,7 @@ export interface SocialLink {
 	id: string;
 	description: string;
 	color: string;
-	class: string;
+	icon: IconDefinition;
 	url: string;
 	onHomepage: boolean;
 	cvGroup?: 1 | 2;

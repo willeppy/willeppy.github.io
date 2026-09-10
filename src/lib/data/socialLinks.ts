@@ -1,3 +1,10 @@
+import { faLinkedinIn, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import {
+	faAddressCard,
+	faEnvelope,
+	faGraduationCap,
+	faHome
+} from '@fortawesome/free-solid-svg-icons';
 import type { SocialLink } from './types';
 
 export const socialLinks: SocialLink[] = [
@@ -5,7 +12,7 @@ export const socialLinks: SocialLink[] = [
 		id: 'home',
 		description: 'willepperson.com',
 		color: '#515151',
-		class: 'fas fa-home icon',
+		icon: faHome,
 		url: '/',
 		onHomepage: false,
 		cvGroup: 1
@@ -14,7 +21,7 @@ export const socialLinks: SocialLink[] = [
 		id: 'email',
 		description: 'willepp@live.com',
 		color: '#515151',
-		class: 'fas fa-envelope icon',
+		icon: faEnvelope,
 		url: 'mailto:willepp@live.com',
 		onHomepage: true,
 		cvGroup: 1
@@ -23,7 +30,7 @@ export const socialLinks: SocialLink[] = [
 		id: 'twitter',
 		description: '@w_epperson',
 		color: '#1da1f2',
-		class: 'fab fa-twitter icon',
+		icon: faTwitter,
 		url: 'https://twitter.com/w_epperson',
 		onHomepage: true,
 		cvGroup: 2
@@ -32,7 +39,7 @@ export const socialLinks: SocialLink[] = [
 		id: 'github',
 		description: '@willeppy',
 		color: '#6e5494',
-		class: 'fab fa-github icon',
+		icon: faGithub,
 		url: 'https://github.com/willeppy',
 		onHomepage: true,
 		cvGroup: 2
@@ -41,7 +48,7 @@ export const socialLinks: SocialLink[] = [
 		id: 'scholar',
 		description: 'Google Scholar',
 		color: '#515151',
-		class: 'fa fa-graduation-cap icon',
+		icon: faGraduationCap,
 		url: 'https://scholar.google.com/citations?user=jgBHxR4AAAAJ&hl=en',
 		onHomepage: true,
 		cvGroup: 2
@@ -50,7 +57,7 @@ export const socialLinks: SocialLink[] = [
 		id: 'linkedin',
 		description: 'LinkedIn',
 		color: '#515151',
-		class: 'fa fa-graduation-cap icon',
+		icon: faLinkedinIn,
 		url: 'https://www.linkedin.com/in/willepperson/',
 		onHomepage: true,
 		cvGroup: 1
@@ -59,7 +66,7 @@ export const socialLinks: SocialLink[] = [
 		id: 'cv-web',
 		description: "Here's my CV",
 		color: '#515151',
-		class: 'fa fa-address-card icon',
+		icon: faAddressCard,
 		url: '/cv/',
 		onHomepage: false
 	}

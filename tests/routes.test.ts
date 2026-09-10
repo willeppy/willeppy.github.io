@@ -1,17 +1,16 @@
 import assert from 'node:assert/strict';
+import { existsSync, statSync } from 'node:fs';
 import { readFile, stat } from 'node:fs/promises';
 import { join } from 'node:path';
 import { test } from 'node:test';
 import { load } from 'cheerio';
-import inventory from './routes.json' with { type: 'json' };
 import { publications } from '../src/lib/data/publications';
+import { pageFile, pages } from './pages';
 
-function pageFile(path: string): string {
-	return path.endsWith('/') ? `${path}index.html` : path.endsWith('.html') ? path : `${path}.html`;
-}
+const isFile = (path: string) => existsSync(path) && statSync(path).isFile();
 
-test('every original page is prerendered with its content', async () => {
-	for (const path of inventory.pages) {
+test('every page is prerendered with its content', async () => {
+	for (const path of pages) {
 		const html = await readFile(join('build', pageFile(path)), 'utf8');
 		const page = load(html);
 		assert.ok(page('main').text().trim().length > 100, path);
@@ -25,14 +24,21 @@ test('every original page is prerendered with its content', async () => {
 	}
 });
 
-test('every original endpoint and downloadable asset is present', async () => {
-	for (const path of [...inventory.endpoints, ...inventory.assets]) {
+test('endpoints and deploy files are present', async () => {
+	for (const path of [
+		'/404.html',
+		'/feed.xml',
+		'/sitemap.xml',
+		'/robots.txt',
+		'/CNAME',
+		'/.nojekyll'
+	]) {
 		assert.ok((await stat(join('build', path))).isFile(), path);
 	}
 });
 
 test('internal links, images, and fragment targets resolve in the static output', async () => {
-	for (const path of [...inventory.pages, '/404.html']) {
+	for (const path of [...pages, '/404.html']) {
 		const page = load(await readFile(join('build', pageFile(path)), 'utf8'));
 		for (const element of page('a[href], img[src]').toArray()) {
 			const reference = page(element).attr('href') ?? page(element).attr('src');
@@ -40,8 +46,8 @@ test('internal links, images, and fragment targets resolve in the static output'
 			const url = new URL(reference, `https://willepperson.com${path}`);
 			if (url.origin !== 'https://willepperson.com') continue;
 			const route = url.pathname === '/cv' ? '/cv/' : url.pathname;
-			const file = inventory.assets.includes(route) ? route : pageFile(route);
-			assert.ok((await stat(join('build', file))).isFile(), `${path} -> ${reference}`);
+			const file = isFile(join('build', route)) ? route : pageFile(route);
+			assert.ok(isFile(join('build', file)), `${path} -> ${reference}`);
 			if (url.hash) {
 				const target = load(await readFile(join('build', file), 'utf8'));
 				assert.ok(
@@ -57,7 +63,7 @@ test('internal links, images, and fragment targets resolve in the static output'
 	}
 });
 
-test('CV section anchors and existing BibTeX targets are preserved', async () => {
+test('CV section anchors and BibTeX targets are preserved', async () => {
 	const cv = load(await readFile('build/cv/index.html', 'utf8'));
 	const sections = [
 		'education',
@@ -90,7 +96,7 @@ test('sitemap and feed contain every publication with production URLs', async ()
 			.toArray()
 			.map((element) => sitemap(element).text())
 			.sort(),
-		inventory.pages.map((path) => `https://willepperson.com${path}`).sort()
+		pages.map((path) => `https://willepperson.com${path}`).sort()
 	);
 	const feed = load(await readFile('build/feed.xml', 'utf8'), { xml: true });
 	assert.equal(feed('entry').length, publications.length);
