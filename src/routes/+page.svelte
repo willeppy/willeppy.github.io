@@ -1,22 +1,19 @@
 <script lang="ts">
-	import Feature from '$lib/components/Feature.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+	import Highlight from '$lib/components/Highlight.svelte';
 	import Metadata from '$lib/components/Metadata.svelte';
 	import SocialLink from '$lib/components/SocialLink.svelte';
 	import { publications } from '$lib/data/publications';
 	import { socialLinks } from '$lib/data/socialLinks';
 
-	const featured = publications
+	const highlights = publications
 		.filter((publication) => publication.featured)
-		.sort((a, b) => a.featureOrder - b.featureOrder);
+		.sort((a, b) => b.date.localeCompare(a.date));
 </script>
 
 <Metadata />
 <main class="flex flex-col px-4 pt-[30px] md:px-6">
-	<div
-		id="intro-wrapper"
-		class="mx-auto mt-12 grid w-full max-w-page grid-cols-8 gap-x-8 gap-y-4 wide:max-w-middle"
-	>
+	<div id="intro-wrapper" class="mx-auto mt-12 grid w-full max-w-page grid-cols-8 gap-x-8 gap-y-4">
 		<h1 class="col-span-8 mt-0 mb-6 text-[3.75rem] font-semibold text-[#111]">Will Epperson</h1>
 		<div class="col-span-8 space-y-4 pb-4 text-[1.2em] md:col-span-5">
 			<div>
@@ -55,12 +52,13 @@
 			</div>
 		</div>
 	</div>
-	<hr class="mx-auto w-full max-w-page wide:max-w-middle" />
-	<h2 class="mx-auto mt-8 mb-2 w-full max-w-page font-normal wide:max-w-middle">
-		Recent <a class="font-semibold" href="/cv/#publications">Research Publications</a>
-	</h2>
-	<div class="mx-auto flex w-full max-w-page flex-wrap wide:max-w-none wide:justify-center">
-		{#each featured as publication}<Feature {publication} />{/each}
-	</div>
+	<hr class="mx-auto w-full max-w-page" />
+	<section class="mx-auto w-full max-w-page">
+		<h2 class="mt-8 mb-2 font-medium">Highlights and recent updates</h2>
+		<ul class="divide-y divide-rule">
+			{#each highlights as publication}<Highlight {publication} />{/each}
+		</ul>
+		<a class="text-sm" href="/cv/#publications">See all publications on my CV</a>
+	</section>
 </main>
 <Footer />

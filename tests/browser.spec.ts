@@ -39,7 +39,7 @@ test('homepage links navigate to projects and the CV publication anchor', async 
 		'Interactive Debugging and Steering of Multi-Agent AI Systems'
 	);
 	await page.goBack();
-	await page.getByRole('link', { name: 'Research Publications', exact: true }).click();
+	await page.getByRole('link', { name: 'See all publications on my CV' }).click();
 	await expect(page).toHaveURL(/\/cv\/#publications$/);
 	await expect(page.locator('#publications')).toBeInViewport();
 });

@@ -9,11 +9,10 @@ export interface Publication {
 	location?: string;
 	year: number;
 	date: string;
-	type: 'thesis' | 'conference' | 'workshop';
+	type: 'thesis' | 'conference' | 'workshop' | 'preprint' | 'blog';
 	url: `/papers/${string}`;
 	image: string;
 	featured: boolean;
-	featureOrder: number;
 	featureTitle: string;
 	summary: string;
 	caption: string;

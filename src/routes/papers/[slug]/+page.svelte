@@ -23,7 +23,7 @@
 			<img src={publication.image} alt={`${publication.featureTitle} overview`} />
 			<figcaption class="mt-2 text-center text-muted">{@html publication.caption}</figcaption>
 		</figure>
-		<h2 id="abstract">Abstract</h2>
+		<h2 id="abstract">{publication.type === 'blog' ? 'Summary' : 'Abstract'}</h2>
 		{#each publication.abstract.trim().split(/\n\s*\n/) as paragraph}<p>{paragraph}</p>{/each}
 		<h2 id="citation">Citation</h2>
 		<Publication {publication} />
