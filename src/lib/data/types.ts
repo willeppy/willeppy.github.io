@@ -36,7 +36,7 @@ export interface Degree {
 	advisor?: string;
 	coAdvisor?: string;
 	description?: string[];
-	coursework?: string[];
+	thesis?: { title: string; url: string };
 }
 
 export interface Experience {

@@ -14,5 +14,5 @@
 		/>{/if}{#if degree.coAdvisor}{', '}<Person name={degree.coAdvisor} /><br />{/if}
 	{#if degree.description}{degree.description.join(' ')}
 	{/if}
-	{#if degree.coursework}<em>Sample Coursework:</em>{' '}{degree.coursework.join(', ')}{/if}
+	{#if degree.thesis}<em>Thesis:</em>{' '}<a href={degree.thesis.url}>{degree.thesis.title}</a>{/if}
 </p>

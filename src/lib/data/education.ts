@@ -8,13 +8,7 @@ export const education: Degree[] = [
 		advisor: 'Dominik Moritz',
 		coAdvisor: 'Adam Perer',
 		years: 'August 2020 - June 2025',
-		coursework: [
-			'HCI Process and Theory',
-			'Computational Medicine',
-			'Human Judgement and Decision Making',
-			'Causality and ML',
-			'Advanced NLP'
-		]
+		thesis: { title: 'Interactive Data Profiling', url: '/papers/thesis' }
 	},
 	{
 		degree: 'M.S. in Human Computer Interaction',
@@ -30,15 +24,6 @@ export const education: Degree[] = [
 		institution: 'Georgia Institute of Technology',
 		location: 'Atlanta, GA',
 		description: ['GPA: 4.0, Summa Cum Laude, threads in Intelligence and Modeling/Simulation'],
-		institutionUrl: 'https://www.gatech.edu/',
-		coursework: [
-			'Machine Learning',
-			'Deep Learning',
-			'Computer Vision',
-			'Computer Architecture',
-			'Algorithms',
-			'Computer Simulation',
-			'Information Visualization'
-		]
+		institutionUrl: 'https://www.gatech.edu/'
 	}
 ];
