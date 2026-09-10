@@ -19,7 +19,7 @@
 		<div class="col-span-12 space-y-4 text-[1.2em] md:col-span-8">
 			<div>
 				I am a research engineer on the AI Frontiers team at Microsoft Research. I work on AI
-				agents, including human-AI interaction, multi-agent systems, and agent environments and
+				agents, including human-AI interaction, multi-agent systems, agent environments, and
 				evaluation.
 			</div>
 			<div>
