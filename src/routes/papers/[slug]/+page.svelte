@@ -17,7 +17,7 @@
 	<article class="mx-auto w-full max-w-text">
 		<h1 id={headingId(publication.title)}>{publication.title}</h1>
 		<p>
-			<Authors names={publication.authors} equalContribution={publication.equalContribution} />
+			<Authors names={publication.authors} />
 		</p>
 		<figure class="my-4">
 			<img src={publication.image} alt={`${publication.featureTitle} overview`} />

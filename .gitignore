@@ -1,34 +1,5 @@
-# Java build artifacts class files
-*.class
-
-# Generated files
-bin/
-gen/
-build/
-
-# OSX files
 .DS_Store
-
-# Eclipse project files
-.classpath
-.project
-
-# IDE 
-*.iml
-.idea
-.gradle
-
-_site/*
-.sass-cache/
-.DS_Store
-_posts/.DS_Store
-images/projects/.DS_Store
-images/.DS_Store
-images/pc
-.jekyll-cache/
-_drafts/
 node_modules/
 .svelte-kit/
+build/
 test-results/
-.bundle/
-vendor/

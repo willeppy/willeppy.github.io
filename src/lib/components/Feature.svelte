@@ -1,5 +1,7 @@
 <script lang="ts">
+	import { faTrophy } from '@fortawesome/free-solid-svg-icons';
 	import type { Publication } from '$lib/data/types';
+	import Icon from './Icon.svelte';
 	import PublicationLinks from './PublicationLinks.svelte';
 	let { publication }: { publication: Publication } = $props();
 </script>
@@ -20,9 +22,9 @@
 			<div class="text-sm text-muted">{publication.summary}</div>
 			<div class="pt-2 text-xs italic">{publication.venueShorthand ?? ''} {publication.year}</div>
 			{#if publication.award}<span class="text-xs font-semibold text-gold"
-					><i class="fas fa-trophy" aria-hidden="true"></i> {publication.award}</span
+					><Icon icon={faTrophy} /> {publication.award}</span
 				>{/if}
 		</div>
-		<div class="pt-2 text-xs"><PublicationLinks {publication} featured /></div>
+		<div class="pt-2 text-xs"><PublicationLinks {publication} /></div>
 	</div>
 </div>

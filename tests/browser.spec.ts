@@ -1,8 +1,8 @@
 import { expect, test } from '@playwright/test';
 import assert from 'node:assert/strict';
-import inventory from './routes.json' with { type: 'json' };
+import { pages } from './pages';
 
-for (const path of [...inventory.pages, '/404.html']) {
+for (const path of [...pages, '/404.html']) {
 	test(`${path} loads directly and survives a refresh`, async ({ page }) => {
 		const errors: string[] = [];
 		page.on('pageerror', (error) => errors.push(error.message));
