@@ -33,7 +33,7 @@
 <main class="flex flex-col px-4 pb-12 md:px-6">
 	<article
 		id="cv"
-		class="mx-auto mt-4 mb-12 w-full max-w-text [--link-color:var(--color-body)] [&_h2]:font-medium"
+		class="mx-auto mt-4 mb-12 w-full max-w-page [--link-color:var(--color-body)] [&_h2]:font-medium"
 	>
 		<h1>
 			<a class="text-[1.25em] font-medium text-title hover:text-main" href="/">Will Epperson</a>
