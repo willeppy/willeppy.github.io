@@ -16,7 +16,7 @@
 	<article class="mx-auto w-full max-w-page">
 		<h1 id={headingId(publication.title)}>{publication.title}</h1>
 		<p>
-			<Authors names={publication.authors} />
+			<Authors names={publication.authors} boldSelf />
 		</p>
 		<figure class="my-4">
 			<img src={publication.image} alt={`${publication.featureTitle} overview`} />
@@ -25,6 +25,6 @@
 		<h2 id="abstract">{publication.type === 'blog' ? 'Summary' : 'Abstract'}</h2>
 		{#each publication.abstract.trim().split(/\n\s*\n/) as paragraph}<p>{paragraph}</p>{/each}
 		<h2 id="citation">Citation</h2>
-		<Publication {publication} />
+		<Publication {publication} boldSelf />
 	</article>
 </main>

@@ -4,8 +4,11 @@
 	import Authors from './Authors.svelte';
 	import Icon from './Icon.svelte';
 	import PublicationLinks from './PublicationLinks.svelte';
-	let { publication, showBibtex = false }: { publication: Publication; showBibtex?: boolean } =
-		$props();
+	let {
+		publication,
+		showBibtex = false,
+		boldSelf = false
+	}: { publication: Publication; showBibtex?: boolean; boldSelf?: boolean } = $props();
 	let expanded = $state(false);
 	const venue = $derived(
 		`${publication.venue}${publication.venueShorthand ? ` (${publication.venueShorthand})` : ''}. ${publication.location ? `${publication.location}, ` : ''}${publication.year}.`
@@ -15,7 +18,7 @@
 <p>
 	<strong>{publication.title}</strong>
 	<br />
-	<Authors names={publication.authors} />
+	<Authors names={publication.authors} {boldSelf} />
 	<br />
 	<span class="text-sm font-light text-silver">{publication.summary}</span><br />
 	<i>{venue}</i>
