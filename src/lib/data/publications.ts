@@ -22,7 +22,7 @@ export const publications: Publication[] = [
 		blog: 'https://www.microsoft.com/en-us/research/blog/socialreasoning-bench-measuring-whether-ai-agents-act-in-users-best-interests/',
 		code: 'https://github.com/microsoft/social-reasoning-bench',
 		image: '/images/papers/26-socialreasoning-bench.jpg',
-		featured: false,
+		featured: true,
 		featureTitle: 'SocialReasoning-Bench',
 		summary:
 			'A benchmark for whether AI agents can negotiate on a user\u2019s behalf in calendar coordination and marketplace settings.',
