@@ -2,6 +2,37 @@ import type { Publication } from './types';
 
 export const publications: Publication[] = [
 	{
+		id: 'socialreasoning-bench',
+		title: 'SocialReasoning-Bench: Measuring Whether AI Agents Act in Users\u2019 Best Interests',
+		authors: [
+			'Tyler Payne',
+			'Will Epperson',
+			'Safoora Yousefi',
+			'Zachary Huang',
+			'Gagan Bansal',
+			'Wenyue Hua',
+			'Maya Murad',
+			'Asli Celikyilmaz',
+			'Saleema Amershi'
+		],
+		venue: 'Microsoft Research Blog',
+		year: 2026,
+		type: 'blog',
+		url: '/papers/socialreasoning-bench',
+		blog: 'https://www.microsoft.com/en-us/research/blog/socialreasoning-bench-measuring-whether-ai-agents-act-in-users-best-interests/',
+		code: 'https://github.com/microsoft/social-reasoning-bench',
+		image: '/images/papers/26-socialreasoning-bench.jpg',
+		featured: false,
+		featureTitle: 'SocialReasoning-Bench',
+		summary:
+			'A benchmark for whether AI agents can negotiate on a user\u2019s behalf in calendar coordination and marketplace settings.',
+		caption:
+			'SocialReasoning-Bench evaluates social reasoning in two domains: Calendar Coordination and Marketplace Negotiation.',
+		abstract:
+			'As AI agents take on more real-world tasks, they are increasingly operating in social contexts. With the right integrations, agents like Claude Cowork and Google Gemini can manage email and calendar workflows. In these settings, the agent must interact with others on your behalf. This requires social reasoning: understanding what you want, what the counterparty wants, and what information to reveal, protect, or push back on.\n\nOur previous research suggests that today\u2019s frontier models lack social reasoning. In our simulated multi-agent marketplace, agents accepted the first proposal they received up to 93% of the time without exploring alternatives. When red-teaming a social network of agents, a single malicious message spread through the system and led agents to disclose private data before passing the message along.\n\nThis kind of relationship has a long history outside AI. In economics and law it is called a principal-agent relationship: an agent acts on a principal\u2019s behalf in interactions with others whose interests differ. Attorneys, real-estate agents, and financial advisors all operate in this mode, and the duties they owe, care, loyalty, and confidentiality, are codified in centuries of professional norms. AI agents acting on a user\u2019s behalf should ultimately be held to similar standards.\n\nTo measure and drive progress in social reasoning, we built SocialReasoning-Bench: a benchmark for testing whether agents can reason and negotiate on a user\u2019s behalf against a counterparty with independent goals, private information, and potentially adversarial intent.\n\nSocialReasoning-Bench evaluates social reasoning in two domains: Calendar Coordination and Marketplace Negotiation. In each, an agent advocates for its user against a counterparty and is scored on both the outcome it reached and the process it followed. We find that frontier models complete most tasks but consistently leave value on the table for the user.',
+		date: '2026-05-11'
+	},
+	{
 		id: 'whimsical-strategies',
 		title:
 			'Whimsical Strategies Break AI Agents: Generating Out-of-Distribution Adversarial Strategies at Scale',

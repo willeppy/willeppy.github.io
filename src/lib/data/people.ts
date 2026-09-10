@@ -60,5 +60,7 @@ export const people: Readonly<Partial<Record<string, string>>> = {
 	'Eric Horvitz': 'https://erichorvitz.com/',
 	'Keegan Hines': 'https://www.linkedin.com/in/keeganhines/',
 	'Pete Bryan': 'https://www.linkedin.com/in/pebryan/',
-	'Ram Shankar Siva Kumar': 'https://www.linkedin.com/in/rssk/'
+	'Ram Shankar Siva Kumar': 'https://www.linkedin.com/in/rssk/',
+	'Safoora Yousefi': 'https://www.microsoft.com/en-us/research/people/sayouse/',
+	'Asli Celikyilmaz': 'https://www.linkedin.com/in/aslicelikyilmaz/'
 };
