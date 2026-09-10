@@ -16,7 +16,7 @@
 <main class="flex flex-col px-4 pb-12 md:px-6">
 	<div id="intro-wrapper" class="mx-auto mt-12 grid w-full max-w-page grid-cols-12 gap-x-8 gap-y-4">
 		<h1 class="col-span-12 mt-0 mb-6 text-[3.75rem] font-semibold text-[#111]">Will Epperson</h1>
-		<div class="col-span-12 self-center space-y-4 text-[1.2em] md:col-span-8">
+		<div class="col-span-12 space-y-4 text-[1.2em] md:col-span-8">
 			<div>
 				I am a research engineer on the AI Frontiers team at Microsoft Research working on AI
 				agents.
