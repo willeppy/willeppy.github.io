@@ -40,13 +40,13 @@
 			</div>
 		</div>
 		<div class="col-span-8 md:col-span-3">
-			<img src="/images/portrait.jpg" alt="Will Epperson" />
+			<img class="rounded border border-rule" src="/images/portrait.jpg" alt="Will Epperson" />
 			<div class="h-2"></div>
-			<div class="flex flex-col justify-center border-l-2 border-[#ccc] bg-[#f4f4f4] p-4">
+			<div class="flex flex-col justify-center rounded border-l-2 border-[#ccc] bg-[#f4f4f4] p-4">
 				{#each socialLinks.filter((link) => link.onHomepage) as link}<SocialLink {link} />{/each}
 			</div>
 			<div class="h-2"></div>
-			<div class="border-l-2 border-main bg-main-light-bg p-4">
+			<div class="rounded border-l-2 border-main bg-main-light-bg p-4">
 				{#each socialLinks.filter((link) => link.id === 'cv-web') as link}<SocialLink
 						{link}
 					/>{/each}
