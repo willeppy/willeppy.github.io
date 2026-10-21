@@ -3,7 +3,7 @@
 
 	let {
 		title = 'Will Epperson',
-		description = 'Will Epperson is a research engineer at Microsoft Research working on AI agents.',
+		description = 'Will Epperson is a Member of Technical Staff in Microsoft AI.',
 		image = '/images/share.png'
 	}: { title?: string; description?: string; image?: string } = $props();
 </script>

@@ -18,12 +18,11 @@
 		<h1 class="col-span-12 mt-0 mb-6 text-[3.75rem] font-semibold text-[#111]">Will Epperson</h1>
 		<div class="col-span-12 space-y-4 text-[1.2em] md:col-span-8">
 			<div>
-				I am a research engineer on the AI Frontiers team at Microsoft Research. I work on AI
-				agents, including human-AI interaction, multi-agent systems, agent environments, and
-				evaluation.
+				I am a Member of Technical Staff in Microsoft AI working on reinforcement learning environments and post-training for agents. 
 			</div>
 			<div>
-				I did my PhD in Human Computer Interaction at Carnegie Mellon University. My thesis was on
+				Previously, I was a part of the AI Frontiers group in Microsoft Research working on multi-agent systems, agent environments, and
+				evaluation. I did my PhD in Human Computer Interaction at Carnegie Mellon University. My thesis was on
 				<a href="/papers/thesis">Interactive Data Profiling</a> systems that automatically help data scientists
 				and AI developers better understand their data. My research has led to open-source tools adopted
 				by the Python community and scientists, with publications and awards at venues such as IEEE VIS,

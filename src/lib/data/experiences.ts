@@ -2,11 +2,20 @@ import type { Experience } from './types';
 
 export const experiences: Experience[] = [
 	{
+		institution: 'Microsoft AI',
+		location: 'Redmond, WA',
+		position: 'Member of Technical Staff',
+		year: 'August 2026 - Present',
+		description: 'Working on reinforcement learning environments and agentic post-training.',
+		institutionUrl: 'https://microsoft.ai',
+		type: 'industry'
+	},
+	{
 		institution: 'Microsoft Research',
 		location: 'Redmond, WA',
-		position: 'Senior Software Engineer',
+		position: 'Senior Research Engineer',
 		group: 'AI Frontiers',
-		year: 'August 2025 - Present',
+		year: 'August 2025 - August 2026',
 		description:
 			'Research engineer working on AI agents, multi-agent systems, AI evaluations, and environments.',
 		institutionUrl: 'https://www.microsoft.com/en-us/research/',
