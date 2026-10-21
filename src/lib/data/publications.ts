@@ -2,6 +2,35 @@ import type { Publication } from './types';
 
 export const publications: Publication[] = [
 	{
+		id: 'caveat',
+		title: 'CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments',
+		authors: ['Yuxuan Li', 'Will Epperson', 'Wesley Deng', 'Zezhou Huang'],
+		venue: 'Preprint',
+		year: 2026,
+		type: 'preprint',
+		url: '/papers/caveat',
+		pdf: 'https://arxiv.org/abs/2609.27273',
+		code: 'https://github.com/microsoft/CAVEAT',
+		image: '/images/papers/26-caveat.png',
+		featured: true,
+		featureTitle: 'CAVEAT',
+		summary:
+			'A benchmark for testing whether computer-use agents preserve user objectives when marketplaces steer them toward other products.',
+		caption:
+			'With platform steering enabled, agents buy the product the environment nudges them toward instead of the one that best fits the user request.',
+		abstract:
+			"Computer-use agents (CUAs) increasingly act on behalf of users online. What happens when the environments they operate in have incentives of their own? Online marketplaces, for example, may favor some products over others, steering agents away from the user's objective. Existing CUA benchmarks cover cooperative settings or explicit attacks, but do not test whether agents preserve user objectives when the environment itself has a stake in the outcome. We introduce CAVEAT, a controlled benchmark spanning nine marketplace environments and a taxonomy of eight common steering mechanisms. Across five model families, agents purchase the user-optimal product in 78.6% of matched-control episodes but only 17.3% when steering mechanisms are enabled. Larger models and more reasoning improve robustness, but substantial failures persist. Trajectory analysis and targeted ablations identify three weaknesses in how agents decide: they (1) prematurely narrow the set of alternatives they consider, (2) impose priorities the user never stated, and (3) commit before resolving decision-relevant evidence. Guided by this diagnosis, we develop CAVEAT-Harness, which targets these failures and raises the optimal purchase rate by up to 80.0 percentage points, and show that targeted post-training further improves a smaller open model. These results establish incentive robustness as a distinct challenge for delegated agents, diagnose failure modes, and show how targeted interventions can substantially improve robustness.",
+		bibtex: `
+@article{li2026caveat,
+  title={CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments},
+  author={Li, Yuxuan and Epperson, Will and Deng, Wesley and Huang, Zezhou},
+  journal={arXiv preprint arXiv:2609.27273},
+  year={2026}
+}
+`,
+		date: '2026-09-23'
+	},
+	{
 		id: 'socialreasoning-bench',
 		title: 'SocialReasoning-Bench: Measuring Whether AI Agents Act in Users\u2019 Best Interests',
 		authors: [
